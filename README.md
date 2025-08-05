@@ -1,4 +1,4 @@
-# AMR_clustering
+# CRE pipeline
 # plasmid-outbreak-pipeline
 
 Bioinformatic pipeline for Nanopore plasmid and chromosomal clustering analysis: basecalling → demux → trimming/filtering → assembly → polishing → plasmid & AMR annotation → chromosomal SNP clustering → plasmid clustering.
