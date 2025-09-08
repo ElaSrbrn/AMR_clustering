@@ -15,7 +15,7 @@
 CONFIG_FILE="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v3"
 READS_DIR="/lustre/groups/hpc/urban_lab/backup/plasmid_project/work_package01/CSF_2025/20250226_1401_P2S-01622-B_PAY37630_aa601ade"   # directory with raw ONT reads
 KIT_NAME="SQK-RBK114-96"                 # your kit
-DORADO_BIN="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin"
+DORADO_BIN="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dorado"
 OUTDIR="./basecalled_v5_mod"
 
 mkdir -p "$OUTDIR"
