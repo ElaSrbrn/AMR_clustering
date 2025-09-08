@@ -1,0 +1,15 @@
+name: assembly
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - seqtk
+  - chopper
+  - flye
+  - medaka
+  - minimap2
+  - samtools
+  - seqkit
+
