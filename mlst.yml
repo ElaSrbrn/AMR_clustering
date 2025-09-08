@@ -1,0 +1,8 @@
+name: mlst_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - mlst
+  - blast        # mlst uses BLAST
+  - curl         # for scheme/database updates
