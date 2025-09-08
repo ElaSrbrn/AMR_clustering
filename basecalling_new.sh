@@ -8,37 +8,55 @@
 #SBATCH --nice=10000
 #SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
 #SBATCH --mail-type=ALL
-#SBATCH --gres=gpu:2
 #SBATCH --job-name=dorado_nanoplot
 #SBATCH -c 2
 
-CONFIG_FILE="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v3"
-READS_DIR="/lustre/groups/hpc/urban_lab/backup/plasmid_project/work_package01/CSF_2025/20250226_1401_P2S-01622-B_PAY37630_aa601ade"   # directory with raw ONT reads
-KIT_NAME="SQK-RBK114-96"                 # your kit
+# Paths (adjust only these)
 DORADO_BIN="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dorado"
-OUTDIR="./basecalled_v5_mod"
+READS_DIR="/lustre/groups/hpc/urban_lab/backup/plasmid_project/work_package01/CSF_2025/20250226_1401_P2S-01622-B_PAY37630_aa601ade"
+KIT_NAME="SQK-RBK114-96"
+OUTDIR="./basecalled_v5_4mC5mC"
+
+# Models: simplex (base) + mod model
+BASE_MODEL="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0"
+MOD_4MC5MC="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v3"
+
+# Sanity checks to avoid empty args
+[[ -x "$DORADO_BIN" ]] || { echo "ERROR: dorado not executable at $DORADO_BIN"; exit 1; }
+[[ -d "$READS_DIR"   ]] || { echo "ERROR: READS_DIR not found: $READS_DIR"; exit 1; }
+[[ -d "$BASE_MODEL"  ]] || { echo "ERROR: BASE_MODEL not found: $BASE_MODEL"; exit 1; }
+[[ -d "$MOD_4MC5MC"  ]] || { echo "ERROR: MOD_4MC5MC not found: $MOD_4MC5MC"; exit 1; }
 
 mkdir -p "$OUTDIR"
 
+echo "[1/3] Basecalling (4mC+5mC)…"
 "$DORADO_BIN" basecaller \
   --kit-name "$KIT_NAME" \
-  --trim \
-  --emit-bam \
-  "$CONFIG_FILE" \
+  --trim all \
+  --modified-bases-models "$MOD_4MC5MC" \
+  "$BASE_MODEL" \
   -r "$READS_DIR" > "$OUTDIR/all.bam"
 
+echo "[2/3] Demultiplexing…"
 mkdir -p "$OUTDIR/demux_bam"
 "$DORADO_BIN" demux \
   --kit-name "$KIT_NAME" \
   --output-dir "$OUTDIR/demux_bam" \
   "$OUTDIR/all.bam"
 
-# Activate micromamba for samtools
-eval "$(micromamba shell hook --shell=bash)"
-micromamba activate assembly
+if ! compgen -G "$OUTDIR/demux_bam/*.bam" > /dev/null; then
+  echo "ERROR: No demuxed BAMs in $OUTDIR/demux_bam (check KIT_NAME and basecalling)."
+  exit 1
+fi
 
+echo "[3/3] BAM → FASTQ.GZ…"
+eval "$(micromamba shell hook --shell=bash)"; micromamba activate assembly
 mkdir -p "$OUTDIR/demux_fastq"
 for b in "$OUTDIR"/demux_bam/*.bam; do
   base=$(basename "${b%.bam}")
   samtools fastq "$b" | gzip > "$OUTDIR/demux_fastq/${base}.fastq.gz"
 done
+
+echo "✅ Done: $OUTDIR"
+
+
