@@ -12,18 +12,14 @@
 #SBATCH -c 2
 
 # Paths (adjust only these)
-DORADO_BIN="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/"
-READS_DIR="/lustre/groups/hpc/urban_lab/backup/plasmid_project/work_package01/CSF_2025/20250226_1401_P2S-01622-B_PAY37630_aa601ade/pod5_skip/"
+DORADO_BIN="path_to_urban_lab/tools/dorado-0.9.1-linux-x64/bin/"
+READS_DIR="/your_path/pod5_skip/"
 KIT_NAME="SQK-RBK114-96"
-OUTDIR="./basecalled_v5_4mC5mC"
-
-# Models: simplex (base) + mod model
-BASE_MODEL="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0"
-MOD_4MC5MC="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v3"
+OUTDIR="./basecalled_v5_mod"
 
 mkdir -p "$OUTDIR"
 
-$DORADO_BIN/dorado basecaller sup,6mA,4mC_5mC -r $READS_DIR --models-directory /lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin --kit-name $KIT_NAME > $OUTDIR/all.bam
+$DORADO_BIN/dorado basecaller sup,6mA,4mC_5mC -r $READS_DIR --models-directory /path_to_urban_lab/tools/dorado-0.9.1-linux-x64/bin --kit-name $KIT_NAME > $OUTDIR/all.bam
 
 
 mkdir -p "$OUTDIR/demux_bam"
