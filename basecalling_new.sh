@@ -12,8 +12,8 @@
 #SBATCH -c 2
 
 # Paths (adjust only these)
-DORADO_BIN="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dorado"
-READS_DIR="/lustre/groups/hpc/urban_lab/backup/plasmid_project/work_package01/CSF_2025/20250226_1401_P2S-01622-B_PAY37630_aa601ade"
+DORADO_BIN="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/"
+READS_DIR="/lustre/groups/hpc/urban_lab/backup/plasmid_project/work_package01/CSF_2025/20250226_1401_P2S-01622-B_PAY37630_aa601ade/pod5_skip/"
 KIT_NAME="SQK-RBK114-96"
 OUTDIR="./basecalled_v5_4mC5mC"
 
@@ -21,11 +21,11 @@ OUTDIR="./basecalled_v5_4mC5mC"
 BASE_MODEL="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0"
 MOD_4MC5MC="/lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin/dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v3"
 
-# Sanity checks to avoid empty args
-[[ -x "$DORADO_BIN" ]] || { echo "ERROR: dorado not executable at $DORADO_BIN"; exit 1; }
-[[ -d "$READS_DIR"   ]] || { echo "ERROR: READS_DIR not found: $READS_DIR"; exit 1; }
-[[ -d "$BASE_MODEL"  ]] || { echo "ERROR: BASE_MODEL not found: $BASE_MODEL"; exit 1; }
-[[ -d "$MOD_4MC5MC"  ]] || { echo "ERROR: MOD_4MC5MC not found: $MOD_4MC5MC"; exit 1; }
+mkdir -p "$OUTDIR"
+
+$DORADO_BIN/dorado basecaller sup,6mA,4mC_5mC -r $READS_DIR --models-directory /lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin --kit-name $KIT_NAME > $OUTDIR/all.bam
+
+
 
 mkdir -p "$OUTDIR"
 
