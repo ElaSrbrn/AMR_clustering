@@ -26,37 +26,21 @@ mkdir -p "$OUTDIR"
 $DORADO_BIN/dorado basecaller sup,6mA,4mC_5mC -r $READS_DIR --models-directory /lustre/groups/hpc/urban_lab/tools/dorado-0.9.1-linux-x64/bin --kit-name $KIT_NAME > $OUTDIR/all.bam
 
 
-
-mkdir -p "$OUTDIR"
-
-echo "[1/3] Basecalling (4mC+5mC)…"
-"$DORADO_BIN" basecaller \
-  --kit-name "$KIT_NAME" \
-  --trim all \
-  --modified-bases-models "$MOD_4MC5MC" \
-  "$BASE_MODEL" \
-  -r "$READS_DIR" > "$OUTDIR/all.bam"
-
-echo "[2/3] Demultiplexing…"
 mkdir -p "$OUTDIR/demux_bam"
 "$DORADO_BIN" demux \
   --kit-name "$KIT_NAME" \
   --output-dir "$OUTDIR/demux_bam" \
   "$OUTDIR/all.bam"
 
-if ! compgen -G "$OUTDIR/demux_bam/*.bam" > /dev/null; then
-  echo "ERROR: No demuxed BAMs in $OUTDIR/demux_bam (check KIT_NAME and basecalling)."
-  exit 1
-fi
 
-echo "[3/3] BAM → FASTQ.GZ…"
-eval "$(micromamba shell hook --shell=bash)"; micromamba activate assembly
+eval "$(micromamba shell hook --shell=bash)"; 
+micromamba activate assembly
+
 mkdir -p "$OUTDIR/demux_fastq"
 for b in "$OUTDIR"/demux_bam/*.bam; do
   base=$(basename "${b%.bam}")
   samtools fastq "$b" | gzip > "$OUTDIR/demux_fastq/${base}.fastq.gz"
 done
 
-echo "✅ Done: $OUTDIR"
 
 
