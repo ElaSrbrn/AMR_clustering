@@ -1,32 +1,45 @@
 #!/bin/bash
 #SBATCH -p gpu_p
-#SBATCH -q gpu
-#SBATCH --mem=128G
-#SBATCH -t 24:00:00
-#SBATCH --qos gpu_normal
-#SBATCH --partition=gpu_p
+#SBATCH -q gpu_long
+#SBATCH --mem=250G
+#SBATCH -t 72:00:00
 #SBATCH --nice=10000
-#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
-#SBATCH --mail-type=ALL
 #SBATCH --job-name=dorado_nanoplot
-#SBATCH -c 2
+#SBATCH -c 12
+# Set working directory to dorado v1.1.1 binary location
+cd /home/haicu/ela.sauerborn/dorado-1.1.1-linux-x64/bin
 
-# Paths (adjust only these)
-DORADO_BIN="path_to_urban_lab/tools/dorado-0.9.1-linux-x64/bin/"
-READS_DIR="/your_path/pod5_skip/"
-KIT_NAME="SQK-RBK114-96"
-OUTDIR="./basecalled_v5_mod"
+# === Input / Output Paths ===
+READS_DIR="/lustre/groups/hpc/urban_lab/backup/plasmid_project/work_package01/CSF_2025/96Pool/20250226_1401_P2S-01622-B_PAY37630_aa601ade/pod5_skip"
+OUTDIR="/lustre/groups/hpc/urban_lab/projects/plasmid_project/stored_resistant_enterobacterales/work_package01/26022025/basecalled_v5_6mA4mC5mC"
+DEMUX="${OUTDIR}/demultiplexed"
+TRIMDIR="${OUTDIR}/trimmed"
+mkdir -p "$OUTDIR" "$DEMUX" "$TRIMDIR"
 
-mkdir -p "$OUTDIR"
+# === Models ===
+BASE_MODEL="dna_r10.4.1_e8.2_400bps_sup@v5.0.0"
+MODBASE_MODELS="dna_r10.4.1_e8.2_400bps_sup@v5.0.0_4mC_5mC@v3,dna_r10.4.1_e8.2_400bps_sup@v5.0.0_6mA@v3"
+KIT="SQK-RBK114-96"
 
-$DORADO_BIN/dorado basecaller sup,6mA,4mC_5mC -r $READS_DIR --models-directory /path_to_urban_lab/tools/dorado-0.9.1-linux-x64/bin --kit-name $KIT_NAME > $OUTDIR/all.bam
+# === Step 1: Basecalling with modbase support ===
+./dorado basecaller "$BASE_MODEL" "$READS_DIR" \
+  --kit-name "$KIT" \
+  --modified-bases-models "$MODBASE_MODELS" \
+  --output "$OUTDIR/all.bam" \
+  --verbose
 
-
-mkdir -p "$OUTDIR/demux_bam"
-"$DORADO_BIN" demux \
-  --kit-name "$KIT_NAME" \
-  --output-dir "$OUTDIR/demux_bam" \
+# === Step 2: Demultiplexing ===
+./dorado demux --kit-name "$KIT" \
+  --output-dir "$DEMUX" \
   "$OUTDIR/all.bam"
+
+# === Step 3: Trimming ===
+for bam in "$DEMUX"/*.bam; do
+    sample="$(basename "$bam" .bam)"
+    mkdir -p "${TRIMDIR}/${sample}"
+    ./dorado trim "$bam" --kit-name "$KIT" > "${TRIMDIR}/${sample}/trimmed.bam"
+done
+
 
 
 eval "$(micromamba shell hook --shell=bash)"; 
