@@ -1,5 +1,10 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#SBATCH -p cpu_p
+#SBATCH -q cpu_normal
+#SBATCH --mem=64G
+#SBATCH -t 12:00:00
+#SBATCH --nice=10000
+#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
+#SBATCH --mail-type=ALL
 
 # ====== CONFIG ======
 G="5m"          # genome size; supports 5m, 4.8m, 5000000, etc.
@@ -149,3 +154,9 @@ echo "Reports:"
 echo " - Errors:        $REPORT_ERR"
 echo " - Low coverage:  $REPORT_LOW"
 echo " - Run log:       $REPORT_RUN"
+
+awk -F'\t' '
+  match($2, /actual_cov=([0-9.]+)x/, a) { cov=a[1]+0 }
+  cov < 40 && cov > 0 { print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 }
+' ../low_coverage.txt > ../low_coverage_below40.txt
+
