@@ -10,7 +10,6 @@
 
 set -euo pipefail
 
-COV="${1:?Usage: sbatch scripts/02_medaka.sh <coverage_dir>}"
 
 THREADS="${SLURM_CPUS_PER_TASK:-16}"
 MEDAKA_MODEL="${MEDAKA_MODEL:-r1041_e82_400bps_bacterial_methylation}"
