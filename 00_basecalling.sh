@@ -3,7 +3,6 @@
 #SBATCH -q gpu_normal
 #SBATCH --mem=128G
 #SBATCH -t 24:00:00
-#SBATCH --mail-user=samir.vargas@helmholtz-munich.de
 #SBATCH --mail-type=ALL
 #SBATCH --gres=gpu:1
 #SBATCH --job-name=dorado
