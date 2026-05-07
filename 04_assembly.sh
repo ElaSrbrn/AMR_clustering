@@ -7,7 +7,7 @@
 #to run this script, you have to specify the coverages as follows: sbatch 04_assembly.sh 10x (until 100x) manually
 # there is also an option to parallelize the assembly to speed things up by splitting the assembly into arrays, meaning 
 #that fastq files are assembled in parallel. 
-set -euo pipefail
+
 
 COV="${1:?Usage: sbatch scripts/01_flye.sh <coverage_dir>}"
 
