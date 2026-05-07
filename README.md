@@ -1,5 +1,4 @@
 # CRE pipeline
-# plasmid-annotation-pipeline
 
 Bioinformatic pipeline for Nanopore plasmid and chromosomal clustering analysis: basecalling  → chopper → downsampling -> assembly → polishing → plasmid & AMR annotation → MLST -> plasmid clustering and MLST typing for different depths.
 
