@@ -8,7 +8,6 @@
 #similar to the assembly you have to specify the depth you want to polish, so sbatch 05_polishing.sh 10x (up to 100x or whatever depth you are interested in)
 #Again, this could be parallelized as well to speed things up. You can also link the assembly with the polishing script to be directly added as a next step for each assembled isolate
 
-set -euo pipefail
 
 
 THREADS="${SLURM_CPUS_PER_TASK:-16}"
