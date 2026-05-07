@@ -43,14 +43,15 @@ fi
 for asm in "${ASMS[@]}"; do
   [[ -e "$asm" ]] || continue
 
-  fname="$(basename "$asm")"
-  sample="${fname%.fasta}"
-  sample="${sample%.fa}"
-  sample="${sample%.fna}"
+  sample=${asm##*/}
+  sample=${sample%.fasta}
 
-  outdir="${OUTROOT}/${sample}"
-  amrdir="${outdir}/amrfinder"
-  mobdir="${outdir}/mob_recon"
+  outdir="$OUTROOT/$sample"
+  amrdir="$outdir/amrfinder"
+  mobdir="$outdir/mob_recon"
+
+  mkdir -p "$amrdir" "$mobdir"
+done
 
   mkdir -p "$outdir" "$amrdir" "$mobdir"
 
