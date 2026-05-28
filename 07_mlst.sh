@@ -4,7 +4,6 @@
 #SBATCH --mem=32G
 #SBATCH -t 08:00:00
 #SBATCH --nice=10000
-#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
 
 set -euo pipefail
 shopt -s nullglob
