@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-set -euo pipefail
-shopt -s nullglob
 
 # Config
 THREADS=${THREADS:-8}
-INDIR=${INDIR:-./}                 # BAMs: *_barcodeXX.bam
+INDIR=${INDIR:-./}                 
 FASTQ_DIR=${FASTQ_DIR:-../fastq}
 MIN_BARCODE=${MIN_BARCODE:-1}
 MAX_BARCODE=${MAX_BARCODE:-24}
