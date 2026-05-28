@@ -4,7 +4,7 @@
 #SBATCH --mem=128G
 #SBATCH -t 14:00:00
 
-set -euo pipefail
+
 
 if [[ $# -lt 1 ]]; then
   exit 1
