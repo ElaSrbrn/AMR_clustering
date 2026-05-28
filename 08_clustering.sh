@@ -5,7 +5,7 @@
 
 
 
-set -euo pipefail
+
 
 THREADS="${THREADS:-16}"
 ANNOT_GLOB="${ANNOT_GLOB:-annotation_*}"
