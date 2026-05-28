@@ -4,7 +4,6 @@
 #SBATCH --mem=64G
 #SBATCH -t 12:00:00
 #SBATCH --nice=10000
-#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
 #SBATCH --mail-type=ALL
 #SBATCH --job-name=chopper
 
