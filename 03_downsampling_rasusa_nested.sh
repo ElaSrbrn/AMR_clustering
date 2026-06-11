@@ -5,7 +5,7 @@
 
 # ====== CONFIG ======
 G="5m"
-SEED=42
+SEED=24
 OUTBASE="../"
 TMPROOT="${OUTBASE}/tmp_rasusa"
 COVS=(100 80 60 40 30 20 10)
