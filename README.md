@@ -34,9 +34,8 @@ micromamba create -f assembly.yml   # chopper, Flye, Medaka, minimap2, samtools,
 micromamba create -f amr.yml        # AMRFinderPlus, Bakta
 micromamba create -f mlst.yml       # mlst, BLAST
 micromamba create -f mobsuite.yml   # MOB-suite, Mash
+micromamba create -f pling.yml      # pling
 ```
-
-pling is installed separately; see the pling documentation.
 
 The R analyses need R v4.3.1 with `dplyr` v1.1.4, `tidyr`, `geepack` v1.3.12, `logistf` v1.26.1, `sandwich`, `lmtest`, `ggplot2` v3.5.2 and `pheatmap` v1.0.13.
 
