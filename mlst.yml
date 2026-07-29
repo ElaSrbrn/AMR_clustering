@@ -3,6 +3,6 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - mlst v2.32.0
-  - blast        # mlst uses BLAST
-  - curl         # for scheme/database updates
+  - mlst=2.32.0
+  - blast        
+  - curl         
