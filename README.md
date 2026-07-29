@@ -1,7 +1,7 @@
 # CRE pipeline
 
 Bioinformatic pipeline for nanopore sequencing of carbapenem-resistant *Enterobacterales*, with a focus on plasmid-encoded carbapenem resistance and on how much sequencing depth each analysis actually needs.
-This pipeline was used for the manuscript on "Verification of nanopore sequencing technology for clinical carbapenem-resistant Enterobacterales surveillance"
+This pipeline was used for the manuscript on "Verification of nanopore sequencing technology for clinical carbapenem-resistant Enterobacterales surveillance" submitted to BioRxiv and available here: XXXX
 
 Workflow: basecalling → read filtering → nested downsampling → assembly → polishing → AMR and plasmid annotation → MLST → plasmid clustering, with the typing and plasmid analyses repeated at each depth.
 
