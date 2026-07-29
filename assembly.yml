@@ -5,11 +5,10 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - seqtk
-  - chopper
-  - flye
-  - medaka
+  - chopper=0.12
+  - flye=2.9.6
+  - medaka=2.1.1
   - minimap2
   - samtools
-  - seqkit
+  - seqkit=2.10.1
 
