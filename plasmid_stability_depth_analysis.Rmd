@@ -1,0 +1,273 @@
+---
+title: "Plasmid reconstruction stability versus sequencing depth"
+author: ''
+date: "`r Sys.Date()`"
+output:
+  word_document:
+    toc: true
+  html_document:
+    toc: true
+    toc_float: true
+    df_print: kable
+  pdf_document:
+    toc: true
+params:
+  input: S3_plasmid_stability_scores_clean.tsv
+  qc_input: plasmid_assembly_qc_exploration.tsv
+  qc_exclude: !r c("7092", "7106")
+  ref_depth: 60
+  depths: !r c(10, 20, 40)
+  # Size floor. The Methods describe the exclusion of a single small plasmid
+  # (bla-OXA-232, 6.1 kb); a 10 kb floor removes the same plasmid. State
+  # whichever rule the manuscript uses.
+  min_size_bp: 10000
+  primary_threshold: 0.05
+  sensitivity_thresholds: !r c(0.03, 0.10)
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(dplyr)
+library(tidyr)
+# TRUE only if the package exists AND its namespace actually loads
+# (a broken binary, e.g. readxl with a missing _iconv symbol, returns FALSE).
+have <- function(p) isTRUE(tryCatch(requireNamespace(p, quietly = TRUE),
+                                    error = function(e) FALSE))
+
+# Read .xlsx via readxl or openxlsx (whichever is available), or a .tsv/.csv.
+read_any <- function(path) {
+  if (grepl("\\.xlsx?$", path, ignore.case = TRUE)) {
+    if (have("readxl"))   return(as.data.frame(readxl::read_excel(path)))
+    if (have("openxlsx")) return(openxlsx::read.xlsx(path))
+    stop("Install 'readxl' or 'openxlsx' to read Excel, or point params$input at a .tsv")
+  }
+  read.delim(path, check.names = FALSE)
+}
+```
+
+## Data and stability classification
+
+Each carbapenemase-encoding plasmid was reconstructed at several downsampled
+depths. Stability at a given depth is defined relative to the isolate's own
+`r params$ref_depth`x assembly (the study-internal reference). A plasmid is
+**stable** if its contig size falls within a set deviation of the reference *and*
+the carbapenemase gene is still detected on the contig, and **unstable**
+otherwise. Three failure modes are recorded separately and pooled for analysis:
+size deviation beyond the threshold, loss of the carbapenemase gene, and
+non-recovery of the plasmid.
+Only medium-to-large plasmids (> `r params$min_size_bp/1000` kb) are analysed;
+the single small plasmid is considered separately.
+
+Sizes are parsed by taking the leading number of each cell, after removing any
+parenthetical annotation and repairing a dot or comma used as a thousands
+separator. Annotations recording that the carbapenemase gene was not recovered
+at a given depth are read separately and make that plasmid unstable at that
+depth regardless of contig size.
+
+```{r load}
+parse_size <- function(x) {
+  # Take the leading number only. Annotations in the source table may themselves
+  # contain digits (e.g. "47097 (missing KPC-3)"), so stripping all non-digits
+  # would absorb them and inflate the size.
+  x <- trimws(format(x, scientific = FALSE, trim = TRUE))
+  x <- sub("\\s*\\(.*$", "", x)                                   # drop "( ... )" annotation
+  x <- gsub("[.,](?=[0-9]{3}\\b)", "", x, perl = TRUE)            # 169.978 -> 169978
+  x <- sub("^([0-9]+).*$", "\\1", x)                               # leading digits only
+  suppressWarnings(as.numeric(ifelse(grepl("^[0-9]+$", x), x, NA)))
+}
+
+# TRUE where the annotation in a size cell says the carbapenemase gene was not
+# recovered at that depth. Such plasmids are unstable regardless of contig size.
+gene_absent <- function(x) {
+  x <- tolower(as.character(x))
+  !is.na(x) & (grepl("missing", x) | grepl("no carbapenemase", x))
+}
+
+ref_col <- paste0("size_", params$ref_depth, "x")
+dep_cols <- paste0("size_", params$depths, "x")
+
+raw <- read_any(params$input)
+stopifnot(all(c(ref_col, dep_cols) %in% names(raw)))
+
+dat <- raw %>%
+  mutate(across(all_of(c(ref_col, dep_cols)), parse_size, .names = "{.col}_n")) %>%
+  mutate(across(all_of(dep_cols), gene_absent, .names = "{.col}_noGene")) %>%
+  mutate(ref_n = .data[[paste0(ref_col, "_n")]])
+
+# Drop footer / caption / blank rows: keep only rows identifying a real plasmid
+id_cols <- intersect(c("gene_symbol", "replicon_type"), names(dat))
+if (length(id_cols) > 0) {
+  is_real <- Reduce(`&`, lapply(id_cols, function(cc)
+    !is.na(dat[[cc]]) & trimws(as.character(dat[[cc]])) != ""))
+  dat <- dat[is_real, , drop = FALSE]
+}
+
+dat <- dat %>%
+  mutate(plasmid_id = dplyr::row_number()) %>%
+  filter(!is.na(ref_n), ref_n > params$min_size_bp)
+
+cat(sprintf("Plasmids > %.0f kb with a %dx reference: %d\n",
+            params$min_size_bp/1000, params$ref_depth, nrow(dat)))
+
+# long format: one row per plasmid x depth, with a stability call for a threshold
+to_long <- function(df, thr) {
+  sizes <- df %>%
+    select(plasmid_id, isolate, gene_symbol, replicon_type, ref_n,
+           all_of(paste0(dep_cols, "_n"))) %>%
+    pivot_longer(all_of(paste0(dep_cols, "_n")),
+                 names_to = "depth", values_to = "size") %>%
+    mutate(depth = as.integer(gsub("\\D", "", depth)))
+  genes <- df %>%
+    select(plasmid_id, all_of(paste0(dep_cols, "_noGene"))) %>%
+    pivot_longer(-plasmid_id, names_to = "depth", values_to = "no_gene") %>%
+    mutate(depth = as.integer(gsub("\\D", "", depth)))
+  sizes %>%
+    left_join(genes, by = c("plasmid_id", "depth")) %>%
+    mutate(no_gene = tidyr::replace_na(no_gene, FALSE),
+           within_size = !is.na(size) & abs(size - ref_n) / ref_n <= thr,
+           stable = as.integer(within_size & !no_gene),
+           failure = dplyr::case_when(
+             stable == 1L      ~ "stable",
+             is.na(size)       ~ "plasmid not recovered",
+             no_gene           ~ "carbapenemase gene not detected",
+             TRUE              ~ "size deviation > threshold"))
+}
+```
+
+## Stable counts by depth (all thresholds)
+
+```{r counts}
+all_thr <- sort(unique(c(params$primary_threshold, params$sensitivity_thresholds)))
+counts <- lapply(all_thr, function(thr) {
+  to_long(dat, thr) %>%
+    group_by(depth) %>%
+    summarise(n = n(), n_stable = sum(stable),
+              pct_stable = round(100 * mean(stable), 1), .groups = "drop") %>%
+    mutate(threshold = paste0(thr * 100, "%"))
+}) %>% bind_rows()
+tidyr::pivot_wider(counts, names_from = depth,
+                   values_from = c(n_stable, pct_stable, n))
+```
+
+## Failure modes at the primary threshold
+
+Reported separately so that size-driven and gene-driven failures can be
+distinguished, then pooled for the models below.
+
+```{r failure-modes}
+to_long(dat, params$primary_threshold) %>%
+  count(depth, failure) %>%
+  tidyr::pivot_wider(names_from = failure, values_from = n, values_fill = 0)
+```
+
+## Reference (60x) assembly quality
+
+The 60x reference assemblies underpinning the stability analysis were assessed
+for reconstruction reliability. Flags mark carbapenemase-encoding contigs that
+are non-circular, contain repeats, have high multiplicity (> 1.5x), or have a
+high plasmid-to-chromosome coverage ratio (> 1.5x). These are reported as a
+reference-reliability caveat and were interpreted with caution; they do not
+define per-depth stability.
+
+```{r qc}
+qc <- read.delim(params$qc_input, check.names = FALSE)
+# exclude fragmented isolates (e.g. 7092) for consistency with the other analyses
+if (length(params$qc_exclude) > 0)
+  qc <- qc[!grepl(paste(params$qc_exclude, collapse = "|"), qc$sample), ]
+flag_cols <- c("flag_non_circular", "flag_repeat",
+               "flag_high_mult", "flag_high_cov_ratio")
+qc$any_flag <- apply(qc[flag_cols], 1, function(r) any(r == "FLAG"))
+
+qc_summary <- data.frame(
+  criterion = c("Non-circular", "Repeat-containing", "High multiplicity (>1.5x)",
+                "High coverage ratio (>1.5x)", "Any flag"),
+  n_flagged = c(sum(qc$flag_non_circular == "FLAG"), sum(qc$flag_repeat == "FLAG"),
+                sum(qc$flag_high_mult == "FLAG"), sum(qc$flag_high_cov_ratio == "FLAG"),
+                sum(qc$any_flag)),
+  total = nrow(qc)
+)
+qc_summary$pct <- round(100 * qc_summary$n_flagged / qc_summary$total, 1)
+qc_summary
+
+# same, restricted to the two focus replicon types
+foc <- qc[qc$replicon %in% c("IncN", "IncL/M"), ]
+cat(sprintf("\nIncN / IncL/M contigs: %d, of which any-flagged: %d (%.0f%%)\n",
+            nrow(foc), sum(foc$any_flag), 100 * mean(foc$any_flag)))
+```
+
+## Primary analysis (`r params$primary_threshold*100`% threshold)
+
+The same plasmids are measured at each depth, so the depth groups are not
+independent. The primary test is therefore a logistic regression fitted by
+generalised estimating equations (GEE), clustered by plasmid, with depth as an
+ordered score. Cochran's Q is reported as a confirmatory paired omnibus test.
+
+```{r primary}
+long_p <- to_long(dat, params$primary_threshold)
+
+# GEE logistic trend (accounts for within-plasmid correlation)
+if (have("geepack")) {
+  gee <- geepack::geeglm(stable ~ depth, id = plasmid_id, data = long_p,
+                         family = binomial, corstr = "exchangeable")
+  s <- summary(gee)$coefficients
+  or <- exp(coef(gee)["depth"])
+  cat(sprintf("GEE trend: OR per 1x depth = %.4f (per 10x = %.2f), p = %.3g\n",
+              or, or^10, s["depth", "Pr(>|W|)"]))
+} else {
+  cat("Install 'geepack' for the GEE trend test.\n")
+}
+
+# Cochran's Q (paired omnibus across the three depths), base R (no packages)
+wide <- long_p %>%
+  select(plasmid_id, depth, stable) %>%
+  tidyr::pivot_wider(names_from = depth, values_from = stable) %>%
+  select(-plasmid_id) %>% as.matrix()
+k  <- ncol(wide); Cj <- colSums(wide); Ri <- rowSums(wide)
+Q  <- (k - 1) * (k * sum(Cj^2) - sum(Cj)^2) / (k * sum(Ri) - sum(Ri^2))
+cat(sprintf("Cochran's Q = %.2f, df = %d, p = %.3g\n",
+            Q, k - 1, pchisq(Q, k - 1, lower.tail = FALSE)))
+```
+
+## Comparison with the (unpaired) Cochran–Armitage test
+
+Reported only to show the effect of ignoring the pairing; not the primary test.
+
+The Cochran-Armitage test assumes independent groups, whereas the same plasmids
+are observed at every depth. It is reported as an unclustered sensitivity check
+alongside the GEE, which accounts for the repeated measures.
+
+```{r cochran-armitage}
+cochran_armitage <- function(stable, total, scores) {
+  n <- sum(total); p_bar <- sum(stable) / n; scores <- as.numeric(scores)
+  T_stat <- sum(scores * (stable - total * p_bar))
+  V <- p_bar * (1 - p_bar) * (n * sum(scores^2 * total) - sum(scores * total)^2) / n
+  z <- T_stat / sqrt(V)
+  c(z = z, p_two = 2 * pnorm(-abs(z)))
+}
+agg <- to_long(dat, params$primary_threshold) %>%
+  group_by(depth) %>% summarise(stable = sum(stable), total = n(), .groups = "drop")
+round(cochran_armitage(agg$stable, agg$total, agg$depth), 4)
+```
+
+## Sensitivity analyses (`r paste(params$sensitivity_thresholds*100, collapse="% and ")`%)
+
+```{r sensitivity}
+sens <- lapply(params$sensitivity_thresholds, function(thr) {
+  lp <- to_long(dat, thr)
+  p_gee <- NA
+  if (have("geepack")) {
+    g <- geepack::geeglm(stable ~ depth, id = plasmid_id, data = lp,
+                         family = binomial, corstr = "exchangeable")
+    p_gee <- summary(g)$coefficients["depth", "Pr(>|W|)"]
+  }
+  data.frame(threshold = paste0(thr * 100, "%"),
+             gee_trend_p = signif(p_gee, 3))
+}) %>% bind_rows()
+sens
+```
+
+## Session info
+
+```{r session}
+sessionInfo()
+```

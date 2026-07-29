@@ -1,0 +1,255 @@
+---
+title: "Sequencing depth and MLST sequence-type concordance"
+author: ""
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    df_print: kable
+params:
+  # Directory holding the cleaned per-depth files, named mlst_<depth>_S1_isolates.csv
+  input_dir: "."
+  # "producing" = the 100 carbapenemase-producing isolates
+  # "all"       = both cohorts (110 isolates)
+  cohort: "producing"
+  min_isolates_per_scheme: 5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+have <- function(p) requireNamespace(p, quietly = TRUE)
+```
+
+## Reference definition
+
+The reference ST for each isolate is the call at the **highest available
+sequencing depth**, which is the value reported in Supplementary Table S1 and is
+carried in the `consensus_st_S1` column of every cleaned per-depth file. This
+differs from the majority-consensus-across-depths definition used previously;
+the Methods text must state whichever definition is used here.
+
+Because the reference is taken from the highest depth, it does not incorporate
+the 10x call, so concordance at 10x is not measured partly against itself.
+
+Isolates with no reference ST are untypable and are excluded, so the model
+describes concordance **among typable isolates**. The outcome is coded
+1 = concordant, so the model estimates P(concordant).
+
+## Load the cleaned per-depth files
+
+```{r load}
+files <- list.files(params$input_dir, pattern = "^mlst_[0-9]+x_S1_isolates\\.csv$",
+                    full.names = TRUE)
+stopifnot(length(files) >= 2)
+
+d <- do.call(rbind, lapply(files, function(f) {
+  x <- read.csv(f, stringsAsFactors = FALSE, check.names = FALSE)
+  req <- c("isolate_id", "cohort", "coverage", "mlst_scheme", "mlst_st",
+           "consensus_st_S1", "concordant_with_S1")
+  stopifnot(all(req %in% names(x)))
+  x
+}))
+
+d$coverage_n <- as.integer(sub("x$", "", d$coverage))
+message("Depths loaded: ", paste(sort(unique(d$coverage_n)), collapse = ", "))
+```
+
+### Analysis population
+
+```{r population}
+if (params$cohort == "producing") d <- d[d$cohort == "carbapenemase-producing", ]
+
+# typable isolates only: a reference ST exists
+d <- d[!is.na(d$consensus_st_S1) & trimws(as.character(d$consensus_st_S1)) != "", ]
+
+# keep only isolates observed at every loaded depth, so the comparison is paired
+depths <- sort(unique(d$coverage_n))
+n_by_iso <- table(d$isolate_id)
+complete <- names(n_by_iso)[n_by_iso == length(depths)]
+dropped_incomplete <- setdiff(unique(d$isolate_id), complete)
+if (length(dropped_incomplete))
+  cat("Dropped for incomplete depth coverage:", paste(dropped_incomplete, collapse = ", "), "\n")
+d <- d[d$isolate_id %in% complete, ]
+
+d$concordant <- as.integer(tolower(trimws(d$concordant_with_S1)) == "yes")
+stopifnot(!any(is.na(d$concordant)))
+
+# depth predictor: 10x versus every depth at or above 20x, 10x as the baseline
+d$coverage_cat <- factor(ifelse(d$coverage_n == 10, "10x", ">=20x"),
+                         levels = c("10x", ">=20x"))
+
+c(observations = nrow(d), isolates = length(unique(d$isolate_id)),
+  depths_pooled_in_ge20x = sum(depths >= 20))
+```
+
+> Note on the predictor: every depth at or above 20x is pooled into one level.
+> With only 10x and 20x loaded this is a paired 10x-versus-20x contrast; once
+> 40x and above are added the `>=20x` arm carries more rows than the 10x arm.
+> State in the Methods which depths were pooled.
+
+## Concordance by depth
+
+```{r concordance-by-depth}
+by_cov <- aggregate(concordant ~ coverage_n, data = d, FUN = mean)
+by_cov$n <- aggregate(concordant ~ coverage_n, data = d, FUN = length)$concordant
+by_cov$n_concordant <- aggregate(concordant ~ coverage_n, data = d, FUN = sum)$concordant
+by_cov$concordant <- round(by_cov$concordant, 3)
+by_cov
+
+plot(by_cov$coverage_n, by_cov$concordant, type = "b", pch = 19,
+     xlab = "Coverage (x)", ylab = "ST concordance",
+     ylim = c(min(by_cov$concordant), 1))
+```
+
+### Non-assignment versus misassignment
+
+```{r calls-vs-mismatches}
+# an ST was called (not "-") but did not match the reference
+called <- trimws(d$mlst_st) != "-" & trimws(d$mlst_st) != ""
+wrong  <- sum(called & d$concordant == 0)
+cat("Rows where an ST was called but did NOT match the reference:", wrong, "\n")
+cat("(0 means reduced concordance at low depth reflects failure to assign,",
+    "not assignment of a conflicting ST)\n")
+```
+
+## Paired 10x versus 20x comparison (exact McNemar)
+
+This is the contrast reported alongside the concordance percentages. It is
+strictly paired and uses only those two depths, so it is a different comparison
+from the pooled `>=20x` model below. Report both, and say so.
+
+```{r mcnemar}
+if (all(c(10, 20) %in% depths)) {
+  w <- reshape(d[d$coverage_n %in% c(10, 20), c("isolate_id", "coverage_n", "concordant")],
+               idvar = "isolate_id", timevar = "coverage_n", direction = "wide")
+  names(w) <- c("isolate_id", "c10", "c20")
+  w <- w[complete.cases(w), ]
+
+  gained <- sum(w$c10 == 0 & w$c20 == 1)
+  lost   <- sum(w$c10 == 1 & w$c20 == 0)
+  cat(sprintf("Paired isolates: %d | concordant at 10x: %d (%.1f%%) | at 20x: %d (%.1f%%)\n",
+              nrow(w), sum(w$c10), 100 * mean(w$c10), sum(w$c20), 100 * mean(w$c20)))
+  cat(sprintf("Gained concordance 10x -> 20x: %d | lost: %d\n", gained, lost))
+
+  bt <- binom.test(gained, gained + lost, p = 0.5)   # exact McNemar
+  cat(sprintf("McNemar exact two-sided p = %.3g\n", bt$p.value))
+} else {
+  cat("Both 10x and 20x are required for the paired comparison.\n")
+}
+```
+
+## Helper functions
+
+```{r helpers}
+or_table <- function(model, cluster) {
+  if (have("sandwich") && have("lmtest")) {
+    vc <- sandwich::vcovCL(model, cluster = cluster)
+    ct <- lmtest::coeftest(model, vcov. = vc)
+    ci <- lmtest::coefci(model, vcov. = vc)
+    est <- ct[, "Estimate"]; p <- ct[, ncol(ct)]; lo <- ci[, 1]; hi <- ci[, 2]
+    note <- "cluster-robust (by isolate)"
+  } else {
+    warning("Install 'sandwich' and 'lmtest' for clustered SEs; using model-based SEs")
+    co <- summary(model)$coefficients
+    est <- co[, "Estimate"]; p <- co[, ncol(co)]
+    ci <- confint.default(model); lo <- ci[, 1]; hi <- ci[, 2]
+    note <- "model-based (NOT clustered)"
+  }
+  list(tab = data.frame(term = names(est),
+                        odds_ratio = round(exp(est), 3),
+                        ci_lower = round(exp(lo), 3),
+                        ci_upper = round(exp(hi), 3),
+                        p_value = signif(p, 3), row.names = NULL),
+       note = note)
+}
+
+mcfadden <- function(model, data) {
+  null <- glm(concordant ~ 1, family = binomial, data = data)
+  1 - as.numeric(logLik(model)) / as.numeric(logLik(null))
+}
+```
+
+## Primary model: depth only, clustered by isolate
+
+```{r primary}
+m1 <- glm(concordant ~ coverage_cat, family = binomial, data = d)
+r1 <- or_table(m1, cluster = d$isolate_id)
+cat("SE type:", r1$note, "\n")
+r1$tab
+cat(sprintf("McFadden pseudo-R2 = %.3f\n", mcfadden(m1, d)))
+
+or_cov <- r1$tab[grepl("coverage_cat", r1$tab$term), ]
+cat(sprintf("\n>=20x vs 10x: OR(concordant) = %.2f (95%% CI %.2f-%.2f), p = %s\n",
+            or_cov$odds_ratio, or_cov$ci_lower, or_cov$ci_upper, or_cov$p_value))
+```
+
+## Firth penalised model
+
+Discordant calls at `>=20x` are rare, so the unpenalised fit approaches
+separation and its interval is wide. Firth penalisation stabilises the estimate
+and gives a profile-likelihood interval.
+
+**Caveat to report:** `logistf` does not accept a cluster argument, so this
+interval treats each isolate-depth row as independent and is narrower than the
+repeated-measures design supports. Use it as a robustness check on the point
+estimate and quote the clustered interval from the primary model as the primary
+result, or say explicitly which one the manuscript reports.
+
+```{r firth}
+if (have("logistf")) {
+  fm <- logistf::logistf(concordant ~ coverage_cat, data = d)
+  data.frame(term = names(coef(fm)),
+             odds_ratio = round(exp(coef(fm)), 3),
+             ci_lower = round(exp(fm$ci.lower), 3),
+             ci_upper = round(exp(fm$ci.upper), 3),
+             p_value = signif(fm$prob, 3), row.names = NULL)
+} else {
+  cat("Install 'logistf' to run the Firth penalised model.\n")
+}
+```
+
+## Scheme-adjusted sensitivity model
+
+Checks that the depth effect is not driven by species composition. The scheme
+used is the modal non-missing scheme across the depths loaded for each isolate,
+since the cleaned files carry a per-depth scheme rather than a reference one.
+Report only the depth term; scheme coefficients may be unstable.
+
+```{r scheme-adjusted}
+modal <- function(x) {
+  x <- x[!is.na(x) & x != "" & x != "-"]
+  if (!length(x)) return(NA_character_)
+  names(sort(table(x), decreasing = TRUE))[1]
+}
+ref_scheme <- tapply(d$mlst_scheme, d$isolate_id, modal)
+d$ref_scheme <- ref_scheme[as.character(d$isolate_id)]
+
+cnt  <- tapply(d$isolate_id, d$ref_scheme, function(x) length(unique(x)))
+keep <- names(cnt)[cnt > params$min_isolates_per_scheme]
+d2   <- d[d$ref_scheme %in% keep, ]
+d2$ref_scheme <- factor(d2$ref_scheme)
+cat("Schemes retained:", paste(levels(d2$ref_scheme), collapse = ", "), "\n")
+
+m2 <- glm(concordant ~ coverage_cat + ref_scheme, family = binomial, data = d2)
+r2 <- or_table(m2, cluster = d2$isolate_id)
+r2$tab[grepl("coverage_cat", r2$tab$term), ]
+cat(sprintf("McFadden pseudo-R2 (adjusted) = %.3f\n", mcfadden(m2, d2)))
+```
+
+## Numbers to carry into the manuscript
+
+```{r summary}
+cat("Analysis population\n")
+cat("  cohort scope           :", params$cohort, "\n")
+cat("  typable isolates       :", length(unique(d$isolate_id)), "\n")
+cat("  depths                 :", paste(sort(unique(d$coverage_n)), collapse = ", "), "\n")
+cat("\nThese counts must match Supplementary Table S1. If they do not, reconcile\n")
+cat("before quoting any figure in the manuscript.\n")
+```
+
+## Session info
+
+```{r session}
+sessionInfo()
+```
