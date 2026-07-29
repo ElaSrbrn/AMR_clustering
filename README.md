@@ -69,6 +69,3 @@ If you use this code, please cite:
 
 > XXXXX
 
-## Licence
-
-XXXX
