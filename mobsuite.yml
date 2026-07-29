@@ -5,6 +5,6 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - mob_suite=3.1.9
+  - mob_suite=3.1.8
   - mash=2.3
   - blast=2.15
