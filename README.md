@@ -61,6 +61,7 @@ The pipeline is written for a SLURM cluster. Partition and queue names in the SB
 ## Data
 
 Supplementary Tables S1, S3 and S6 from the manuscript can be used as input for the R analyses. Otherwise, the necessary data for the MLST analysis is included in the repository as well. 
+Supplementary Tables 4 and 5 summarise the Mash distance and DCJ-Indel output produced by 08_clustering.sh, and Figure 4 was drawn from the same output. No separate script is included for those steps.
 
 ## Citation
 
