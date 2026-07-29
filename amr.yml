@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.11        # OK with mob_suite >=3.7
-  - ncbi-amrfinderplus=4.0.23
+  - python=3.11        
+  - ncbi-amrfinderplus=4.0.3
   - bakta
 
