@@ -5,7 +5,7 @@ This pipeline was used for the manuscript on "Verification of nanopore sequencin
 
 Workflow: basecalling → read filtering → nested downsampling → assembly → polishing → AMR and plasmid annotation → MLST → plasmid clustering, with the typing and plasmid analyses repeated at each depth.
 
-This repository holds the code for the manuscript below. Filtered sequencing reads are deposited at ENA under accession `PRJEBXXXXXX`.
+This repository holds the code for the manuscript below. Filtered sequencing reads are deposited at ENA under accession `PRJEB123044`.
 
 ## Running order
 
