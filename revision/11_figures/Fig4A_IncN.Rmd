@@ -183,19 +183,12 @@ dist %>%
 
 # Colour scale
 
-Capped at the 95th percentile of the off-diagonal distances. Panel B has its own
-range, so state in the caption of the merged figure that the scales are
-panel-specific. `colorRamp2` clamps out-of-range values, so the plotted matrix
-needs no separate capping.
+Shared with panel B and defined in `fig4_scale.R`: 0 to the largest distance in
+either panel, white at the pling subcommunity threshold of 4.
 
 ```{r scale}
-max_break <- as.numeric(quantile(mat[upper.tri(mat)], 0.95, na.rm = TRUE))
-cat("Colour scale 0 -", round(max_break, 2), "\n")
-
-col_fun <- colorRamp2(
-  seq(0, max_break, length.out = 4),
-  c("#2166ac", "#f7f7f7", "#fdae61", "#d73027")
-)
+source("fig4_scale.R")
+col_fun <- fig4_col_fun
 ```
 
 # Heatmap
@@ -229,9 +222,6 @@ anno_args <- list(
 ra <- do.call(rowAnnotation, c(anno_args, list(show_legend = TRUE)))
 ca <- do.call(columnAnnotation, c(anno_args, list(show_legend = FALSE)))
 
-lb <- pretty(c(0, max_break), n = 4)
-lb <- lb[lb <= max_break]
-
 ht <- Heatmap(
   mat,
   name = "IncN",
@@ -259,16 +249,7 @@ ht <- Heatmap(
   height = unit(n * cell_mm, "mm"),
   rect_gp = gpar(col = NA),
   border = FALSE,
-  heatmap_legend_param = list(
-    title = "DCJ-indel distance (A)",
-    at = lb,
-    labels = as.character(lb),
-    direction = "horizontal",
-    legend_width = unit(35, "mm"),
-    title_position = "topleft",
-    title_gp = gpar(fontsize = legend_pt),
-    labels_gp = gpar(fontsize = legend_pt)
-  )
+  heatmap_legend_param = fig4_legend_param(legend_pt)
 )
 
 

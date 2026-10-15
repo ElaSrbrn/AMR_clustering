@@ -157,19 +157,12 @@ table(species_vec, useNA = "ifany")
 
 # Colour scale
 
-Capped at the 95th percentile of the off-diagonal distances. Panel A has its own
-range, so state in the caption of the merged figure that the scales are
-panel-specific. `colorRamp2` clamps out-of-range values, so the plotted matrix
-needs no separate capping.
+Shared with panel A and defined in `fig4_scale.R`: 0 to the largest distance in
+either panel, white at the pling subcommunity threshold of 4.
 
 ```{r scale}
-max_break <- as.numeric(quantile(mat[upper.tri(mat)], 0.95, na.rm = TRUE))
-cat("Colour scale 0 -", round(max_break, 2), "\n")
-
-col_fun <- colorRamp2(
-  seq(0, max_break, length.out = 3),
-  c("#2166ac", "#f7f7f7", "#b2182b")
-)
+source("fig4_scale.R")
+col_fun <- fig4_col_fun
 ```
 
 # Heatmap
@@ -231,14 +224,7 @@ ht <- Heatmap(
   height = unit(n * cell_mm, "mm"),
   rect_gp = gpar(col = NA),
   border = FALSE,
-  heatmap_legend_param = list(
-    title = "DCJ-indel distance",
-    direction = "horizontal",
-    legend_width = unit(35, "mm"),
-    title_position = "topleft",
-    title_gp = gpar(fontsize = legend_pt),
-    labels_gp = gpar(fontsize = legend_pt)
-  )
+  heatmap_legend_param = fig4_legend_param(legend_pt)
 )
 ```
 

@@ -213,29 +213,15 @@ for (nm in c("A", "B")) {
 }
 ```
 
-# Colour scales
+# Colour scale
 
-The two panels are not on a common scale. Panel A is capped at the 95th
-percentile of its off-diagonal distances; panel B has its own range. State this
-explicitly in the caption. `colorRamp2` clamps out-of-range values, so no
-separate capping of the plotted matrix is needed.
+Both panels use one scale, defined in `fig4_scale.R`: 0 to the largest distance
+in either panel, white at the pling subcommunity threshold of 4.
 
 ```{r scales}
-brk_A <- as.numeric(quantile(A$mat[upper.tri(A$mat)], 0.95, na.rm = TRUE))
-brk_B <- as.numeric(quantile(B$mat[upper.tri(B$mat)], 0.95, na.rm = TRUE))
-
-cat("Panel A colour scale 0 -", round(brk_A, 2), "\n")
-cat("Panel B colour scale 0 -", round(brk_B, 2), "\n")
-
-col_A <- colorRamp2(
-  seq(0, brk_A, length.out = 4),
-  c("#2166ac", "#f7f7f7", "#fdae61", "#d73027")
-)
-
-col_B <- colorRamp2(
-  seq(0, brk_B, length.out = 3),
-  c("#2166ac", "#f7f7f7", "#b2182b")
-)
+source("fig4_scale.R")
+col_A <- fig4_col_fun
+col_B <- fig4_col_fun
 ```
 
 # Build panels
@@ -305,19 +291,7 @@ ht_B <- make_panel(B, col_B, "dist_B")
 # Legends
 
 ```{r legends}
-lgd_A <- Legend(
-  col_fun = col_A, title = "DCJ-indel distance, A",
-  direction = "horizontal", legend_width = unit(30, "mm"),
-  title_gp = gpar(fontsize = legend_pt, fontface = "plain"),
-  labels_gp = gpar(fontsize = legend_pt)
-)
-
-lgd_B <- Legend(
-  col_fun = col_B, title = "DCJ-indel distance, B",
-  direction = "horizontal", legend_width = unit(30, "mm"),
-  title_gp = gpar(fontsize = legend_pt, fontface = "plain"),
-  labels_gp = gpar(fontsize = legend_pt)
-)
+lgd_dist <- do.call(Legend, c(list(col_fun = fig4_col_fun), fig4_legend_param(legend_pt)))
 
 lgd_sp <- Legend(
   labels = names(species_cols),
@@ -330,7 +304,7 @@ lgd_sp <- Legend(
   labels_gp = gpar(fontsize = legend_pt, fontface = "italic")
 )
 
-lgd_all <- packLegend(lgd_A, lgd_B, lgd_sp,
+lgd_all <- packLegend(lgd_dist, lgd_sp,
                      direction = "horizontal",
                      column_gap = unit(6, "mm"))
 ```
