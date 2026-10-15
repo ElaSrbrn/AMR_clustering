@@ -1,0 +1,15 @@
+plasmid_id	flye_depth	breakpoint	class	kind	side	ref_pos	query_pos	reads_ref_only	reads_flye_only	reads_both	fraction_flye	interpretation
+6057_2	60x	1	rearranged	rearrangement	left	29548	148661	28	81	1	0.743	both configurations supported (heterogeneity)
+6057_2	60x	2	rearranged	rearrangement	right	52559	147841	30	86	2	0.741	both configurations supported (heterogeneity)
+6057_2	60x	3	rearranged	rearrangement	left	29548	170852	29	0	0	0.000	Flye junction unsupported (assembly error)
+6057_2	60x	4	rearranged	rearrangement	right	52559	170032	32	0	0	0.000	Flye junction unsupported (assembly error)
+7419_3	60x	1	rearranged	rearrangement	left	43724	2974	15	0	0	0.000	Flye junction unsupported (assembly error)
+7419_3	60x	2	rearranged	rearrangement	right	51595	1852	8	0	0	0.000	Flye junction unsupported (assembly error)
+7419_3	60x	3	rearranged	rearrangement	left	51576	79854	8	43	0	0.843	both configurations supported (heterogeneity)
+7419_3	60x	4	rearranged	rearrangement	right	64217	79034	12	36	0	0.750	both configurations supported (heterogeneity)
+7419_3	60x	5	rearranged	rearrangement	left	51595	91656	7	45	1	0.865	both configurations supported (heterogeneity)
+7419_3	60x	6	rearranged	rearrangement	right	57136	95312	53	0	0	0.000	Flye junction unsupported (assembly error)
+7365_2	60x	1	internal_deletion	deletion	left	47781	33118	123	20	14	0.140	both configurations supported (heterogeneity)
+7365_2	60x	2	internal_deletion	deletion	right	29111	33118	0	0	34	NA	too few informative reads; windows largely identical (repeat-mediated junction), interpret with care
+7475_3	40x	1	on_chromosome_contig	rearrangement	left	62659	79350	19	26	0	0.578	both configurations supported (heterogeneity)
+7475_3	40x	2	on_chromosome_contig	rearrangement	right	43461	5303871	18	15	0	0.455	both configurations supported (heterogeneity)

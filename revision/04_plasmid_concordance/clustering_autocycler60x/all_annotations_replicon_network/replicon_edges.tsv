@@ -1,0 +1,9 @@
+replicon_a	replicon_b	shared_kept_plasmid_count
+IncC	rep_cluster_1254	2
+IncFIB	IncFII	4
+IncFIB	IncHI1B	4
+IncFIB	rep_cluster_1254	1
+IncFIB	rep_cluster_2183	4
+IncFII	rep_cluster_2183	4
+IncHI1B	rep_cluster_1254	1
+IncX3	rep_cluster_1195	5

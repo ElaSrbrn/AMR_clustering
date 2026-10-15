@@ -1,0 +1,16 @@
+group	order	plasmid_id	label
+IncN_subcommunity	1	6817_3	6817 K. pneumoniae ST147 (79,348 bp)
+IncN_subcommunity	2	6365_4	6365 K. variicola ST4167 (78,021 bp)
+IncN_subcommunity	3	6669_2	6669 K. pneumoniae ST462 (64,619 bp)
+IncN_subcommunity	4	7476_2	7476 K. pneumoniae ST485 (59,489 bp)
+IncLM_subcommunities	1	3989_3	3989 C. freundii ST22 (97,576 bp; not retained by Mash filter)
+IncLM_subcommunities	2	6571_4	6571 C. freundii ST22 (74,309 bp; subcommunity 1)
+IncLM_subcommunities	3	6774_4	6774 K. pneumoniae ST1653 (65,499 bp; subcommunity 1)
+IncLM_subcommunities	4	7089_5	7089 K. pneumoniae ST147 (68,942 bp; subcommunity 0)
+patient_E18_IncLM	1	6233_4	6233 E. coli ST2524, Mar 2023
+patient_E18_IncLM	2	7077_2	7077 S. marcescens, Sep 2023
+patient_E18_IncLM	3	7088_10	7088 C. koseri, Sep 2023
+patient_E18_IncLM	4	7089_5	7089 K. pneumoniae ST147, Sep 2023
+patient_L01_IncN	1	5976_3	5976 E. hormaechei ST45
+patient_L01_IncN	2	6067_4	6067 K. michiganensis ST44
+patient_L01_IncN	3	6901_4	6901 C. freundii ST22

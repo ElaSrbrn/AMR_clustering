@@ -1,0 +1,20 @@
+group	isolate	method	gene_family	category	gold_alleles	called	detail
+S1a/10x	isolate_5871_PAU61707_barcode0304	reads (bart)	blaKPC_carbapenemase	gold_not_exact	blaKPC	blaKPC-2	4.00
+S1a/10x	isolate_7000_FBC06048_barcode1516	assembly	blaNDM	allele_mismatch	blaNDM-1	blaNDM	PARTIALX
+S1a/10x	isolate_4704_FAY64384_barcode1218	assembly	blaVIM	not_detected	blaVIM-1		
+S1a/10x	isolate_4838_FAY34264_barcode01	assembly	blaNDM	allele_mismatch	blaNDM-1	blaNDM;blaNDM-1	ALLELEX;PARTIALX
+S1a/10x	isolate_5305_FAY24367_barcode0612	assembly	blaVIM	allele_mismatch	blaVIM-86	blaVIM	BLASTX
+S1a/10x	isolate_5871_PAU61707_barcode0304	assembly	blaKPC_carbapenemase	gold_not_exact	blaKPC	blaKPC-2	ALLELEX
+S1a/10x	isolate_5969_PAU61707_barcode0506	assembly	blaNDM	allele_mismatch	blaNDM-1	blaNDM;blaNDM-1	ALLELEX;BLASTX
+S1a/10x	isolate_6244_PAU61707_barcode2526	assembly	blaOXA_carbapenemase	not_detected	blaOXA-181		
+S1a/10x	isolate_6433_PAU61707_barcode3940	assembly	blaOXA_carbapenemase	not_detected	blaOXA-181		
+S1a/10x	isolate_6454_PAU61707_barcode4142	assembly	blaKPC_carbapenemase	allele_mismatch	blaKPC-2	blaKPC	PARTIAL_CONTIG_ENDX
+S1a/10x	isolate_6779_FBDPAU	assembly	blaOXA_carbapenemase	not_detected	blaOXA-48		
+S1a/10x	isolate_6888_PAY37630_barcode9394	assembly	blaKPC_carbapenemase	allele_mismatch	blaKPC-2;blaKPC-3	blaKPC-2	ALLELEX
+S1a/10x	isolate_7084_PAY37630_barcode3940	assembly	blaKPC_carbapenemase	allele_mismatch	blaKPC-2	blaKPC;blaKPC-2	ALLELEX;PARTIALX
+S1a/20x	isolate_5871_PAU61707_barcode0304	reads (bart)	blaKPC_carbapenemase	gold_not_exact	blaKPC	blaKPC-2	9.00
+S1a/20x	isolate_4838_FAY34264_barcode01	assembly	blaNDM	allele_mismatch	blaNDM-1	blaNDM;blaNDM-1	ALLELEX;INTERNAL_STOP
+S1a/20x	isolate_5871_PAU61707_barcode0304	assembly	blaKPC_carbapenemase	gold_not_exact	blaKPC	blaKPC-2	ALLELEX
+S1a/20x	isolate_6888_PAY37630_barcode9394	assembly	blaKPC_carbapenemase	allele_mismatch	blaKPC-2;blaKPC-3	blaKPC-2	ALLELEX
+S1b/10x	isolate_5668_FAYFAY	reads (bart)	blaGES_carbapenemase	allele_mismatch	blaGES-5	blaGES-39	1.00
+S1b/20x	isolate_5668_FAYFAY	reads (bart)	blaGES_carbapenemase	allele_mismatch	blaGES-5	blaGES-39	5.24

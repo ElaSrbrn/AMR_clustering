@@ -1,0 +1,9 @@
+assembler	depth	genes_assessed	syntenic	syntenic_across_contig_start	not_syntenic
+flye	10x	94	75	16	3
+flye	20x	94	68	23	3
+flye	40x	94	66	26	2
+flye	60x	94	70	23	1
+hybracter	10x	94	73	17	4
+hybracter	20x	94	72	9	13
+hybracter	40x	94	73	13	8
+hybracter	60x	94	77	10	7

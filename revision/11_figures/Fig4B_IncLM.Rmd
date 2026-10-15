@@ -1,0 +1,291 @@
+---
+title: "Panel B: IncL/M plasmid DCJ-indel distances"
+output:
+  html_document:
+    df_print: paged
+---
+
+Panel B of the merged IncN / IncL/M distance figure. Panel A is produced by
+`Fig4A_IncN.Rmd`. The layout parameters and the species palette below must stay
+identical in both files, otherwise the two panels will not match when merged.
+
+```{r setup, message=FALSE, warning=FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(tibble)
+library(grid)
+library(circlize)
+library(ComplexHeatmap)
+```
+
+# Layout parameters
+
+`cell_mm` is the cell edge at **final printed size**. Place the exported PDF at
+100 % scale when merging. Scaling it in the layout program shrinks the labels
+below the size set here and breaks the match with panel A.
+
+`label_pt` must stay below about 0.85 x cell size in points. 1 mm = 2.845 pt.
+
+```{r params}
+cell_mm   <- 2.8   # must match Fig4A_IncN.Rmd
+label_pt  <- 7     # must match Fig4A_IncN.Rmd
+legend_pt <- 10    # must match Fig4A_IncN.Rmd
+
+dend_mm   <- 12    # row dendrogram
+anno_mm   <- 3     # species strip
+names_mm  <- 8     # isolate tick labels
+slack_mm  <- 4
+legend_mm <- 26    # vertical space for legends below the panel
+letter_mm <- 7     # vertical space for the panel letter
+
+cell_pt <- cell_mm * 2.845
+if (label_pt > 0.85 * cell_pt) {
+  warning(sprintf("label_pt = %.1f exceeds 0.85 x cell (%.1f pt).",
+                  label_pt, 0.85 * cell_pt))
+}
+```
+
+# Input
+
+```{r input}
+input_file <- "inclm_plasmids_distances_with_species.tsv"
+```
+
+# Species palette
+
+Union of the species present in the IncN and IncL/M datasets, so colours are
+consistent across panels and either legend can serve the merged figure.
+
+```{r palette}
+species_cols <- c(
+  "C. freundii"   = "#66c2a5",
+  "E. coli"       = "#fc8d62",
+  "K. aerogenes"  = "#8da0cb",
+  "K. pneumoniae" = "#e78ac3",
+  "E. cloacae"    = "#a6d854",
+  "K. oxytoca"    = "#ffd92f",
+  "H. alvei"      = "#80b1d3",
+  "S. marcescens" = "#c2a36b"
+)
+```
+
+# Label parsing
+
+This TSV encodes species in square brackets, unlike the IncN file. Isolate 7077
+is assigned *S. marcescens*, which is a correction applied downstream of the
+typing step.
+
+```{r parsers}
+make_short_label <- function(x) str_match(x, "isolate_([0-9]+)")[, 2]
+
+extract_species <- function(x) {
+  s <- str_match(x, "\\[([^\\[\\]]*)\\]$")[, 2]
+  s[s == "Unknown"] <- NA_character_
+  n <- str_match(x, "isolate_([0-9]+)")[, 2]
+  s[n == "7077"] <- "S. marcescens"
+  s
+}
+```
+
+# Build matrix
+
+```{r build}
+dist <- read_tsv(input_file, show_col_types = FALSE)
+
+required_cols <- c("plasmid_1_labeled", "plasmid_2_labeled", "distance")
+missing_cols <- setdiff(required_cols, names(dist))
+if (length(missing_cols) > 0) {
+  stop(paste("Missing required columns:", paste(missing_cols, collapse = ", ")))
+}
+
+dist <- dist %>%
+  mutate(
+    s1  = make_short_label(plasmid_1_labeled),
+    s2  = make_short_label(plasmid_2_labeled),
+    sp1 = extract_species(plasmid_1_labeled),
+    sp2 = extract_species(plasmid_2_labeled)
+  )
+
+all_labels <- sort(unique(c(dist$s1, dist$s2)))
+
+mat_long <- dist %>% select(row = s1, col = s2, distance)
+
+mat_sym <- bind_rows(
+  mat_long,
+  mat_long %>% rename(row = col, col = row),
+  tibble(row = all_labels, col = all_labels, distance = 0)
+) %>%
+  distinct(row, col, .keep_all = TRUE)
+
+mat <- mat_sym %>%
+  pivot_wider(names_from = col, values_from = distance) %>%
+  as.data.frame()
+
+rownames(mat) <- mat$row
+mat$row <- NULL
+mat <- as.matrix(mat)[all_labels, all_labels]
+
+if (any(is.na(mat))) {
+  stop("Distance matrix contains missing pairwise comparisons. Do not impute.")
+}
+
+species_vec <- bind_rows(
+  dist %>% transmute(short = s1, species = sp1),
+  dist %>% transmute(short = s2, species = sp2)
+) %>%
+  distinct(short, .keep_all = TRUE) %>%
+  filter(short %in% rownames(mat)) %>%
+  arrange(match(short, rownames(mat)))
+
+unknown <- setdiff(na.omit(unique(species_vec$species)), names(species_cols))
+if (length(unknown) > 0) {
+  stop(paste("Species not in palette:", paste(unknown, collapse = ", ")))
+}
+
+species_vec <- setNames(species_vec$species, species_vec$short)
+```
+
+# Diagnostics
+
+```{r diagnostics}
+cat("Panel B:", nrow(mat), "IncL/M plasmids\n")
+
+table(species_vec, useNA = "ifany")
+```
+
+# Colour scale
+
+Capped at the 95th percentile of the off-diagonal distances. Panel A has its own
+range, so state in the caption of the merged figure that the scales are
+panel-specific. `colorRamp2` clamps out-of-range values, so the plotted matrix
+needs no separate capping.
+
+```{r scale}
+max_break <- as.numeric(quantile(mat[upper.tri(mat)], 0.95, na.rm = TRUE))
+cat("Colour scale 0 -", round(max_break, 2), "\n")
+
+col_fun <- colorRamp2(
+  seq(0, max_break, length.out = 3),
+  c("#2166ac", "#f7f7f7", "#b2182b")
+)
+```
+
+# Heatmap
+
+Column tick labels and the column dendrogram are dropped. The matrix is
+symmetric and the same tree is used on both axes, so they duplicate the row side
+and cost height.
+
+```{r heatmap}
+tree <- hclust(as.dist(mat), method = "average")
+n <- nrow(mat)
+
+anno_args <- list(
+  species = species_vec,
+  col = list(species = species_cols),
+  simple_anno_size = unit(anno_mm, "mm"),
+  show_annotation_name = FALSE,
+  na_col = "#ffffff",
+  annotation_legend_param = list(
+    species = list(
+      title = "Species",
+      nrow = 2,
+      grid_height = unit(3.5, "mm"),
+      grid_width = unit(3.5, "mm"),
+      title_gp = gpar(fontsize = legend_pt),
+      labels_gp = gpar(fontsize = legend_pt, fontface = "italic")
+    )
+  )
+)
+
+# Set show_legend = FALSE here if panel A carries the shared species key.
+ra <- do.call(rowAnnotation, c(anno_args, list(show_legend = TRUE)))
+ca <- do.call(columnAnnotation, c(anno_args, list(show_legend = FALSE)))
+
+ht <- Heatmap(
+  mat,
+  name = "IncLM",
+  col = col_fun,
+  cluster_rows = tree,
+  cluster_columns = tree,
+  row_dend_reorder = FALSE,
+  column_dend_reorder = FALSE,
+  row_split = 4,
+  column_split = 4,
+  row_title = NULL,
+  column_title = NULL,
+  row_gap = unit(0.6, "mm"),
+  column_gap = unit(0.6, "mm"),
+  show_row_names = TRUE,
+  show_column_names = FALSE,
+  row_names_side = "right",
+  row_names_gp = gpar(fontsize = label_pt),
+  show_row_dend = TRUE,
+  show_column_dend = FALSE,
+  row_dend_width = unit(dend_mm, "mm"),
+  left_annotation = ra,
+  top_annotation = ca,
+  width = unit(n * cell_mm, "mm"),
+  height = unit(n * cell_mm, "mm"),
+  rect_gp = gpar(col = NA),
+  border = FALSE,
+  heatmap_legend_param = list(
+    title = "DCJ-indel distance",
+    direction = "horizontal",
+    legend_width = unit(35, "mm"),
+    title_position = "topleft",
+    title_gp = gpar(fontsize = legend_pt),
+    labels_gp = gpar(fontsize = legend_pt)
+  )
+)
+```
+
+# Export
+
+```{r export}
+mm_to_in <- function(x) x / 25.4
+
+page_w <- dend_mm + anno_mm + n * cell_mm + names_mm + slack_mm
+page_h <- letter_mm + anno_mm + n * cell_mm + legend_mm
+
+cat(sprintf("Panel B: body %.0f mm, page %.0f x %.0f mm\n",
+            n * cell_mm, page_w, page_h))
+
+render <- function() {
+  grid.newpage()
+  pushViewport(viewport(
+    x = unit(0, "npc"), y = unit(0, "npc"),
+    width = unit(1, "npc"), height = unit(1, "npc") - unit(letter_mm, "mm"),
+    just = c("left", "bottom")
+  ))
+  draw(ht, newpage = FALSE,
+       heatmap_legend_side = "bottom",
+       annotation_legend_side = "bottom",
+       merge_legend = TRUE,
+       padding = unit(c(1, 1, 1, 1), "mm"))
+  popViewport()
+  grid.text("B",
+            x = unit(1.5, "mm"), y = unit(1, "npc") - unit(1.5, "mm"),
+            just = c("left", "top"),
+            gp = gpar(fontsize = 12, fontface = "bold"))
+}
+
+pdf("Fig4B_IncLM_DCJ_indel_heatmap.pdf",
+    width = mm_to_in(page_w), height = mm_to_in(page_h),
+    useDingbats = FALSE)
+render()
+dev.off()
+
+png("Fig4B_IncLM_DCJ_indel_heatmap.png",
+    width = page_w, height = page_h, units = "mm", res = 600)
+render()
+dev.off()
+
+render()
+```
+
+```{r session}
+sessionInfo()
+```

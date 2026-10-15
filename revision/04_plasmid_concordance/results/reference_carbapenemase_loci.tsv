@@ -1,0 +1,106 @@
+id	gene	ref_contig	start	stop	strand	contig_length	circular	location	rep_type
+3989	blaOXA-48	3	55666	56460	-	97576	true	plasmid	IncL/M
+3989	blaKPC-2	4	10883	11761	-	66662	true	plasmid	IncN
+4704	blaVIM-1	3	62953	63750	-	102080	true	plasmid	rep_cluster_1444
+4838	blaNDM-1	4	23980	24789	-	58247	true	plasmid	IncFIB
+4920	blaVIM-1	4	9846	10643	-	83669	true	plasmid	IncL/M
+4920	blaOXA-48	4	26114	26908	-	83669	true	plasmid	IncL/M
+5043	blaNDM-1	2	118052	118861	+	169978	true	plasmid	IncC,rep_cluster_1254
+5244	blaOXA-48	2	30430	31224	-	74647	true	plasmid	IncL/M
+5305	blaVIM-86	2	85323	86120	+	225345	true	plasmid	IncC,rep_cluster_1254
+5399	blaKPC-2	2	110	988	+	79348	true	plasmid	IncN
+5590	blaVIM-1	2	111556	112353	+	146452	true	plasmid	IncFIB,rep_cluster_1444
+5860	blaKPC-2	2	23731	24609	-	100959	true	plasmid	IncFIB,IncFII,rep_cluster_2183
+5871	blaKPC-2	4	71023	71901	+	79348	true	plasmid	IncN
+5969	blaNDM-1	201	24075	24884	+	48631	true	plasmid	IncX3
+5970	blaOXA-48	4	58085	58879	+	69769	true	plasmid	IncL/M
+5970	blaNDM-1	5	28976	29785	+	49856	true	plasmid	IncX3
+5976	blaKPC-2	3	110	988	+	79348	true	plasmid	IncN
+6009	blaKPC-3	3	7286	8164	-	113639	true	plasmid	IncFIB,IncFII,rep_cluster_2183
+6014	blaKPC-2	4	54583	55461	+	59489	true	plasmid	IncN
+6035	blaNDM-1	2	332281	333090	+	347933	true	plasmid	IncFIB,IncHI1B,rep_cluster_1254
+6056	blaNDM-1	2	97795	98604	-	169978	true	plasmid	IncC,rep_cluster_1254
+6057	blaNDM-5	2	30864	31673	+	148658	true	plasmid	IncFIA,IncFII
+6067	blaKPC-2	4	21114	21992	+	79348	true	plasmid	IncN
+6068	blaKPC-2	2	11868	12746	-	79348	true	plasmid	IncN
+6233	blaOXA-48	4	64767	65561	+	68944	true	plasmid	IncL/M
+6243	blaKPC-2	4	19802	20680	-	79348	true	plasmid	IncN
+6244	blaOXA-181	7	11592	12386	-	24524	true	plasmid	IncX3,rep_cluster_1195
+6247	blaOXA-181	3	92844	93638	+	96740	true	plasmid	IncR,IncX3,rep_cluster_1195
+6287	blaOXA-48	4	15438	16232	-	62812	true	plasmid	IncL/M
+6312	blaOXA-244	1	2936551	2937345	+	4834221	true	chromosome	
+6365	blaKPC-2	4	45204	46082	-	78021	true	plasmid	IncN
+6378	blaNDM-5	2	140086	140895	+	313403	true	plasmid	IncFIB,IncHI1B
+6394	blaNDM-1	2	295189	295998	-	297348	true	plasmid	IncFIB,IncHI1B
+6403	blaNDM-5	2	63620	64429	-	120336	true	plasmid	IncFIA,IncFIA
+6433	blaOXA-181	2	31336	32130	+	51479	true	plasmid	IncX3,rep_cluster_1195
+6454	blaKPC-2	4	110	988	+	78021	true	plasmid	IncN
+6455	blaOXA-181	2	20738	21532	-	51479	true	plasmid	IncX3,rep_cluster_1195
+6466	blaNDM-1	1	2802802	2803611	+	5026909	true	chromosome	
+6472	blaOXA-48	3	36447	37241	-	74309	true	plasmid	IncL/M
+6482	blaKPC-2	3	67647	68525	+	76256	true	plasmid	IncN
+6500	blaKPC-3	3	52358	53236	+	71857	true	plasmid	IncFIB,rep_cluster_2183
+6520	blaVIM-1	4	21922	22719	-	59755	true	plasmid	IncN
+6567	blaKPC-2	3	65759	66637	+	73954	true	plasmid	IncN
+6571	blaOXA-48	4	35838	36632	+	74309	true	plasmid	IncL/M
+6601	blaKPC-2	2	110	988	+	78021	true	plasmid	IncN
+6623	blaVIM-1	1	2138669	2139466	+	4813288	true	chromosome	
+6669	blaKPC-2	2	110	988	+	64619	true	plasmid	IncN
+6670	blaKPC-2	3	72582	73460	+	73954	true	plasmid	IncN
+6701	blaVIM-1	4	11119	11916	+	33191	true	plasmid	IncN
+6711	blaKPC-2	3	44608	45486	-	68090	true	plasmid	IncN
+6712	blaKPC-2	5	110	988	+	79348	true	plasmid	IncN
+6726	blaKPC-2	3	70163	71041	+	98815	true	plasmid	IncFIB,IncFII,rep_cluster_2183
+6735	blaOXA-48	3	147077	147871	-	245139	true	plasmid	IncFIB,IncFIC,IncFII
+6737	blaNDM-5	2	223881	224690	-	334177	true	plasmid	IncFIB,IncFIB,IncHI1B
+6737	blaOXA	3	5428	6141	-	6141	true	plasmid	rep_cluster_1195
+6738	blaOXA-48	4	61916	62710	-	74309	true	plasmid	IncL/M
+6748	blaNDM-5	2	147711	148520	-	152631	true	plasmid	IncFIA,IncFIB,IncFIC
+6774	blaOXA-48	4	50151	50945	-	65499	true	plasmid	IncL/M
+6775	blaOXA-48	2	23328	24122	+	65499	true	plasmid	IncL/M
+6776	blaOXA-48	4	69943	70737	-	74309	true	plasmid	IncL/M
+6779	blaOXA-48	3	28812	29606	+	74309	true	plasmid	IncL/M
+6795	blaKPC-2	2	110	988	+	62595	true	plasmid	IncN
+6797	blaOXA-48	4	67246	68040	-	74309	true	plasmid	IncL/M
+6813	blaKPC-2	2	60445	61323	+	64619	true	plasmid	IncN
+6817	blaKPC-2	3	110	988	+	79348	true	plasmid	IncN
+6838	blaOXA-48	3	29472	30266	+	74309	true	plasmid	IncL/M
+6855	blaKPC-2	3	34745	35623	-	64619	true	plasmid	IncN
+6856	blaKPC-2	3	15708	16586	-	64619	true	plasmid	IncN
+6888	blaKPC-3	3	8677	9555	-	113639	true	plasmid	IncFIB,IncFII,rep_cluster_2183
+6888	blaKPC-2	5	12566	13444	-	79348	true	plasmid	IncN
+6900	blaOXA-181	4	40030	40824	-	57195	true	plasmid	IncX3,rep_cluster_1195
+6901	blaKPC-2	4	74290	75168	+	79348	true	plasmid	IncN
+6951	blaOXA-244	1	1078503	1079297	-	5157293	true	chromosome	
+6951	blaOXA-244	1	1858038	1858832	+	5157293	true	chromosome	
+6970	blaKPC-2	4	110	988	+	76256	true	plasmid	IncN
+6989	blaKPC-2	4	74937	75815	+	79348	true	plasmid	IncN
+7000	blaNDM-1	1	1287036	1287845	+	4257498	true	chromosome	
+7067	blaVIM-1	3	93741	94538	-	159381	true	plasmid	IncA
+7077	blaOXA-48	2	18875	19669	-	68942	true	plasmid	IncL/M
+7083	blaOXA-48	2	61965	62759	+	65499	true	plasmid	IncL/M
+7084	blaKPC-2	2	110	988	+	87356	true	plasmid	IncN
+7088	blaOXA-48	10	39439	40233	-	68942	true	plasmid	IncL/M
+7089	blaOXA-48	5	40909	41703	-	68942	true	plasmid	IncL/M
+7090	blaNDM-5	2	256561	257370	+	348354	true	plasmid	IncFIB,IncHI1B
+7136	blaOXA-181	3	26161	26955	+	51479	true	plasmid	IncX3,rep_cluster_1195
+7176	blaOXA-48	3	16611	17405	-	63589	true	plasmid	IncL/M
+7181	blaVIM-1	3	61654	62451	-	83670	true	plasmid	IncL/M
+7181	blaOXA-48	3	77922	78716	-	83670	true	plasmid	IncL/M
+7213	blaNDM-1	1	808779	809588	-	3962916	true	chromosome	
+7221	blaNDM-5	2	45946	46755	-	120267	true	plasmid	IncFIA,IncFIA
+7243	blaVIM-1	2	112967	113764	+	353582	true	plasmid	IncHI2A,rep_cluster_1088
+7273	blaOXA-244	1	3450470	3451264	+	4813168	true	chromosome	
+7285	blaKPC-2	2	110	988	+	78021	true	plasmid	IncN
+7310	blaOXA-244	1	2970848	2971642	+	5271377	true	chromosome	
+7316	blaOXA-181	2	31744	32538	-	51479	true	plasmid	IncX3,rep_cluster_1195
+7365	blaKPC-2	2	19802	20680	-	96691	true	plasmid	IncN
+7370	blaNDM-5	2	94968	95777	-	141384	true	plasmid	IncFIA,IncFIB,IncFII,IncFII
+7387	blaOXA-244	1	1026101	1026895	+	4998132	true	chromosome	
+7419	blaKPC-2	3	71338	72216	+	78021	true	plasmid	IncN
+7454	blaKPC-2	4	23296	24174	+	59489	true	plasmid	IncN
+7475	blaKPC-2	3	69780	70658	+	79348	true	plasmid	IncN
+7476	blaKPC-2	2	16985	17863	-	59489	true	plasmid	IncN
+7488	blaOXA-48	2	45056	45850	-	69717	true	plasmid	IncL/M
+7503	blaNDM-5	4	2207	3016	+	46160	true	plasmid	IncX3
+7521	blaOXA-48	2	20863	21657	+	68942	true	plasmid	IncL/M

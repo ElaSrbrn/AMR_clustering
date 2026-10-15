@@ -1,0 +1,23 @@
+plasmid_id	reason
+6817_3	set2 IncN subcommunity: 79,348 bp
+6365_4	set2 IncN subcommunity: 78,021 bp
+6669_2	set2 IncN subcommunity: 64,619 bp
+7476_2	set2 IncN subcommunity: 59,489 bp
+6571_4	set2 IncL/M subcommunity 1: 74,309 bp
+6774_4	set2 IncL/M subcommunity 1: 65,499 bp
+7089_5	set2 IncL/M subcommunity 0: 68,942 bp; set3 patient E18
+3989_3	set2 IncL/M not retained by Mash filter: 97,576 bp
+6233_4	set3 patient E18 E. coli
+7077_2	set3 patient E18 S. marcescens
+7088_10	set3 patient E18 C. koseri
+5976_3	set3 patient L01 E. hormaechei
+6067_4	set3 patient L01 K. michiganensis
+6901_4	set3 patient L01 C. freundii
+6888_3	set1 KPC-3 rearranged until Flye 60x
+7419_3	set1 IS26 inversion
+7365_2	set1 IS26-IS6100 copy number
+6057_2	set1 IS26 tandem duplication
+7475_3	set1 chromosomal placement at 40x
+6735_3	set1 insertion at 10-20x
+6737_3	set1 small plasmid
+5305_2	set1 fragmented in all assemblies

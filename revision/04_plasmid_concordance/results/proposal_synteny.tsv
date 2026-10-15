@@ -1,0 +1,28 @@
+plasmid_id	genes	length	rep_type	reason	include
+3989_3	blaOXA-48	97576	IncL/M	3 manual: set2 IncL/M not retained by Mash filter: 97,576 bp	yes
+4704_3	blaVIM-1	102080	rep_cluster_1444	1 representative of 'length_mismatch' (hybracter 60x)	yes
+5305_2	blaVIM-86	225345	IncC,rep_cluster_1254	1 representative of 'fragmented' (flye 60x) | 3 manual: set1 fragmented in all assemblies	yes
+5590_2	blaVIM-1	146452	IncFIB,rep_cluster_1444	1 representative of 'expanded_duplication' (flye 60x)	yes
+5976_3	blaKPC-2	79348	IncN	3 manual: set3 patient L01 E. hormaechei	yes
+6056_2	blaNDM-1	169978	IncC,rep_cluster_1254	1 representative of 'low_identity' (flye 10x)	yes
+6057_2	blaNDM-5	148658	IncFIA,IncFII	1 representative of 'rearranged' (flye 60x) | 3 manual: set1 IS26 tandem duplication	yes
+6067_4	blaKPC-2	79348	IncN	3 manual: set3 patient L01 K. michiganensis	yes
+6233_4	blaOXA-48	68944	IncL/M	3 manual: set3 patient E18 E. coli	yes
+6365_4	blaKPC-2	78021	IncN	3 manual: set2 IncN subcommunity: 78,021 bp	yes
+6520_4	blaVIM-1	59755	IncN	1 representative of 'chimeric' (flye 60x)	yes
+6571_4	blaOXA-48	74309	IncL/M	3 manual: set2 IncL/M subcommunity 1: 74,309 bp	yes
+6669_2	blaKPC-2	64619	IncN	3 manual: set2 IncN subcommunity: 64,619 bp	yes
+6701_4	blaVIM-1	33191	IncN	1 representative of 'truncated' (flye 60x)	yes
+6735_3	blaOXA-48	245139	IncFIB,IncFIC,IncFII	1 representative of 'internal_insertion' (hybracter 60x) | 3 manual: set1 insertion at 10-20x	yes
+6737_3	blaOXA	6141	rep_cluster_1195	2 small plasmid (6141 bp) | 3 manual: set1 small plasmid	yes
+6774_4	blaOXA-48	65499	IncL/M	3 manual: set2 IncL/M subcommunity 1: 65,499 bp	yes
+6817_3	blaKPC-2	79348	IncN	3 manual: set2 IncN subcommunity: 79,348 bp	yes
+6888_3	blaKPC-3	113639	IncFIB,IncFII,rep_cluster_2183	3 manual: set1 KPC-3 rearranged until Flye 60x	yes
+6901_4	blaKPC-2	79348	IncN	3 manual: set3 patient L01 C. freundii	yes
+7077_2	blaOXA-48	68942	IncL/M	3 manual: set3 patient E18 S. marcescens	yes
+7088_10	blaOXA-48	68942	IncL/M	3 manual: set3 patient E18 C. koseri	yes
+7089_5	blaOXA-48	68942	IncL/M	3 manual: set2 IncL/M subcommunity 0: 68,942 bp; set3 patient E18	yes
+7365_2	blaKPC-2	96691	IncN	1 representative of 'internal_deletion' (flye 60x) | 3 manual: set1 IS26-IS6100 copy number	yes
+7419_3	blaKPC-2	78021	IncN	3 manual: set1 IS26 inversion	yes
+7475_3	blaKPC-2	79348	IncN	1 representative of 'on_chromosome_contig' (flye 40x) | 3 manual: set1 chromosomal placement at 40x	yes
+7476_2	blaKPC-2	59489	IncN	3 manual: set2 IncN subcommunity: 59,489 bp	yes

@@ -1,0 +1,1097 @@
+coverage	isolate	assembly_path	mlst_scheme	mlst_st	mlst_alleles
+100x	isolate_5969_PAU61707_barcode0506_100x	polished_fasta_100x/isolate_5969_PAU61707_barcode0506_100x.fasta	cfreundii	-	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17,17,17)
+100x	isolate_5970_FBDPAU_100x	polished_fasta_100x/isolate_5970_FBDPAU_100x.fasta	cfreundii	136	aspC(10);clpX(71);fadD(62);mdh(15);arcA(5);dnaG(9);lysP(50)
+100x	isolate_5976_PAU61707_barcode0910_100x	polished_fasta_100x/isolate_5976_PAU61707_barcode0910_100x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+100x	isolate_6009_PAU61707_barcode1112_100x	polished_fasta_100x/isolate_6009_PAU61707_barcode1112_100x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+100x	isolate_6014_PAU61707_barcode1314_100x	polished_fasta_100x/isolate_6014_PAU61707_barcode1314_100x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+100x	isolate_6056_PAU61707_barcode1718_100x	polished_fasta_100x/isolate_6056_PAU61707_barcode1718_100x.fasta	-	-	
+100x	isolate_6057_PAU61707_barcode1920_100x	polished_fasta_100x/isolate_6057_PAU61707_barcode1920_100x.fasta	ecoli_achtman_4	648	adk(92);fumC(4);gyrB(87);icd(96);mdh(70);purA(58);recA(2)
+100x	isolate_6067_PAUPAY_100x	polished_fasta_100x/isolate_6067_PAUPAY_100x.fasta	koxytoca	44	gapA(3);infB(14);mdh(22);pgi(21);phoE(25);rpoB(17);tonB(21)
+100x	isolate_6233_FAY24367_barcode0410_100x	polished_fasta_100x/isolate_6233_FAY24367_barcode0410_100x.fasta	ecoli_achtman_4	2524	adk(10);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(2)
+100x	isolate_6243_FAY24367_barcode0107_100x	polished_fasta_100x/isolate_6243_FAY24367_barcode0107_100x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+100x	isolate_6244_PAU61707_barcode2526_100x	polished_fasta_100x/isolate_6244_PAU61707_barcode2526_100x.fasta	klebsiella	231	gapA(2);infB(6);mdh(1);pgi(3);phoE(26);rpoB(1);tonB(77)
+100x	isolate_6247_PAU61707_barcode2728_100x	polished_fasta_100x/isolate_6247_PAU61707_barcode2728_100x.fasta	ecoli_achtman_4	44	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(7)
+100x	isolate_6287_PAU61707_barcode2930_100x	polished_fasta_100x/isolate_6287_PAU61707_barcode2930_100x.fasta	klebsiella	3506	gapA(18);infB(22);mdh(56);pgi(61);phoE(234);rpoB(20);tonB(169)
+100x	isolate_6312_PAU61707_barcode3132_100x	polished_fasta_100x/isolate_6312_PAU61707_barcode3132_100x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+100x	isolate_6365_PAU61707_barcode3334_100x	polished_fasta_100x/isolate_6365_PAU61707_barcode3334_100x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+100x	isolate_6394_PAU61707_barcode3536_100x	polished_fasta_100x/isolate_6394_PAU61707_barcode3536_100x.fasta	klebsiella	874	gapA(4);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(22)
+100x	isolate_6403_PAU61707_barcode3738_100x	polished_fasta_100x/isolate_6403_PAU61707_barcode3738_100x.fasta	ecoli_achtman_4	167	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(13);recA(2)
+100x	isolate_6433_PAU61707_barcode3940_100x	polished_fasta_100x/isolate_6433_PAU61707_barcode3940_100x.fasta	-	-	
+100x	isolate_6455_PAUPAY_100x	polished_fasta_100x/isolate_6455_PAUPAY_100x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+100x	isolate_6466_PAU61707_barcode4546_100x	polished_fasta_100x/isolate_6466_PAU61707_barcode4546_100x.fasta	ecoli_achtman_4	448	adk(6);fumC(6);gyrB(5);icd(16);mdh(11);purA(8);recA(7)
+100x	isolate_6482_FAYFAY_100x	polished_fasta_100x/isolate_6482_FAYFAY_100x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+100x	isolate_6500_PAU61707_barcode5152_100x	polished_fasta_100x/isolate_6500_PAU61707_barcode5152_100x.fasta	klebsiella	512	gapA(54);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+100x	isolate_6520_PAU61707_barcode5354_100x	polished_fasta_100x/isolate_6520_PAU61707_barcode5354_100x.fasta	klebsiella	20	gapA(2);infB(3);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+100x	isolate_6567_PAU61707_barcode5758_100x	polished_fasta_100x/isolate_6567_PAU61707_barcode5758_100x.fasta	koxytoca	-	gapA(~31);infB(47);mdh(~65);pgi(37?);phoE(~93);rpoB(44);tonB(40?)
+100x	isolate_6571_PAU61707_barcode5556_100x	polished_fasta_100x/isolate_6571_PAU61707_barcode5556_100x.fasta			
+100x	isolate_6670_PAU61707_barcode6364_100x	polished_fasta_100x/isolate_6670_PAU61707_barcode6364_100x.fasta			
+100x	isolate_6701_PAU61707_barcode6566_100x	polished_fasta_100x/isolate_6701_PAU61707_barcode6566_100x.fasta			
+100x	isolate_6712_FAY24367_barcode0309_100x	polished_fasta_100x/isolate_6712_FAY24367_barcode0309_100x.fasta			
+100x	isolate_6726_PAYPAU_100x	polished_fasta_100x/isolate_6726_PAYPAU_100x.fasta			
+100x	isolate_6735_PAU61707_barcode6970_100x	polished_fasta_100x/isolate_6735_PAU61707_barcode6970_100x.fasta			
+100x	isolate_6737_FBD_PAU_PAY_100x	polished_fasta_100x/isolate_6737_FBD_PAU_PAY_100x.fasta			
+100x	isolate_3989_FAY64384_barcode1016_100x	polished_fasta_100x/isolate_3989_FAY64384_barcode1016_100x.fasta			
+100x	isolate_6776_PAUPAY_100x	polished_fasta_100x/isolate_6776_PAUPAY_100x.fasta			
+100x	isolate_4704_FAY64384_barcode1218_100x	polished_fasta_100x/isolate_4704_FAY64384_barcode1218_100x.fasta			
+100x	isolate_6779_FBDPAU_100x	polished_fasta_100x/isolate_6779_FBDPAU_100x.fasta			
+100x	isolate_4838_FAY34264_barcode01_100x	polished_fasta_100x/isolate_4838_FAY34264_barcode01_100x.fasta			
+100x	isolate_6795_PAUPAY_100x	polished_fasta_100x/isolate_6795_PAUPAY_100x.fasta			
+100x	isolate_5244_FAYFAY_100x	polished_fasta_100x/isolate_5244_FAYFAY_100x.fasta			
+100x	isolate_6797_PAU61707_barcode8990_100x	polished_fasta_100x/isolate_6797_PAU61707_barcode8990_100x.fasta			
+100x	isolate_5399_FAYFAY_100x	polished_fasta_100x/isolate_5399_FAYFAY_100x.fasta			
+100x	isolate_6813_PAU61707_barcode9192_100x	polished_fasta_100x/isolate_6813_PAU61707_barcode9192_100x.fasta			
+100x	isolate_5590_FAX65952_barcode1622_100x	polished_fasta_100x/isolate_5590_FAX65952_barcode1622_100x.fasta			
+100x	isolate_6817_PAUPAY_100x	polished_fasta_100x/isolate_6817_PAUPAY_100x.fasta			
+100x	isolate_5860_PAU61707_barcode0102_100x	polished_fasta_100x/isolate_5860_PAU61707_barcode0102_100x.fasta			
+100x	isolate_6838_PAU61707_barcode9596_100x	polished_fasta_100x/isolate_6838_PAU61707_barcode9596_100x.fasta			
+100x	isolate_5871_PAU61707_barcode0304_100x	polished_fasta_100x/isolate_5871_PAU61707_barcode0304_100x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+100x	isolate_6888_PAY37630_barcode9394_100x	polished_fasta_100x/isolate_6888_PAY37630_barcode9394_100x.fasta			
+100x	isolate_6900_PAY37630_barcode2324_100x	polished_fasta_100x/isolate_6900_PAY37630_barcode2324_100x.fasta			
+100x	isolate_6901_FBC05034_barcode0910_100x	polished_fasta_100x/isolate_6901_FBC05034_barcode0910_100x.fasta			
+100x	isolate_6951_PAY37630_barcode2728_100x	polished_fasta_100x/isolate_6951_PAY37630_barcode2728_100x.fasta			
+100x	isolate_7084_PAY37630_barcode3940_100x	polished_fasta_100x/isolate_7084_PAY37630_barcode3940_100x.fasta			
+100x	isolate_7085_FAY29226_barcode07_100x	polished_fasta_100x/isolate_7085_FAY29226_barcode07_100x.fasta			
+100x	isolate_7089_FAXFAY_100x	polished_fasta_100x/isolate_7089_FAXFAY_100x.fasta			
+100x	isolate_7092_FBCPAY_100x	polished_fasta_100x/isolate_7092_FBCPAY_100x.fasta			
+100x	isolate_7176_PAY37630_barcode4546_100x	polished_fasta_100x/isolate_7176_PAY37630_barcode4546_100x.fasta			
+100x	isolate_7181_PAY37630_barcode4748_100x	polished_fasta_100x/isolate_7181_PAY37630_barcode4748_100x.fasta			
+100x	isolate_7221_PAY37630_barcode4950_100x	polished_fasta_100x/isolate_7221_PAY37630_barcode4950_100x.fasta			
+100x	isolate_7243_PAY37630_barcode5152_100x	polished_fasta_100x/isolate_7243_PAY37630_barcode5152_100x.fasta			
+100x	isolate_7273_FBCPAY_100x	polished_fasta_100x/isolate_7273_FBCPAY_100x.fasta			
+100x	isolate_7285_PAY37630_barcode5556_100x	polished_fasta_100x/isolate_7285_PAY37630_barcode5556_100x.fasta			
+100x	isolate_7316_PAY37630_barcode5960_100x	polished_fasta_100x/isolate_7316_PAY37630_barcode5960_100x.fasta			
+100x	isolate_7369_PAY37630_barcode6364_100x	polished_fasta_100x/isolate_7369_PAY37630_barcode6364_100x.fasta			
+100x	isolate_7370_PAY37630_barcode6566_100x	polished_fasta_100x/isolate_7370_PAY37630_barcode6566_100x.fasta			
+100x	isolate_7387_FBCFBD_100x	polished_fasta_100x/isolate_7387_FBCFBD_100x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+100x	isolate_7397_PAY37630_barcode7172_100x	polished_fasta_100x/isolate_7397_PAY37630_barcode7172_100x.fasta	klebsiella	2096	gapA(1);infB(6);mdh(1);pgi(1);phoE(1);rpoB(46);tonB(1)
+100x	isolate_7454_PAY37630_barcode7778_100x	polished_fasta_100x/isolate_7454_PAY37630_barcode7778_100x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+100x	isolate_7488_FBC05034_barcode2324_100x	polished_fasta_100x/isolate_7488_FBC05034_barcode2324_100x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+100x	isolate_6571_PAU61707_barcode5556_100x	polished_fasta_100x/isolate_6571_PAU61707_barcode5556_100x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+100x	isolate_6670_PAU61707_barcode6364_100x	polished_fasta_100x/isolate_6670_PAU61707_barcode6364_100x.fasta	cfreundii	396	aspC(16);clpX(12);fadD(70);mdh(15);arcA(88);dnaG(6);lysP(50)
+100x	isolate_6701_PAU61707_barcode6566_100x	polished_fasta_100x/isolate_6701_PAU61707_barcode6566_100x.fasta	koxytoca	151	gapA(3);infB(5);mdh(21);pgi(13);phoE(20);rpoB(6);tonB(12)
+100x	isolate_6712_FAY24367_barcode0309_100x	polished_fasta_100x/isolate_6712_FAY24367_barcode0309_100x.fasta	ecoli_achtman_4	224	adk(6);fumC(4);gyrB(33);icd(16);mdh(11);purA(8);recA(6)
+100x	isolate_6726_PAYPAU_100x	polished_fasta_100x/isolate_6726_PAYPAU_100x.fasta	klebsiella	258	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+100x	isolate_6735_PAU61707_barcode6970_100x	polished_fasta_100x/isolate_6735_PAU61707_barcode6970_100x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+100x	isolate_6737_FBD_PAU_PAY_100x	polished_fasta_100x/isolate_6737_FBD_PAU_PAY_100x.fasta	klebsiella	395	gapA(3);infB(1);mdh(2);pgi(4);phoE(1);rpoB(1);tonB(4)
+100x	isolate_3989_FAY64384_barcode1016_100x	polished_fasta_100x/isolate_3989_FAY64384_barcode1016_100x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+100x	isolate_6776_PAUPAY_100x	polished_fasta_100x/isolate_6776_PAUPAY_100x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+100x	isolate_4704_FAY64384_barcode1218_100x	polished_fasta_100x/isolate_4704_FAY64384_barcode1218_100x.fasta	cfreundii	-	aspC(10);clpX(~51);fadD(14);mdh(15);arcA(5);dnaG(11);lysP(11)
+100x	isolate_6779_FBDPAU_100x	polished_fasta_100x/isolate_6779_FBDPAU_100x.fasta	kaerogenes	379	dnaA(60);fusA(2);gyrB(7);leuS(25);pryG(2);rplB(2);rpoB(2)
+100x	isolate_4838_FAY34264_barcode01_100x	polished_fasta_100x/isolate_4838_FAY34264_barcode01_100x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+100x	isolate_6795_PAUPAY_100x	polished_fasta_100x/isolate_6795_PAUPAY_100x.fasta	cfreundii	-	aspC(223);clpX(~152);fadD(281);mdh(~229);arcA(75);dnaG(185);lysP(187)
+100x	isolate_5244_FAYFAY_100x	polished_fasta_100x/isolate_5244_FAYFAY_100x.fasta	klebsiella	17	gapA(2);infB(1);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+100x	isolate_6797_PAU61707_barcode8990_100x	polished_fasta_100x/isolate_6797_PAU61707_barcode8990_100x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+100x	isolate_5399_FAYFAY_100x	polished_fasta_100x/isolate_5399_FAYFAY_100x.fasta	ecoli_achtman_4	-	adk(10);fumC(11);gyrB(4);icd(8);mdh(92);purA(~8);recA(2)
+100x	isolate_6813_PAU61707_barcode9192_100x	polished_fasta_100x/isolate_6813_PAU61707_barcode9192_100x.fasta	-	-	
+100x	isolate_5590_FAX65952_barcode1622_100x	polished_fasta_100x/isolate_5590_FAX65952_barcode1622_100x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+100x	isolate_6817_PAUPAY_100x	polished_fasta_100x/isolate_6817_PAUPAY_100x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+100x	isolate_5860_PAU61707_barcode0102_100x	polished_fasta_100x/isolate_5860_PAU61707_barcode0102_100x.fasta	klebsiella	11	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(4)
+100x	isolate_6838_PAU61707_barcode9596_100x	polished_fasta_100x/isolate_6838_PAU61707_barcode9596_100x.fasta	ecoli_achtman_4	101	adk(43);fumC(41);gyrB(15);icd(18);mdh(11);purA(7);recA(6)
+100x	isolate_6888_PAY37630_barcode9394_100x	polished_fasta_100x/isolate_6888_PAY37630_barcode9394_100x.fasta	klebsiella	976	gapA(2);infB(3);mdh(108);pgi(26);phoE(3);rpoB(4);tonB(64)
+100x	isolate_6900_PAY37630_barcode2324_100x	polished_fasta_100x/isolate_6900_PAY37630_barcode2324_100x.fasta	cfreundii	534	aspC(9);clpX(11);fadD(205);mdh(95);arcA(47);dnaG(8);lysP(172)
+100x	isolate_6901_FBC05034_barcode0910_100x	polished_fasta_100x/isolate_6901_FBC05034_barcode0910_100x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+100x	isolate_6951_PAY37630_barcode2728_100x	polished_fasta_100x/isolate_6951_PAY37630_barcode2728_100x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+100x	isolate_7084_PAY37630_barcode3940_100x	polished_fasta_100x/isolate_7084_PAY37630_barcode3940_100x.fasta	ecloacae	595	dnaA(80);fusA(55);gyrB(92);leuS(72);pyrG(169);rplB(12);rpoB(26)
+100x	isolate_7085_FAY29226_barcode07_100x	polished_fasta_100x/isolate_7085_FAY29226_barcode07_100x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+100x	isolate_7089_FAXFAY_100x	polished_fasta_100x/isolate_7089_FAXFAY_100x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+100x	isolate_7092_FBCPAY_100x	polished_fasta_100x/isolate_7092_FBCPAY_100x.fasta	klebsiella	-	gapA(3);infB(~144);mdh(1);pgi(1);phoE(1,7);rpoB(1);tonB(31)
+100x	isolate_7176_PAY37630_barcode4546_100x	polished_fasta_100x/isolate_7176_PAY37630_barcode4546_100x.fasta	klebsiella	273	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(4)
+100x	isolate_7181_PAY37630_barcode4748_100x	polished_fasta_100x/isolate_7181_PAY37630_barcode4748_100x.fasta	klebsiella	3430	gapA(2);infB(3);mdh(2);pgi(6);phoE(1);rpoB(4);tonB(12)
+100x	isolate_7221_PAY37630_barcode4950_100x	polished_fasta_100x/isolate_7221_PAY37630_barcode4950_100x.fasta	ecoli_achtman_4	361	adk(10);fumC(99);gyrB(5);icd(91);mdh(8);purA(7);recA(2)
+100x	isolate_7243_PAY37630_barcode5152_100x	polished_fasta_100x/isolate_7243_PAY37630_barcode5152_100x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+100x	isolate_7273_FBCPAY_100x	polished_fasta_100x/isolate_7273_FBCPAY_100x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+100x	isolate_7285_PAY37630_barcode5556_100x	polished_fasta_100x/isolate_7285_PAY37630_barcode5556_100x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+100x	isolate_7316_PAY37630_barcode5960_100x	polished_fasta_100x/isolate_7316_PAY37630_barcode5960_100x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+100x	isolate_7369_PAY37630_barcode6364_100x	polished_fasta_100x/isolate_7369_PAY37630_barcode6364_100x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+100x	isolate_7370_PAY37630_barcode6566_100x	polished_fasta_100x/isolate_7370_PAY37630_barcode6566_100x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+10x	isolate_4704_FAY64384_barcode1218_10x	polished_fasta_10x/isolate_4704_FAY64384_barcode1218_10x.fasta			
+10x	isolate_4838_FAY34264_barcode01_10x	polished_fasta_10x/isolate_4838_FAY34264_barcode01_10x.fasta			
+10x	isolate_4920_FAYFAX_10x	polished_fasta_10x/isolate_4920_FAYFAX_10x.fasta			
+10x	isolate_5244_FAYFAY_10x	polished_fasta_10x/isolate_5244_FAYFAY_10x.fasta			
+10x	isolate_5305_FAY24367_barcode0612_10x	polished_fasta_10x/isolate_5305_FAY24367_barcode0612_10x.fasta			
+10x	isolate_5399_FAYFAY_10x	polished_fasta_10x/isolate_5399_FAYFAY_10x.fasta			
+10x	isolate_5590_FAX65952_barcode1622_10x	polished_fasta_10x/isolate_5590_FAX65952_barcode1622_10x.fasta			
+10x	isolate_5860_PAU61707_barcode0102_10x	polished_fasta_10x/isolate_5860_PAU61707_barcode0102_10x.fasta			
+10x	isolate_5871_PAU61707_barcode0304_10x	polished_fasta_10x/isolate_5871_PAU61707_barcode0304_10x.fasta			
+10x	isolate_5969_PAU61707_barcode0506_10x	polished_fasta_10x/isolate_5969_PAU61707_barcode0506_10x.fasta			
+10x	isolate_5970_FBDPAU_10x	polished_fasta_10x/isolate_5970_FBDPAU_10x.fasta			
+10x	isolate_5976_PAU61707_barcode0910_10x	polished_fasta_10x/isolate_5976_PAU61707_barcode0910_10x.fasta			
+10x	isolate_6009_PAU61707_barcode1112_10x	polished_fasta_10x/isolate_6009_PAU61707_barcode1112_10x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+10x	isolate_6014_PAU61707_barcode1314_10x	polished_fasta_10x/isolate_6014_PAU61707_barcode1314_10x.fasta			
+10x	isolate_6035_PAU61707_barcode1516_10x	polished_fasta_10x/isolate_6035_PAU61707_barcode1516_10x.fasta			
+10x	isolate_6056_PAU61707_barcode1718_10x	polished_fasta_10x/isolate_6056_PAU61707_barcode1718_10x.fasta			
+10x	isolate_6057_PAU61707_barcode1920_10x	polished_fasta_10x/isolate_6057_PAU61707_barcode1920_10x.fasta			
+10x	isolate_6067_PAUPAY_10x	polished_fasta_10x/isolate_6067_PAUPAY_10x.fasta			
+10x	isolate_6068_PAU61707_barcode2324_10x	polished_fasta_10x/isolate_6068_PAU61707_barcode2324_10x.fasta			
+10x	isolate_6233_FAY24367_barcode0410_10x	polished_fasta_10x/isolate_6233_FAY24367_barcode0410_10x.fasta			
+10x	isolate_6243_FAY24367_barcode0107_10x	polished_fasta_10x/isolate_6243_FAY24367_barcode0107_10x.fasta			
+10x	isolate_6244_PAU61707_barcode2526_10x	polished_fasta_10x/isolate_6244_PAU61707_barcode2526_10x.fasta			
+10x	isolate_6247_PAU61707_barcode2728_10x	polished_fasta_10x/isolate_6247_PAU61707_barcode2728_10x.fasta			
+10x	isolate_6287_PAU61707_barcode2930_10x	polished_fasta_10x/isolate_6287_PAU61707_barcode2930_10x.fasta			
+10x	isolate_6312_PAU61707_barcode3132_10x	polished_fasta_10x/isolate_6312_PAU61707_barcode3132_10x.fasta			
+10x	isolate_6365_PAU61707_barcode3334_10x	polished_fasta_10x/isolate_6365_PAU61707_barcode3334_10x.fasta			
+10x	isolate_6378_FAY24367_barcode0511_10x	polished_fasta_10x/isolate_6378_FAY24367_barcode0511_10x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+10x	isolate_6394_PAU61707_barcode3536_10x	polished_fasta_10x/isolate_6394_PAU61707_barcode3536_10x.fasta			
+10x	isolate_6403_PAU61707_barcode3738_10x	polished_fasta_10x/isolate_6403_PAU61707_barcode3738_10x.fasta			
+10x	isolate_6433_PAU61707_barcode3940_10x	polished_fasta_10x/isolate_6433_PAU61707_barcode3940_10x.fasta			
+10x	isolate_6454_PAU61707_barcode4142_10x	polished_fasta_10x/isolate_6454_PAU61707_barcode4142_10x.fasta			
+10x	isolate_6455_PAUPAY_10x	polished_fasta_10x/isolate_6455_PAUPAY_10x.fasta			
+10x	isolate_6466_PAU61707_barcode4546_10x	polished_fasta_10x/isolate_6466_PAU61707_barcode4546_10x.fasta			
+10x	isolate_6472_PAU61707_barcode4748_10x	polished_fasta_10x/isolate_6472_PAU61707_barcode4748_10x.fasta			
+10x	isolate_6482_FAYFAY_10x	polished_fasta_10x/isolate_6482_FAYFAY_10x.fasta			
+10x	isolate_6500_PAU61707_barcode5152_10x	polished_fasta_10x/isolate_6500_PAU61707_barcode5152_10x.fasta			
+10x	isolate_6520_PAU61707_barcode5354_10x	polished_fasta_10x/isolate_6520_PAU61707_barcode5354_10x.fasta			
+10x	isolate_6567_PAU61707_barcode5758_10x	polished_fasta_10x/isolate_6567_PAU61707_barcode5758_10x.fasta			
+10x	isolate_6571_PAU61707_barcode5556_10x	polished_fasta_10x/isolate_6571_PAU61707_barcode5556_10x.fasta			
+10x	isolate_6601_PAU61707_barcode5960_10x	polished_fasta_10x/isolate_6601_PAU61707_barcode5960_10x.fasta			
+10x	isolate_6623_FBDPAY_10x	polished_fasta_10x/isolate_6623_FBDPAY_10x.fasta			
+10x	isolate_6669_PAU61707_barcode6162_10x	polished_fasta_10x/isolate_6669_PAU61707_barcode6162_10x.fasta			
+10x	isolate_6670_PAU61707_barcode6364_10x	polished_fasta_10x/isolate_6670_PAU61707_barcode6364_10x.fasta			
+10x	isolate_6701_PAU61707_barcode6566_10x	polished_fasta_10x/isolate_6701_PAU61707_barcode6566_10x.fasta			
+10x	isolate_6711_FAY24367_barcode0208_10x	polished_fasta_10x/isolate_6711_FAY24367_barcode0208_10x.fasta			
+10x	isolate_6712_FAY24367_barcode0309_10x	polished_fasta_10x/isolate_6712_FAY24367_barcode0309_10x.fasta	ecoli_achtman_4	224	adk(6);fumC(4);gyrB(33);icd(16);mdh(11);purA(8);recA(6)
+10x	isolate_6726_PAYPAU_10x	polished_fasta_10x/isolate_6726_PAYPAU_10x.fasta			
+10x	isolate_6735_PAU61707_barcode6970_10x	polished_fasta_10x/isolate_6735_PAU61707_barcode6970_10x.fasta			
+10x	isolate_6737_FBD_PAU_PAY_10x	polished_fasta_10x/isolate_6737_FBD_PAU_PAY_10x.fasta			
+10x	isolate_6738_FBCPAUPAY_10x	polished_fasta_10x/isolate_6738_FBCPAUPAY_10x.fasta			
+10x	isolate_6748_PAU61707_barcode7576_10x	polished_fasta_10x/isolate_6748_PAU61707_barcode7576_10x.fasta			
+10x	isolate_6774_PAU61707_barcode7778_10x	polished_fasta_10x/isolate_6774_PAU61707_barcode7778_10x.fasta			
+10x	isolate_6775_PAUPAY_10x	polished_fasta_10x/isolate_6775_PAUPAY_10x.fasta			
+10x	isolate_6776_PAUPAY_10x	polished_fasta_10x/isolate_6776_PAUPAY_10x.fasta			
+10x	isolate_6779_FBDPAU_10x	polished_fasta_10x/isolate_6779_FBDPAU_10x.fasta			
+10x	isolate_6795_PAUPAY_10x	polished_fasta_10x/isolate_6795_PAUPAY_10x.fasta			
+10x	isolate_6797_PAU61707_barcode8990_10x	polished_fasta_10x/isolate_6797_PAU61707_barcode8990_10x.fasta			
+10x	isolate_6813_PAU61707_barcode9192_10x	polished_fasta_10x/isolate_6813_PAU61707_barcode9192_10x.fasta			
+10x	isolate_6817_PAUPAY_10x	polished_fasta_10x/isolate_6817_PAUPAY_10x.fasta			
+10x	isolate_6838_PAU61707_barcode9596_10x	polished_fasta_10x/isolate_6838_PAU61707_barcode9596_10x.fasta			
+10x	isolate_6855_PAY37630_barcode1920_10x	polished_fasta_10x/isolate_6855_PAY37630_barcode1920_10x.fasta			
+10x	isolate_6856_FBCPAY_10x	polished_fasta_10x/isolate_6856_FBCPAY_10x.fasta			
+10x	isolate_6888_PAY37630_barcode9394_10x	polished_fasta_10x/isolate_6888_PAY37630_barcode9394_10x.fasta			
+10x	isolate_6900_PAY37630_barcode2324_10x	polished_fasta_10x/isolate_6900_PAY37630_barcode2324_10x.fasta			
+10x	isolate_6901_FBC05034_barcode0910_10x	polished_fasta_10x/isolate_6901_FBC05034_barcode0910_10x.fasta			
+10x	isolate_6951_PAY37630_barcode2728_10x	polished_fasta_10x/isolate_6951_PAY37630_barcode2728_10x.fasta			
+10x	isolate_6970_PAY37630_barcode2930_10x	polished_fasta_10x/isolate_6970_PAY37630_barcode2930_10x.fasta			
+10x	isolate_6989_FBCFBDPAY_10x	polished_fasta_10x/isolate_6989_FBCFBDPAY_10x.fasta			
+10x	isolate_7067_PAY37630_barcode3334_10x	polished_fasta_10x/isolate_7067_PAY37630_barcode3334_10x.fasta			
+10x	isolate_7077_PAY37630_barcode3536_10x	polished_fasta_10x/isolate_7077_PAY37630_barcode3536_10x.fasta			
+10x	isolate_7083_PAY37630_barcode3738_10x	polished_fasta_10x/isolate_7083_PAY37630_barcode3738_10x.fasta			
+10x	isolate_7084_PAY37630_barcode3940_10x	polished_fasta_10x/isolate_7084_PAY37630_barcode3940_10x.fasta			
+10x	isolate_7085_FAY29226_barcode07_10x	polished_fasta_10x/isolate_7085_FAY29226_barcode07_10x.fasta			
+10x	isolate_7088_FAX65952_barcode1319_10x	polished_fasta_10x/isolate_7088_FAX65952_barcode1319_10x.fasta			
+10x	isolate_7089_FAXFAY_10x	polished_fasta_10x/isolate_7089_FAXFAY_10x.fasta			
+10x	isolate_7090_FAXFBD_10x	polished_fasta_10x/isolate_7090_FAXFBD_10x.fasta			
+10x	isolate_7092_FBCPAY_10x	polished_fasta_10x/isolate_7092_FBCPAY_10x.fasta			
+10x	isolate_7106_PAY37630_barcode4344_10x	polished_fasta_10x/isolate_7106_PAY37630_barcode4344_10x.fasta			
+10x	isolate_7136_PAY37630_barcode7980_10x	polished_fasta_10x/isolate_7136_PAY37630_barcode7980_10x.fasta			
+10x	isolate_7176_PAY37630_barcode4546_10x	polished_fasta_10x/isolate_7176_PAY37630_barcode4546_10x.fasta			
+10x	isolate_7181_PAY37630_barcode4748_10x	polished_fasta_10x/isolate_7181_PAY37630_barcode4748_10x.fasta			
+10x	isolate_7221_PAY37630_barcode4950_10x	polished_fasta_10x/isolate_7221_PAY37630_barcode4950_10x.fasta			
+10x	isolate_7243_PAY37630_barcode5152_10x	polished_fasta_10x/isolate_7243_PAY37630_barcode5152_10x.fasta			
+10x	isolate_7273_FBCPAY_10x	polished_fasta_10x/isolate_7273_FBCPAY_10x.fasta			
+10x	isolate_7285_PAY37630_barcode5556_10x	polished_fasta_10x/isolate_7285_PAY37630_barcode5556_10x.fasta			
+10x	isolate_7310_PAY37630_barcode5758_10x	polished_fasta_10x/isolate_7310_PAY37630_barcode5758_10x.fasta			
+10x	isolate_7316_PAY37630_barcode5960_10x	polished_fasta_10x/isolate_7316_PAY37630_barcode5960_10x.fasta			
+10x	isolate_7365_PAY37630_barcode6162_10x	polished_fasta_10x/isolate_7365_PAY37630_barcode6162_10x.fasta			
+10x	isolate_7369_PAY37630_barcode6364_10x	polished_fasta_10x/isolate_7369_PAY37630_barcode6364_10x.fasta			
+10x	isolate_7370_PAY37630_barcode6566_10x	polished_fasta_10x/isolate_7370_PAY37630_barcode6566_10x.fasta			
+10x	isolate_7387_FBCFBD_10x	polished_fasta_10x/isolate_7387_FBCFBD_10x.fasta			
+10x	isolate_7397_PAY37630_barcode7172_10x	polished_fasta_10x/isolate_7397_PAY37630_barcode7172_10x.fasta			
+10x	isolate_7418_PAY37630_barcode7374_10x	polished_fasta_10x/isolate_7418_PAY37630_barcode7374_10x.fasta			
+10x	isolate_7419_FBCPAY_10x	polished_fasta_10x/isolate_7419_FBCPAY_10x.fasta			
+10x	isolate_7454_PAY37630_barcode7778_10x	polished_fasta_10x/isolate_7454_PAY37630_barcode7778_10x.fasta			
+10x	isolate_7475_PAY37630_barcode8182_10x	polished_fasta_10x/isolate_7475_PAY37630_barcode8182_10x.fasta			
+10x	isolate_7476_PAY37630_barcode8384_10x	polished_fasta_10x/isolate_7476_PAY37630_barcode8384_10x.fasta			
+10x	isolate_7488_FBC05034_barcode2324_10x	polished_fasta_10x/isolate_7488_FBC05034_barcode2324_10x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+10x	isolate_7521_FAX65952_barcode1824_10x	polished_fasta_10x/isolate_7521_FAX65952_barcode1824_10x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+10x	isolate_4704_FAY64384_barcode1218_10x	polished_fasta_10x/isolate_4704_FAY64384_barcode1218_10x.fasta	cfreundii	-	aspC(10);clpX(~51);fadD(14);mdh(15);arcA(5);dnaG(11);lysP(11)
+10x	isolate_4838_FAY34264_barcode01_10x	polished_fasta_10x/isolate_4838_FAY34264_barcode01_10x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+10x	isolate_4920_FAYFAX_10x	polished_fasta_10x/isolate_4920_FAYFAX_10x.fasta	klebsiella	-	gapA(10);infB(7);mdh(1);pgi(1);phoE(1);rpoB(67);tonB(~35)
+10x	isolate_5244_FAYFAY_10x	polished_fasta_10x/isolate_5244_FAYFAY_10x.fasta	klebsiella	17	gapA(2);infB(1);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+10x	isolate_5305_FAY24367_barcode0612_10x	polished_fasta_10x/isolate_5305_FAY24367_barcode0612_10x.fasta	-	-	
+10x	isolate_5399_FAYFAY_10x	polished_fasta_10x/isolate_5399_FAYFAY_10x.fasta	ecoli_achtman_4	-	adk(10);fumC(11);gyrB(4);icd(8);mdh(92);purA(~8);recA(2)
+10x	isolate_5590_FAX65952_barcode1622_10x	polished_fasta_10x/isolate_5590_FAX65952_barcode1622_10x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+10x	isolate_5860_PAU61707_barcode0102_10x	polished_fasta_10x/isolate_5860_PAU61707_barcode0102_10x.fasta	klebsiella	11	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(4)
+10x	isolate_5871_PAU61707_barcode0304_10x	polished_fasta_10x/isolate_5871_PAU61707_barcode0304_10x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+10x	isolate_5969_PAU61707_barcode0506_10x	polished_fasta_10x/isolate_5969_PAU61707_barcode0506_10x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+10x	isolate_5970_FBDPAU_10x	polished_fasta_10x/isolate_5970_FBDPAU_10x.fasta	cfreundii	-	aspC(10);clpX(~71);fadD(62);mdh(15);arcA(5);dnaG(9);lysP(50)
+10x	isolate_5976_PAU61707_barcode0910_10x	polished_fasta_10x/isolate_5976_PAU61707_barcode0910_10x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+10x	isolate_6014_PAU61707_barcode1314_10x	polished_fasta_10x/isolate_6014_PAU61707_barcode1314_10x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+10x	isolate_6035_PAU61707_barcode1516_10x	polished_fasta_10x/isolate_6035_PAU61707_barcode1516_10x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+10x	isolate_6056_PAU61707_barcode1718_10x	polished_fasta_10x/isolate_6056_PAU61707_barcode1718_10x.fasta	-	-	
+10x	isolate_6057_PAU61707_barcode1920_10x	polished_fasta_10x/isolate_6057_PAU61707_barcode1920_10x.fasta	ecoli_achtman_4	-	adk(92);fumC(4);gyrB(87?);icd(96);mdh(70);purA(58);recA(2)
+10x	isolate_6067_PAUPAY_10x	polished_fasta_10x/isolate_6067_PAUPAY_10x.fasta	koxytoca	-	gapA(3);infB(14?);mdh(22);pgi(21);phoE(25);rpoB(17);tonB(21)
+10x	isolate_6068_PAU61707_barcode2324_10x	polished_fasta_10x/isolate_6068_PAU61707_barcode2324_10x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+10x	isolate_6233_FAY24367_barcode0410_10x	polished_fasta_10x/isolate_6233_FAY24367_barcode0410_10x.fasta	ecoli_achtman_4	-	adk(10);fumC(7);gyrB(~1);icd(8);mdh(8);purA(8);recA(2)
+10x	isolate_6243_FAY24367_barcode0107_10x	polished_fasta_10x/isolate_6243_FAY24367_barcode0107_10x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+10x	isolate_6244_PAU61707_barcode2526_10x	polished_fasta_10x/isolate_6244_PAU61707_barcode2526_10x.fasta	klebsiella	231	gapA(2);infB(6);mdh(1);pgi(3);phoE(26);rpoB(1);tonB(77)
+10x	isolate_6247_PAU61707_barcode2728_10x	polished_fasta_10x/isolate_6247_PAU61707_barcode2728_10x.fasta	ecoli_achtman_4	44	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(7)
+10x	isolate_6287_PAU61707_barcode2930_10x	polished_fasta_10x/isolate_6287_PAU61707_barcode2930_10x.fasta	klebsiella	3506	gapA(18);infB(22);mdh(56);pgi(61);phoE(234);rpoB(20);tonB(169)
+10x	isolate_6312_PAU61707_barcode3132_10x	polished_fasta_10x/isolate_6312_PAU61707_barcode3132_10x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+10x	isolate_6365_PAU61707_barcode3334_10x	polished_fasta_10x/isolate_6365_PAU61707_barcode3334_10x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+10x	isolate_6394_PAU61707_barcode3536_10x	polished_fasta_10x/isolate_6394_PAU61707_barcode3536_10x.fasta	klebsiella	874	gapA(4);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(22)
+10x	isolate_6403_PAU61707_barcode3738_10x	polished_fasta_10x/isolate_6403_PAU61707_barcode3738_10x.fasta	ecoli_achtman_4	167	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(13);recA(2)
+10x	isolate_6433_PAU61707_barcode3940_10x	polished_fasta_10x/isolate_6433_PAU61707_barcode3940_10x.fasta	-	-	
+10x	isolate_6454_PAU61707_barcode4142_10x	polished_fasta_10x/isolate_6454_PAU61707_barcode4142_10x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+10x	isolate_6455_PAUPAY_10x	polished_fasta_10x/isolate_6455_PAUPAY_10x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+10x	isolate_6466_PAU61707_barcode4546_10x	polished_fasta_10x/isolate_6466_PAU61707_barcode4546_10x.fasta	ecoli_achtman_4	-	adk(6);fumC(1951?);gyrB(5);icd(16);mdh(11);purA(1122?);recA(7)
+10x	isolate_6472_PAU61707_barcode4748_10x	polished_fasta_10x/isolate_6472_PAU61707_barcode4748_10x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+10x	isolate_6482_FAYFAY_10x	polished_fasta_10x/isolate_6482_FAYFAY_10x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+10x	isolate_6500_PAU61707_barcode5152_10x	polished_fasta_10x/isolate_6500_PAU61707_barcode5152_10x.fasta	klebsiella	512	gapA(54);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+10x	isolate_6520_PAU61707_barcode5354_10x	polished_fasta_10x/isolate_6520_PAU61707_barcode5354_10x.fasta	klebsiella	20	gapA(2);infB(3);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+10x	isolate_6567_PAU61707_barcode5758_10x	polished_fasta_10x/isolate_6567_PAU61707_barcode5758_10x.fasta	koxytoca	-	gapA(~31);infB(47);mdh(~65);pgi(37?);phoE(~93);rpoB(44);tonB(40?)
+10x	isolate_6571_PAU61707_barcode5556_10x	polished_fasta_10x/isolate_6571_PAU61707_barcode5556_10x.fasta	cfreundii	-	aspC(15);clpX(12);fadD(20);mdh(15);arcA(~5);dnaG(polished_fasta_10x/isolate_7221_PAY37630_barcode4950_10x.fasta;ecoli_achtman_4;361;adk(10);fumC(99);gyrB(5);icd(91);mdh(8);purA(7);recA(2)
+10x	isolate_6601_PAU61707_barcode5960_10x	polished_fasta_10x/isolate_6601_PAU61707_barcode5960_10x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+10x	isolate_6623_FBDPAY_10x	polished_fasta_10x/isolate_6623_FBDPAY_10x.fasta	ecloacae	461	dnaA(9);fusA(4);gyrB(14);leuS(6);pyrG(37);rplB(4);rpoB(9)
+10x	isolate_6669_PAU61707_barcode6162_10x	polished_fasta_10x/isolate_6669_PAU61707_barcode6162_10x.fasta	klebsiella	462	gapA(2);infB(1);mdh(1);pgi(6);phoE(1);rpoB(4);tonB(12)
+10x	isolate_6670_PAU61707_barcode6364_10x	polished_fasta_10x/isolate_6670_PAU61707_barcode6364_10x.fasta	cfreundii	396	aspC(16);clpX(12);fadD(70);mdh(15);arcA(88);dnaG(6);lysP(50)
+10x	isolate_6701_PAU61707_barcode6566_10x	polished_fasta_10x/isolate_6701_PAU61707_barcode6566_10x.fasta	koxytoca	151	gapA(3);infB(5);mdh(21);pgi(13);phoE(20);rpoB(6);tonB(12)
+10x	isolate_6711_FAY24367_barcode0208_10x	polished_fasta_10x/isolate_6711_FAY24367_barcode0208_10x.fasta	cfreundii	409	aspC(53);clpX(166);fadD(59);mdh(90);arcA(89);dnaG(151);lysP(107)
+10x	isolate_6726_PAYPAU_10x	polished_fasta_10x/isolate_6726_PAYPAU_10x.fasta	klebsiella	258	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+10x	isolate_6735_PAU61707_barcode6970_10x	polished_fasta_10x/isolate_6735_PAU61707_barcode6970_10x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+10x	isolate_6737_FBD_PAU_PAY_10x	polished_fasta_10x/isolate_6737_FBD_PAU_PAY_10x.fasta	klebsiella	-	gapA(3);infB(1);mdh(2);pgi(4);phoE(-);rpoB(1);tonB(129?)
+10x	isolate_6738_FBCPAUPAY_10x	polished_fasta_10x/isolate_6738_FBCPAUPAY_10x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+10x	isolate_6748_PAU61707_barcode7576_10x	polished_fasta_10x/isolate_6748_PAU61707_barcode7576_10x.fasta	ecoli_achtman_4	-	adk(1334?);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+10x	isolate_6774_PAU61707_barcode7778_10x	polished_fasta_10x/isolate_6774_PAU61707_barcode7778_10x.fasta	klebsiella	1653	gapA(4);infB(3);mdh(2);pgi(3);phoE(13);rpoB(1);tonB(9)
+10x	isolate_6775_PAUPAY_10x	polished_fasta_10x/isolate_6775_PAUPAY_10x.fasta	kaerogenes	14	dnaA(12);fusA(5);gyrB(1);leuS(4);pryG(2);rplB(1);rpoB(2)
+10x	isolate_6776_PAUPAY_10x	polished_fasta_10x/isolate_6776_PAUPAY_10x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+10x	isolate_6779_FBDPAU_10x	polished_fasta_10x/isolate_6779_FBDPAU_10x.fasta	kaerogenes	379	dnaA(60);fusA(2);gyrB(7);leuS(25);pryG(2);rplB(2);rpoB(2)
+10x	isolate_6795_PAUPAY_10x	polished_fasta_10x/isolate_6795_PAUPAY_10x.fasta	cfreundii	-	aspC(223);clpX(~152);fadD(281);mdh(~229);arcA(75);dnaG(185);lysP(187)
+10x	isolate_6797_PAU61707_barcode8990_10x	polished_fasta_10x/isolate_6797_PAU61707_barcode8990_10x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+10x	isolate_6813_PAU61707_barcode9192_10x	polished_fasta_10x/isolate_6813_PAU61707_barcode9192_10x.fasta	-	-	
+10x	isolate_6817_PAUPAY_10x	polished_fasta_10x/isolate_6817_PAUPAY_10x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+10x	isolate_6838_PAU61707_barcode9596_10x	polished_fasta_10x/isolate_6838_PAU61707_barcode9596_10x.fasta	ecoli_achtman_4	101	adk(43);fumC(41);gyrB(15);icd(18);mdh(11);purA(7);recA(6)
+10x	isolate_6855_PAY37630_barcode1920_10x	polished_fasta_10x/isolate_6855_PAY37630_barcode1920_10x.fasta	koxytoca	303	gapA(12);infB(29);mdh(20);pgi(21);phoE(40);rpoB(32);tonB(46)
+10x	isolate_6856_FBCPAY_10x	polished_fasta_10x/isolate_6856_FBCPAY_10x.fasta	ecloacae	278	dnaA(59);fusA(9);gyrB(59);leuS(9);pyrG(67);rplB(6);rpoB(6)
+10x	isolate_6888_PAY37630_barcode9394_10x	polished_fasta_10x/isolate_6888_PAY37630_barcode9394_10x.fasta	klebsiella	976	gapA(2);infB(3);mdh(108);pgi(26);phoE(3);rpoB(4);tonB(64)
+10x	isolate_6900_PAY37630_barcode2324_10x	polished_fasta_10x/isolate_6900_PAY37630_barcode2324_10x.fasta	cfreundii	534	aspC(9);clpX(11);fadD(205);mdh(95);arcA(47);dnaG(8);lysP(172)
+10x	isolate_6901_FBC05034_barcode0910_10x	polished_fasta_10x/isolate_6901_FBC05034_barcode0910_10x.fasta	cfreundii	-	aspC(15);clpX(12);fadD(-);mdh(15);arcA(5);dnaG(11);lysP(17)
+10x	isolate_6951_PAY37630_barcode2728_10x	polished_fasta_10x/isolate_6951_PAY37630_barcode2728_10x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+10x	isolate_6970_PAY37630_barcode2930_10x	polished_fasta_10x/isolate_6970_PAY37630_barcode2930_10x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+10x	isolate_6989_FBCFBDPAY_10x	polished_fasta_10x/isolate_6989_FBCFBDPAY_10x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+10x	isolate_7067_PAY37630_barcode3334_10x	polished_fasta_10x/isolate_7067_PAY37630_barcode3334_10x.fasta	ecoli_achtman_4	607	adk(113);fumC(4);gyrB(5);icd(83);mdh(8);purA(8);recA(6)
+10x	isolate_7077_PAY37630_barcode3536_10x	polished_fasta_10x/isolate_7077_PAY37630_barcode3536_10x.fasta	-	-	
+10x	isolate_7083_PAY37630_barcode3738_10x	polished_fasta_10x/isolate_7083_PAY37630_barcode3738_10x.fasta	ecoli_achtman_4	2015	adk(76);fumC(319);gyrB(30);icd(37);mdh(17);purA(10);recA(96)
+10x	isolate_7084_PAY37630_barcode3940_10x	polished_fasta_10x/isolate_7084_PAY37630_barcode3940_10x.fasta	ecloacae	595	dnaA(80);fusA(55);gyrB(92);leuS(72);pyrG(169);rplB(12);rpoB(26)
+10x	isolate_7085_FAY29226_barcode07_10x	polished_fasta_10x/isolate_7085_FAY29226_barcode07_10x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+10x	isolate_7088_FAX65952_barcode1319_10x	polished_fasta_10x/isolate_7088_FAX65952_barcode1319_10x.fasta	cfreundii	-	aspC(253?);clpX(189);fadD(~polished_fasta_10x/isolate_6500_PAU61707_barcopolished_fasta_10x/isolate_7089_FAXFAY_10x.fasta;klebsiella;-;gapA(3);infB(~4);mdh(6);pgpolished_fasta_10x/isolate_706polished_fasta_10x/isolate_7090_FAXFBD_10x.fasta;cfreundii;-;aspC(253?);clpX(189);fadD(~319);mdh(269);arcA(10polished_fasta_10x/isolapolished_fasta_10x/isolate_7092_FBCPAY_10x.fasta;klebsiella;-;gapA(3);infB(3);mdh(1);pgi(~248);phoE(1);rpoBpolished_faspolished_fasta_10x/isolate_7106_PAY37630_barcode4344_10polished_faspolished_fasta_10x/isolate_7136_PAY37630_barcode7980_10x.fasta;klebsiella;16;gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(polpolished_fasta_10x/isolate_7176_PAY37630_barcode4546_10x.fasta;klebsiella;273;gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(4)
+10x	isolate_7243_PAY37630_barcode5152_10x	polished_fasta_10x/isolate_7243_PAY37630_barcode5152_10x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+10x	isolate_7273_FBCPAY_10x	polished_fasta_10x/isolate_7273_FBCPAY_10x.fasta	senterica_achtman_2	-	aroC(621);dnaN(559);hemD(494);hisD(759?);purE(615);sucA(581);thrA(695)
+10x	isolate_7285_PAY37630_barcode5556_10x	polished_fasta_10x/isolate_7285_PAY37630_barcode5556_10x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+10x	isolate_7310_PAY37630_barcode5758_10x	polished_fasta_10x/isolate_7310_PAY37630_barcode5758_10x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+10x	isolate_7316_PAY37630_barcode5960_10x	polished_fasta_10x/isolate_7316_PAY37630_barcode5960_10x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+10x	isolate_7365_PAY37630_barcode6162_10x	polished_fasta_10x/isolate_7365_PAY37630_barcode6162_10x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplBpolished_fastpolished_fasta_10x/isolate_7369_PAY37630_barcode6364_10x.fasta;ecoli_achtman_4;46;adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+10x	isolate_7370_PAY37630_barcode6566_10x	polished_fasta_10x/isolate_7370_PAY37630_barcode6566_10x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+10x	isolate_7387_FBCFBD_10x	polished_fasta_10x/isolate_7387_FBCFBD_10x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+10x	isolate_7397_PAY37630_barcode7172_10x	polished_fasta_10x/isolate_7397_PAY37630_barcode7172_10x.fasta	klebsiella	2096	gapA(1);infB(6);mdh(1);pgi(1);phoE(1);rpoB(46);tonB(1)
+10x	isolate_7418_PAY37630_barcode7374_10x	polished_fasta_10x/isolate_7418_PAY37630_barcode7374_10x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+10x	isolate_7419_FBCPAY_10x	polished_fasta_10x/isolate_7419_FBCPAY_10x.fasta	ecloacae	108	dnaA(68);fusA(8);gyrB(75);leuS(63);pyrG(65);rplB(34);rpoB(35)
+10x	isolate_7454_PAY37630_barcode7778_10x	polished_fasta_10x/isolate_7454_PAY37630_barcode7778_10x.fasta	senterica_achtman_2	-	aroC(-);dnaN(~603);hemD(554);hisD(836);purE(690);sucA(648);thrA(700)
+10x	isolate_7475_PAY37630_barcode8182_10x	polished_fasta_10x/isolate_7475_PAY37630_barcode8182_10x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+10x	isolate_7476_PAY37630_barcode8384_10x	polished_fasta_10x/isolate_7476_PAY37630_barcode8384_10x.fasta	klebsiella	485	gapA(2);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(12)
+20x	isolate_4704_FAY64384_barcode1218_20x	polished_fasta_20x/isolate_4704_FAY64384_barcode1218_20x.fasta	cfreundii	-	aspC(10);clpX(~51);fadD(14);mdh(15);arcA(5);dnaG(11);lysP(11)
+20x	isolate_4838_FAY34264_barcode01_20x	polished_fasta_20x/isolate_4838_FAY34264_barcode01_20x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+20x	isolate_4920_FAYFAX_20x	polished_fasta_20x/isolate_4920_FAYFAX_20x.fasta	klebsiella	-	gapA(10);infB(7);mdh(1);pgi(1);phoE(1);rpoB(67);tonB(35)
+20x	isolate_5244_FAYFAY_20x	polished_fasta_20x/isolate_5244_FAYFAY_20x.fasta	klebsiella	17	gapA(2);infB(1);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+20x	isolate_5305_FAY24367_barcode0612_20x	polished_fasta_20x/isolate_5305_FAY24367_barcode0612_20x.fasta	-	-	
+20x	isolate_5399_FAYFAY_20x	polished_fasta_20x/isolate_5399_FAYFAY_20x.fasta	ecoli_achtman_4	-	adk(10);fumC(11);gyrB(4);icd(8);mdh(92);purA(~8);recA(2)
+20x	isolate_5590_FAX65952_barcode1622_20x	polished_fasta_20x/isolate_5590_FAX65952_barcode1622_20x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+20x	isolate_5860_PAU61707_barcode0102_20x	polished_fasta_20x/isolate_5860_PAU61707_barcode0102_20x.fasta	klebsiella	11	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(4)
+20x	isolate_5871_PAU61707_barcode0304_20x	polished_fasta_20x/isolate_5871_PAU61707_barcode0304_20x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+20x	isolate_5969_PAU61707_barcode0506_20x	polished_fasta_20x/isolate_5969_PAU61707_barcode0506_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_5970_FBDPAU_20x	polished_fasta_20x/isolate_5970_FBDPAU_20x.fasta	cfreundii	-	aspC(10);clpX(~71);fadD(62);mdh(15);arcA(5);dnaG(9);lysP(50)
+20x	isolate_5976_PAU61707_barcode0910_20x	polished_fasta_20x/isolate_5976_PAU61707_barcode0910_20x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+20x	isolate_6009_PAU61707_barcode1112_20x	polished_fasta_20x/isolate_6009_PAU61707_barcode1112_20x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+20x	isolate_6014_PAU61707_barcode1314_20x	polished_fasta_20x/isolate_6014_PAU61707_barcode1314_20x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+20x	isolate_6035_PAU61707_barcode1516_20x	polished_fasta_20x/isolate_6035_PAU61707_barcode1516_20x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+20x	isolate_6056_PAU61707_barcode1718_20x	polished_fasta_20x/isolate_6056_PAU61707_barcode1718_20x.fasta	-	-	
+20x	isolate_6057_PAU61707_barcode1920_20x	polished_fasta_20x/isolate_6057_PAU61707_barcode1920_20x.fasta	ecoli_achtman_4	648	adk(92);fumC(4);gyrB(87);icd(96);mdh(70);purA(58);recA(2)
+20x	isolate_6067_PAUPAY_20x	polished_fasta_20x/isolate_6067_PAUPAY_20x.fasta	koxytoca	44	gapA(3);infB(14);mdh(22);pgi(21);phoE(25);rpoB(17);tonB(21)
+20x	isolate_6068_PAU61707_barcode2324_20x	polished_fasta_20x/isolate_6068_PAU61707_barcode2324_20x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+20x	isolate_6233_FAY24367_barcode0410_20x	polished_fasta_20x/isolate_6233_FAY24367_barcode0410_20x.fasta	ecoli_achtman_4	2524	adk(10);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(2)
+20x	isolate_6243_FAY24367_barcode0107_20x	polished_fasta_20x/isolate_6243_FAY24367_barcode0107_20x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+20x	isolate_6244_PAU61707_barcode2526_20x	polished_fasta_20x/isolate_6244_PAU61707_barcode2526_20x.fasta	klebsiella	231	gapA(2);infB(6);mdh(1);pgi(3);phoE(26);rpoB(1);tonB(77)
+20x	isolate_6247_PAU61707_barcode2728_20x	polished_fasta_20x/isolate_6247_PAU61707_barcode2728_20x.fasta			
+20x	isolate_6287_PAU61707_barcode2930_20x	polished_fasta_20x/isolate_6287_PAU61707_barcode2930_20x.fasta			
+20x	isolate_6312_PAU61707_barcode3132_20x	polished_fasta_20x/isolate_6312_PAU61707_barcode3132_20x.fasta			
+20x	isolate_6365_PAU61707_barcode3334_20x	polished_fasta_20x/isolate_6365_PAU61707_barcode3334_20x.fasta			
+20x	isolate_6378_FAY24367_barcode0511_20x	polished_fasta_20x/isolate_6378_FAY24367_barcode0511_20x.fasta			
+20x	isolate_6394_PAU61707_barcode3536_20x	polished_fasta_20x/isolate_6394_PAU61707_barcode3536_20x.fasta			
+20x	isolate_6403_PAU61707_barcode3738_20x	polished_fasta_20x/isolate_6403_PAU61707_barcode3738_20x.fasta			
+20x	isolate_6433_PAU61707_barcode3940_20x	polished_fasta_20x/isolate_6433_PAU61707_barcode3940_20x.fasta			
+20x	isolate_6454_PAU61707_barcode4142_20x	polished_fasta_20x/isolate_6454_PAU61707_barcode4142_20x.fasta			
+20x	isolate_6455_PAUPAY_20x	polished_fasta_20x/isolate_6455_PAUPAY_20x.fasta			
+20x	isolate_6466_PAU61707_barcode4546_20x	polished_fasta_20x/isolate_6466_PAU61707_barcode4546_20x.fasta			
+20x	isolate_6472_PAU61707_barcode4748_20x	polished_fasta_20x/isolate_6472_PAU61707_barcode4748_20x.fasta			
+20x	isolate_6482_FAYFAY_20x	polished_fasta_20x/isolate_6482_FAYFAY_20x.fasta			
+20x	isolate_6500_PAU61707_barcode5152_20x	polished_fasta_20x/isolate_6500_PAU61707_barcode5152_20x.fasta			
+20x	isolate_6520_PAU61707_barcode5354_20x	polished_fasta_20x/isolate_6520_PAU61707_barcode5354_20x.fasta			
+20x	isolate_6567_PAU61707_barcode5758_20x	polished_fasta_20x/isolate_6567_PAU61707_barcode5758_20x.fasta			
+20x	isolate_6571_PAU61707_barcode5556_20x	polished_fasta_20x/isolate_6571_PAU61707_barcode5556_20x.fasta			
+20x	isolate_6601_PAU61707_barcode5960_20x	polished_fasta_20x/isolate_6601_PAU61707_barcode5960_20x.fasta			
+20x	isolate_6623_FBDPAY_20x	polished_fasta_20x/isolate_6623_FBDPAY_20x.fasta			
+20x	isolate_6669_PAU61707_barcode6162_20x	polished_fasta_20x/isolate_6669_PAU61707_barcode6162_20x.fasta			
+20x	isolate_6670_PAU61707_barcode6364_20x	polished_fasta_20x/isolate_6670_PAU61707_barcode6364_20x.fasta			
+20x	isolate_6701_PAU61707_barcode6566_20x	polished_fasta_20x/isolate_6701_PAU61707_barcode6566_20x.fasta			
+20x	isolate_6711_FAY24367_barcode0208_20x	polished_fasta_20x/isolate_6711_FAY24367_barcode0208_20x.fasta			
+20x	isolate_6712_FAY24367_barcode0309_20x	polished_fasta_20x/isolate_6712_FAY24367_barcode0309_20x.fasta			
+20x	isolate_6726_PAYPAU_20x	polished_fasta_20x/isolate_6726_PAYPAU_20x.fasta			
+20x	isolate_6735_PAU61707_barcode6970_20x	polished_fasta_20x/isolate_6735_PAU61707_barcode6970_20x.fasta			
+20x	isolate_6737_FBD_PAU_PAY_20x	polished_fasta_20x/isolate_6737_FBD_PAU_PAY_20x.fasta			
+20x	isolate_6738_FBCPAUPAY_20x	polished_fasta_20x/isolate_6738_FBCPAUPAY_20x.fasta			
+20x	isolate_6748_PAU61707_barcode7576_20x	polished_fasta_20x/isolate_6748_PAU61707_barcode7576_20x.fasta			
+20x	isolate_6774_PAU61707_barcode7778_20x	polished_fasta_20x/isolate_6774_PAU61707_barcode7778_20x.fasta			
+20x	isolate_6775_PAUPAY_20x	polished_fasta_20x/isolate_6775_PAUPAY_20x.fasta			
+20x	isolate_6776_PAUPAY_20x	polished_fasta_20x/isolate_6776_PAUPAY_20x.fasta			
+20x	isolate_6779_FBDPAU_20x	polished_fasta_20x/isolate_6779_FBDPAU_20x.fasta			
+20x	isolate_6795_PAUPAY_20x	polished_fasta_20x/isolate_6795_PAUPAY_20x.fasta			
+20x	isolate_6797_PAU61707_barcode8990_20x	polished_fasta_20x/isolate_6797_PAU61707_barcode8990_20x.fasta			
+20x	isolate_6813_PAU61707_barcode9192_20x	polished_fasta_20x/isolate_6813_PAU61707_barcode9192_20x.fasta			
+20x	isolate_6817_PAUPAY_20x	polished_fasta_20x/isolate_6817_PAUPAY_20x.fasta			
+20x	isolate_6838_PAU61707_barcode9596_20x	polished_fasta_20x/isolate_6838_PAU61707_barcode9596_20x.fasta			
+20x	isolate_6855_PAY37630_barcode1920_20x	polished_fasta_20x/isolate_6855_PAY37630_barcode1920_20x.fasta			
+20x	isolate_6856_FBCPAY_20x	polished_fasta_20x/isolate_6856_FBCPAY_20x.fasta			
+20x	isolate_6888_PAY37630_barcode9394_20x	polished_fasta_20x/isolate_6888_PAY37630_barcode9394_20x.fasta			
+20x	isolate_6900_PAY37630_barcode2324_20x	polished_fasta_20x/isolate_6900_PAY37630_barcode2324_20x.fasta			
+20x	isolate_6901_FBC05034_barcode0910_20x	polished_fasta_20x/isolate_6901_FBC05034_barcode0910_20x.fasta			
+20x	isolate_6951_PAY37630_barcode2728_20x	polished_fasta_20x/isolate_6951_PAY37630_barcode2728_20x.fasta			
+20x	isolate_6970_PAY37630_barcode2930_20x	polished_fasta_20x/isolate_6970_PAY37630_barcode2930_20x.fasta			
+20x	isolate_6989_FBCFBDPAY_20x	polished_fasta_20x/isolate_6989_FBCFBDPAY_20x.fasta			
+20x	isolate_7067_PAY37630_barcode3334_20x	polished_fasta_20x/isolate_7067_PAY37630_barcode3334_20x.fasta			
+20x	isolate_7077_PAY37630_barcode3536_20x	polished_fasta_20x/isolate_7077_PAY37630_barcode3536_20x.fasta			
+20x	isolate_7083_PAY37630_barcode3738_20x	polished_fasta_20x/isolate_7083_PAY37630_barcode3738_20x.fasta			
+20x	isolate_7084_PAY37630_barcode3940_20x	polished_fasta_20x/isolate_7084_PAY37630_barcode3940_20x.fasta			
+20x	isolate_7085_FAY29226_barcode07_20x	polished_fasta_20x/isolate_7085_FAY29226_barcode07_20x.fasta			
+20x	isolate_7088_FAX65952_barcode1319_20x	polished_fasta_20x/isolate_7088_FAX65952_barcode1319_20x.fasta			
+20x	isolate_7089_FAXFAY_20x	polished_fasta_20x/isolate_7089_FAXFAY_20x.fasta			
+20x	isolate_7090_FAXFBD_20x	polished_fasta_20x/isolate_7090_FAXFBD_20x.fasta			
+20x	isolate_7092_FBCPAY_20x	polished_fasta_20x/isolate_7092_FBCPAY_20x.fasta	klebsiella	437	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(31)
+20x	isolate_7106_PAY37630_barcode4344_20x	polished_fasta_20x/isolate_7106_PAY37630_barcode4344_20x.fasta	klebsiella	383	gapA(2);infB(6);mdh(1);pgi(3);phoE(8);rpoB(1);tonB(18)
+20x	isolate_7136_PAY37630_barcode7980_20x	polished_fasta_20x/isolate_7136_PAY37630_barcode7980_20x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+20x	isolate_7176_PAY37630_barcode4546_20x	polished_fasta_20x/isolate_7176_PAY37630_barcode4546_20x.fasta	klebsiella	273	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(4)
+20x	isolate_7181_PAY37630_barcode4748_20x	polished_fasta_20x/isolate_7181_PAY37630_barcode4748_20x.fasta	klebsiella	3430	gapA(2);infB(3);mdh(2);pgi(6);phoE(1);rpoB(4);tonB(12)
+20x	isolate_7221_PAY37630_barcode4950_20x	polished_fasta_20x/isolate_7221_PAY37630_barcode4950_20x.fasta	ecoli_achtman_4	361	adk(10);fumC(99);gyrB(5);icd(91);mdh(8);purA(7);recA(2)
+20x	isolate_7243_PAY37630_barcode5152_20x	polished_fasta_20x/isolate_7243_PAY37630_barcode5152_20x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+20x	isolate_7273_FBCPAY_20x	polished_fasta_20x/isolate_7273_FBCPAY_20x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+20x	isolate_7285_PAY37630_barcode5556_20x	polished_fasta_20x/isolate_7285_PAY37630_barcode5556_20x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+20x	isolate_7310_PAY37630_barcode5758_20x	polished_fasta_20x/isolate_7310_PAY37630_barcode5758_20x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+20x	isolate_7316_PAY37630_barcode5960_20x	polished_fasta_20x/isolate_7316_PAY37630_barcode5960_20x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+20x	isolate_7365_PAY37630_barcode6162_20x	polished_fasta_20x/isolate_7365_PAY37630_barcode6162_20x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+20x	isolate_7369_PAY37630_barcode6364_20x	polished_fasta_20x/isolate_7369_PAY37630_barcode6364_20x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+20x	isolate_7370_PAY37630_barcode6566_20x	polished_fasta_20x/isolate_7370_PAY37630_barcode6566_20x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+20x	isolate_7387_FBCFBD_20x	polished_fasta_20x/isolate_7387_FBCFBD_20x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+20x	isolate_7397_PAY37630_barcode7172_20x	polished_fasta_20x/isolate_7397_PAY37630_barcode7172_20x.fasta	klebsiella	2096	gapA(1);infB(6);mdh(1);pgi(1);phoE(1);rpoB(46);tonB(1)
+20x	isolate_7418_PAY37630_barcode7374_20x	polished_fasta_20x/isolate_7418_PAY37630_barcode7374_20x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+20x	isolate_7419_FBCPAY_20x	polished_fasta_20x/isolate_7419_FBCPAY_20x.fasta	ecloacae	108	dnaA(68);fusA(8);gyrB(75);leuS(63);pyrG(65);rplB(34);rpoB(35)
+20x	isolate_7454_PAY37630_barcode7778_20x	polished_fasta_20x/isolate_7454_PAY37630_barcode7778_20x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+20x	isolate_7475_PAY37630_barcode8182_20x	polished_fasta_20x/isolate_7475_PAY37630_barcode8182_20x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+20x	isolate_7476_PAY37630_barcode8384_20x	polished_fasta_20x/isolate_7476_PAY37630_barcode8384_20x.fasta	klebsiella	485	gapA(2);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(12)
+20x	isolate_7488_FBC05034_barcode2324_20x	polished_fasta_20x/isolate_7488_FBC05034_barcode2324_20x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+20x	isolate_7521_FAX65952_barcode1824_20x	polished_fasta_20x/isolate_7521_FAX65952_barcode1824_20x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+10x	isolate_6571_PAU61707_barcode5556_10x	polished_fasta_10x/isolate_6571_PAU61707_barcode5556_10x.fasta	cfreundii	-	aspC(15);clpX(12);fadD(20);mdh(15);arcA(~5);dnaG(11);lysP(17)
+10x	isolate_7088_FAX65952_barcode1319_10x	polished_fasta_10x/isolate_7088_FAX65952_barcode1319_10x.fasta	cfreundii	-	aspC(253?);clpX(189);fadD(~319);mdh(269);arcA(~101);dnaG(~230);lysP(182)
+10x	isolate_7089_FAXFAY_10x	polished_fasta_10x/isolate_7089_FAXFAY_10x.fasta	klebsiella	-	gapA(3);infB(~4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+10x	isolate_7090_FAXFBD_10x	polished_fasta_10x/isolate_7090_FAXFBD_10x.fasta	cfreundii	-	aspC(253?);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+10x	isolate_7092_FBCPAY_10x	polished_fasta_10x/isolate_7092_FBCPAY_10x.fasta	klebsiella	-	gapA(3);infB(3);mdh(1);pgi(~248);phoE(1);rpoB(1);tonB(-)
+10x	isolate_7106_PAY37630_barcode4344_10x	polished_fasta_10x/isolate_7106_PAY37630_barcode4344_10x.fasta	-	-	
+10x	isolate_7136_PAY37630_barcode7980_10x	polished_fasta_10x/isolate_7136_PAY37630_barcode7980_10x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+10x	isolate_7176_PAY37630_barcode4546_10x	polished_fasta_10x/isolate_7176_PAY37630_barcode4546_10x.fasta	klebsiella	273	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(4)
+10x	isolate_7181_PAY37630_barcode4748_10x	polished_fasta_10x/isolate_7181_PAY37630_barcode4748_10x.fasta	klebsiella	3430	gapA(2);infB(3);mdh(2);pgi(6);phoE(1);rpoB(4);tonB(12)
+10x	isolate_7221_PAY37630_barcode4950_10x	polished_fasta_10x/isolate_7221_PAY37630_barcode4950_10x.fasta	ecoli_achtman_4	361	adk(10);fumC(99);gyrB(5);icd(91);mdh(8);purA(7);recA(2)
+10x	isolate_7365_PAY37630_barcode6162_10x	polished_fasta_10x/isolate_7365_PAY37630_barcode6162_10x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+10x	isolate_7369_PAY37630_barcode6364_10x	polished_fasta_10x/isolate_7369_PAY37630_barcode6364_10x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+20x	isolate_6247_PAU61707_barcode2728_20x	polished_fasta_20x/isolate_6247_PAU61707_barcode2728_20x.fasta	ecoli_achtman_4	44	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(7)
+20x	isolate_6287_PAU61707_barcode2930_20x	polished_fasta_20x/isolate_6287_PAU61707_barcode2930_20x.fasta	klebsiella	3506	gapA(18);infB(22);mdh(56);pgi(61);phoE(234);rpoB(20);tonB(169)
+20x	isolate_6312_PAU61707_barcode3132_20x	polished_fasta_20x/isolate_6312_PAU61707_barcode3132_20x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+20x	isolate_6365_PAU61707_barcode3334_20x	polished_fasta_20x/isolate_6365_PAU61707_barcode3334_20x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+20x	isolate_6378_FAY24367_barcode0511_20x	polished_fasta_20x/isolate_6378_FAY24367_barcode0511_20x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+20x	isolate_6466_PAU61707_barcode4546_20x	polished_fasta_20x/isolate_6466_PAU61707_barcode4546_20x.fasta	ecoli_achtman_4	448	adk(6);fumC(6);gyrB(5);icd(16);mdh(11);purA(8);recA(7)
+20x	isolate_6472_PAU61707_barcode4748_20x	polished_fasta_20x/isolate_6472_PAU61707_barcode4748_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_6482_FAYFAY_20x	polished_fasta_20x/isolate_6482_FAYFAY_20x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+20x	isolate_6500_PAU61707_barcode5152_20x	polished_fasta_20x/isolate_6500_PAU61707_barcode5152_20x.fasta	klebsiella	512	gapA(54);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+20x	isolate_6520_PAU61707_barcode5354_20x	polished_fasta_20x/isolate_6520_PAU61707_barcode5354_20x.fasta	klebsiella	20	gapA(2);infB(3);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+20x	isolate_6567_PAU61707_barcode5758_20x	polished_fasta_20x/isolate_6567_PAU61707_barcode5758_20x.fasta	koxytoca	-	gapA(~31);infB(47);mdh(~65);pgi(37?);phoE(~93);rpoB(44);tonB(40?)
+20x	isolate_6571_PAU61707_barcode5556_20x	polished_fasta_20x/isolate_6571_PAU61707_barcode5556_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_6601_PAU61707_barcode5960_20x	polished_fasta_20x/isolate_6601_PAU61707_barcode5960_20x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+20x	isolate_6623_FBDPAY_20x	polished_fasta_20x/isolate_6623_FBDPAY_20x.fasta	ecloacae	461	dnaA(9);fusA(4);gyrB(14);leuS(6);pyrG(37);rplB(4);rpoB(9)
+20x	isolate_6669_PAU61707_barcode6162_20x	polished_fasta_20x/isolate_6669_PAU61707_barcode6162_20x.fasta	klebsiella	462	gapA(2);infB(1);mdh(1);pgi(6);phoE(1);rpoB(4);tonB(12)
+20x	isolate_6670_PAU61707_barcode6364_20x	polished_fasta_20x/isolate_6670_PAU61707_barcode6364_20x.fasta	cfreundii	396	aspC(16);clpX(12);fadD(70);mdh(15);arcA(88);dnaG(6);lysP(50)
+20x	isolate_6701_PAU61707_barcode6566_20x	polished_fasta_20x/isolate_6701_PAU61707_barcode6566_20x.fasta	koxytoca	151	gapA(3);infB(5);mdh(21);pgi(13);phoE(20);rpoB(6);tonB(12)
+20x	isolate_6711_FAY24367_barcode0208_20x	polished_fasta_20x/isolate_6711_FAY24367_barcode0208_20x.fasta	cfreundii	409	aspC(53);clpX(166);fadD(59);mdh(90);arcA(89);dnaG(151);lysP(107)
+20x	isolate_6712_FAY24367_barcode0309_20x	polished_fasta_20x/isolate_6712_FAY24367_barcode0309_20x.fasta	ecoli_achtman_4	224	adk(6);fumC(4);gyrB(33);icd(16);mdh(11);purA(8);recA(6)
+20x	isolate_6726_PAYPAU_20x	polished_fasta_20x/isolate_6726_PAYPAU_20x.fasta	klebsiella	258	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+20x	isolate_6735_PAU61707_barcode6970_20x	polished_fasta_20x/isolate_6735_PAU61707_barcode6970_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_6737_FBD_PAU_PAY_20x	polished_fasta_20x/isolate_6737_FBD_PAU_PAY_20x.fasta	klebsiella	395	gapA(3);infB(1);mdh(2);pgi(4);phoE(1);rpoB(1);tonB(4)
+20x	isolate_6738_FBCPAUPAY_20x	polished_fasta_20x/isolate_6738_FBCPAUPAY_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_6748_PAU61707_barcode7576_20x	polished_fasta_20x/isolate_6748_PAU61707_barcode7576_20x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+20x	isolate_6774_PAU61707_barcode7778_20x	polished_fasta_20x/isolate_6774_PAU61707_barcode7778_20x.fasta	klebsiella	1653	gapA(4);infB(3);mdh(2);pgi(3);phoE(13);rpoB(1);tonB(9)
+20x	isolate_6775_PAUPAY_20x	polished_fasta_20x/isolate_6775_PAUPAY_20x.fasta	kaerogenes	14	dnaA(12);fusA(5);gyrB(1);leuS(4);pryG(2);rplB(1);rpoB(2)
+20x	isolate_6776_PAUPAY_20x	polished_fasta_20x/isolate_6776_PAUPAY_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_6779_FBDPAU_20x	polished_fasta_20x/isolate_6779_FBDPAU_20x.fasta	kaerogenes	379	dnaA(60);fusA(2);gyrB(7);leuS(25);pryG(2);rplB(2);rpoB(2)
+20x	isolate_6795_PAUPAY_20x	polished_fasta_20x/isolate_6795_PAUPAY_20x.fasta	cfreundii	-	aspC(223);clpX(~152);fadD(281);mdh(~229);arcA(75);dnaG(185);lysP(187)
+20x	isolate_6797_PAU61707_barcode8990_20x	polished_fasta_20x/isolate_6797_PAU61707_barcode8990_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_6813_PAU61707_barcode9192_20x	polished_fasta_20x/isolate_6813_PAU61707_barcode9192_20x.fasta	-	-	
+20x	isolate_6817_PAUPAY_20x	polished_fasta_20x/isolate_6817_PAUPAY_20x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+20x	isolate_6838_PAU61707_barcode9596_20x	polished_fasta_20x/isolate_6838_PAU61707_barcode9596_20x.fasta	ecoli_achtman_4	101	adk(43);fumC(41);gyrB(15);icd(18);mdh(11);purA(7);recA(6)
+20x	isolate_6855_PAY37630_barcode1920_20x	polished_fasta_20x/isolate_6855_PAY37630_barcode1920_20x.fasta	koxytoca	303	gapA(12);infB(29);mdh(20);pgi(21);phoE(40);rpoB(32);tonB(46)
+20x	isolate_6856_FBCPAY_20x	polished_fasta_20x/isolate_6856_FBCPAY_20x.fasta	ecloacae	278	dnaA(59);fusA(9);gyrB(59);leuS(9);pyrG(67);rplB(6);rpoB(6)
+20x	isolate_6888_PAY37630_barcode9394_20x	polished_fasta_20x/isolate_6888_PAY37630_barcode9394_20x.fasta	klebsiella	976	gapA(2);infB(3);mdh(108);pgi(26);phoE(3);rpoB(4);tonB(64)
+20x	isolate_6900_PAY37630_barcode2324_20x	polished_fasta_20x/isolate_6900_PAY37630_barcode2324_20x.fasta	cfreundii	534	aspC(9);clpX(11);fadD(205);mdh(95);arcA(47);dnaG(8);lysP(172)
+20x	isolate_6901_FBC05034_barcode0910_20x	polished_fasta_20x/isolate_6901_FBC05034_barcode0910_20x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+20x	isolate_6951_PAY37630_barcode2728_20x	polished_fasta_20x/isolate_6951_PAY37630_barcode2728_20x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+20x	isolate_6970_PAY37630_barcode2930_20x	polished_fasta_20x/isolate_6970_PAY37630_barcode2930_20x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+20x	isolate_6989_FBCFBDPAY_20x	polished_fasta_20x/isolate_6989_FBCFBDPAY_20x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+20x	isolate_7067_PAY37630_barcode3334_20x	polished_fasta_20x/isolate_7067_PAY37630_barcode3334_20x.fasta	ecoli_achtman_4	607	adk(113);fumC(4);gyrB(5);icd(83);mdh(8);purA(8);recA(6)
+20x	isolate_7077_PAY37630_barcode3536_20x	polished_fasta_20x/isolate_7077_PAY37630_barcode3536_20x.fasta	-	-	
+20x	isolate_7083_PAY37630_barcode3738_20x	polished_fasta_20x/isolate_7083_PAY37630_barcode3738_20x.fasta	ecoli_achtman_4	2015	adk(76);fumC(319);gyrB(30);icd(37);mdh(17);purA(10);recA(96)
+20x	isolate_7084_PAY37630_barcode3940_20x	polished_fasta_20x/isolate_7084_PAY37630_barcode3940_20x.fasta	ecloacae	595	dnaA(80);fusA(55);gyrB(92);leuS(72);pyrG(169);rplB(12);rpoB(26)
+20x	isolate_7085_FAY29226_barcode07_20x	polished_fasta_20x/isolate_7085_FAY29226_barcode07_20x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+20x	isolate_7088_FAX65952_barcode1319_20x	polished_fasta_20x/isolate_7088_FAX65952_barcode1319_20x.fasta	cfreundii	-	aspC(214);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+20x	isolate_7089_FAXFAY_20x	polished_fasta_20x/isolate_7089_FAXFAY_20x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+20x	isolate_7090_FAXFBD_20x	polished_fasta_20x/isolate_7090_FAXFBD_20x.fasta	cfreundii	-	aspC(214);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+30x	isolate_4704_FAY64384_barcode1218_30x	polished_fasta_30x/isolate_4704_FAY64384_barcode1218_30x.fasta	cfreundii	-	aspC(10);clpX(~51);fadD(14);mdh(15);arcA(5);dnaG(11);lysP(11)
+30x	isolate_4838_FAY34264_barcode01_30x	polished_fasta_30x/isolate_4838_FAY34264_barcode01_30x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+30x	isolate_4920_FAYFAX_30x	polished_fasta_30x/isolate_4920_FAYFAX_30x.fasta	klebsiella	-	gapA(10);infB(7);mdh(1);pgi(1);phoE(1);rpoB(67);tonB(35)
+30x	isolate_5244_FAYFAY_30x	polished_fasta_30x/isolate_5244_FAYFAY_30x.fasta	klebsiella	17	gapA(2);infB(1);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+30x	isolate_5305_FAY24367_barcode0612_30x	polished_fasta_30x/isolate_5305_FAY24367_barcode0612_30x.fasta	-	-	
+30x	isolate_5399_FAYFAY_30x	polished_fasta_30x/isolate_5399_FAYFAY_30x.fasta	ecoli_achtman_4	-	adk(10);fumC(11);gyrB(4);icd(8);mdh(92);purA(~8);recA(2)
+30x	isolate_5590_FAX65952_barcode1622_30x	polished_fasta_30x/isolate_5590_FAX65952_barcode1622_30x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+30x	isolate_5860_PAU61707_barcode0102_30x	polished_fasta_30x/isolate_5860_PAU61707_barcode0102_30x.fasta	klebsiella	11	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(4)
+30x	isolate_5871_PAU61707_barcode0304_30x	polished_fasta_30x/isolate_5871_PAU61707_barcode0304_30x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+30x	isolate_5969_PAU61707_barcode0506_30x	polished_fasta_30x/isolate_5969_PAU61707_barcode0506_30x.fasta	cfreundii	-	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17,17,17)
+30x	isolate_5970_FBDPAU_30x	polished_fasta_30x/isolate_5970_FBDPAU_30x.fasta	cfreundii	136	aspC(10);clpX(71);fadD(62);mdh(15);arcA(5);dnaG(9);lysP(50)
+30x	isolate_5976_PAU61707_barcode0910_30x	polished_fasta_30x/isolate_5976_PAU61707_barcode0910_30x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+30x	isolate_6009_PAU61707_barcode1112_30x	polished_fasta_30x/isolate_6009_PAU61707_barcode1112_30x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+30x	isolate_6014_PAU61707_barcode1314_30x	polished_fasta_30x/isolate_6014_PAU61707_barcode1314_30x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+30x	isolate_6035_PAU61707_barcode1516_30x	polished_fasta_30x/isolate_6035_PAU61707_barcode1516_30x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+30x	isolate_6056_PAU61707_barcode1718_30x	polished_fasta_30x/isolate_6056_PAU61707_barcode1718_30x.fasta	-	-	
+30x	isolate_6057_PAU61707_barcode1920_30x	polished_fasta_30x/isolate_6057_PAU61707_barcode1920_30x.fasta	ecoli_achtman_4	648	adk(92);fumC(4);gyrB(87);icd(96);mdh(70);purA(58);recA(2)
+30x	isolate_6067_PAUPAY_30x	polished_fasta_30x/isolate_6067_PAUPAY_30x.fasta	koxytoca	44	gapA(3);infB(14);mdh(22);pgi(21);phoE(25);rpoB(17);tonB(21)
+30x	isolate_6068_PAU61707_barcode2324_30x	polished_fasta_30x/isolate_6068_PAU61707_barcode2324_30x.fasta			
+30x	isolate_6233_FAY24367_barcode0410_30x	polished_fasta_30x/isolate_6233_FAY24367_barcode0410_30x.fasta			
+30x	isolate_6243_FAY24367_barcode0107_30x	polished_fasta_30x/isolate_6243_FAY24367_barcode0107_30x.fasta			
+30x	isolate_6244_PAU61707_barcode2526_30x	polished_fasta_30x/isolate_6244_PAU61707_barcode2526_30x.fasta			
+30x	isolate_6247_PAU61707_barcode2728_30x	polished_fasta_30x/isolate_6247_PAU61707_barcode2728_30x.fasta			
+30x	isolate_6287_PAU61707_barcode2930_30x	polished_fasta_30x/isolate_6287_PAU61707_barcode2930_30x.fasta			
+30x	isolate_6312_PAU61707_barcode3132_30x	polished_fasta_30x/isolate_6312_PAU61707_barcode3132_30x.fasta			
+30x	isolate_6365_PAU61707_barcode3334_30x	polished_fasta_30x/isolate_6365_PAU61707_barcode3334_30x.fasta			
+30x	isolate_6378_FAY24367_barcode0511_30x	polished_fasta_30x/isolate_6378_FAY24367_barcode0511_30x.fasta			
+30x	isolate_6394_PAU61707_barcode3536_30x	polished_fasta_30x/isolate_6394_PAU61707_barcode3536_30x.fasta			
+30x	isolate_6403_PAU61707_barcode3738_30x	polished_fasta_30x/isolate_6403_PAU61707_barcode3738_30x.fasta			
+30x	isolate_6433_PAU61707_barcode3940_30x	polished_fasta_30x/isolate_6433_PAU61707_barcode3940_30x.fasta			
+30x	isolate_6454_PAU61707_barcode4142_30x	polished_fasta_30x/isolate_6454_PAU61707_barcode4142_30x.fasta			
+30x	isolate_6455_PAUPAY_30x	polished_fasta_30x/isolate_6455_PAUPAY_30x.fasta			
+30x	isolate_6466_PAU61707_barcode4546_30x	polished_fasta_30x/isolate_6466_PAU61707_barcode4546_30x.fasta			
+30x	isolate_6472_PAU61707_barcode4748_30x	polished_fasta_30x/isolate_6472_PAU61707_barcode4748_30x.fasta			
+30x	isolate_6482_FAYFAY_30x	polished_fasta_30x/isolate_6482_FAYFAY_30x.fasta			
+30x	isolate_6500_PAU61707_barcode5152_30x	polished_fasta_30x/isolate_6500_PAU61707_barcode5152_30x.fasta			
+30x	isolate_6520_PAU61707_barcode5354_30x	polished_fasta_30x/isolate_6520_PAU61707_barcode5354_30x.fasta			
+30x	isolate_6567_PAU61707_barcode5758_30x	polished_fasta_30x/isolate_6567_PAU61707_barcode5758_30x.fasta			
+30x	isolate_6571_PAU61707_barcode5556_30x	polished_fasta_30x/isolate_6571_PAU61707_barcode5556_30x.fasta			
+30x	isolate_6601_PAU61707_barcode5960_30x	polished_fasta_30x/isolate_6601_PAU61707_barcode5960_30x.fasta			
+30x	isolate_6623_FBDPAY_30x	polished_fasta_30x/isolate_6623_FBDPAY_30x.fasta			
+30x	isolate_6669_PAU61707_barcode6162_30x	polished_fasta_30x/isolate_6669_PAU61707_barcode6162_30x.fasta			
+30x	isolate_6670_PAU61707_barcode6364_30x	polished_fasta_30x/isolate_6670_PAU61707_barcode6364_30x.fasta			
+30x	isolate_6701_PAU61707_barcode6566_30x	polished_fasta_30x/isolate_6701_PAU61707_barcode6566_30x.fasta			
+30x	isolate_6711_FAY24367_barcode0208_30x	polished_fasta_30x/isolate_6711_FAY24367_barcode0208_30x.fasta			
+30x	isolate_6712_FAY24367_barcode0309_30x	polished_fasta_30x/isolate_6712_FAY24367_barcode0309_30x.fasta			
+30x	isolate_6726_PAYPAU_30x	polished_fasta_30x/isolate_6726_PAYPAU_30x.fasta			
+30x	isolate_6735_PAU61707_barcode6970_30x	polished_fasta_30x/isolate_6735_PAU61707_barcode6970_30x.fasta			
+30x	isolate_6737_FBD_PAU_PAY_30x	polished_fasta_30x/isolate_6737_FBD_PAU_PAY_30x.fasta			
+30x	isolate_6738_FBCPAUPAY_30x	polished_fasta_30x/isolate_6738_FBCPAUPAY_30x.fasta			
+30x	isolate_6748_PAU61707_barcode7576_30x	polished_fasta_30x/isolate_6748_PAU61707_barcode7576_30x.fasta			
+30x	isolate_6774_PAU61707_barcode7778_30x	polished_fasta_30x/isolate_6774_PAU61707_barcode7778_30x.fasta			
+30x	isolate_6775_PAUPAY_30x	polished_fasta_30x/isolate_6775_PAUPAY_30x.fasta			
+30x	isolate_6776_PAUPAY_30x	polished_fasta_30x/isolate_6776_PAUPAY_30x.fasta			
+30x	isolate_6779_FBDPAU_30x	polished_fasta_30x/isolate_6779_FBDPAU_30x.fasta			
+30x	isolate_6795_PAUPAY_30x	polished_fasta_30x/isolate_6795_PAUPAY_30x.fasta			
+30x	isolate_6797_PAU61707_barcode8990_30x	polished_fasta_30x/isolate_6797_PAU61707_barcode8990_30x.fasta			
+30x	isolate_6813_PAU61707_barcode9192_30x	polished_fasta_30x/isolate_6813_PAU61707_barcode9192_30x.fasta			
+30x	isolate_6817_PAUPAY_30x	polished_fasta_30x/isolate_6817_PAUPAY_30x.fasta			
+30x	isolate_6838_PAU61707_barcode9596_30x	polished_fasta_30x/isolate_6838_PAU61707_barcode9596_30x.fasta			
+30x	isolate_6855_PAY37630_barcode1920_30x	polished_fasta_30x/isolate_6855_PAY37630_barcode1920_30x.fasta			
+30x	isolate_6856_FBCPAY_30x	polished_fasta_30x/isolate_6856_FBCPAY_30x.fasta			
+30x	isolate_6888_PAY37630_barcode9394_30x	polished_fasta_30x/isolate_6888_PAY37630_barcode9394_30x.fasta			
+30x	isolate_6900_PAY37630_barcode2324_30x	polished_fasta_30x/isolate_6900_PAY37630_barcode2324_30x.fasta			
+30x	isolate_6901_FBC05034_barcode0910_30x	polished_fasta_30x/isolate_6901_FBC05034_barcode0910_30x.fasta			
+30x	isolate_6951_PAY37630_barcode2728_30x	polished_fasta_30x/isolate_6951_PAY37630_barcode2728_30x.fasta			
+30x	isolate_6970_PAY37630_barcode2930_30x	polished_fasta_30x/isolate_6970_PAY37630_barcode2930_30x.fasta			
+30x	isolate_6989_FBCFBDPAY_30x	polished_fasta_30x/isolate_6989_FBCFBDPAY_30x.fasta			
+30x	isolate_7067_PAY37630_barcode3334_30x	polished_fasta_30x/isolate_7067_PAY37630_barcode3334_30x.fasta			
+30x	isolate_7077_PAY37630_barcode3536_30x	polished_fasta_30x/isolate_7077_PAY37630_barcode3536_30x.fasta			
+30x	isolate_7083_PAY37630_barcode3738_30x	polished_fasta_30x/isolate_7083_PAY37630_barcode3738_30x.fasta			
+30x	isolate_7084_PAY37630_barcode3940_30x	polished_fasta_30x/isolate_7084_PAY37630_barcode3940_30x.fasta			
+30x	isolate_7085_FAY29226_barcode07_30x	polished_fasta_30x/isolate_7085_FAY29226_barcode07_30x.fasta			
+30x	isolate_7088_FAX65952_barcode1319_30x	polished_fasta_30x/isolate_7088_FAX65952_barcode1319_30x.fasta			
+30x	isolate_7089_FAXFAY_30x	polished_fasta_30x/isolate_7089_FAXFAY_30x.fasta			
+30x	isolate_7090_FAXFBD_30x	polished_fasta_30x/isolate_7090_FAXFBD_30x.fasta			
+30x	isolate_7092_FBCPAY_30x	polished_fasta_30x/isolate_7092_FBCPAY_30x.fasta			
+30x	isolate_7106_PAY37630_barcode4344_30x	polished_fasta_30x/isolate_7106_PAY37630_barcode4344_30x.fasta			
+30x	isolate_7136_PAY37630_barcode7980_30x	polished_fasta_30x/isolate_7136_PAY37630_barcode7980_30x.fasta			
+30x	isolate_7176_PAY37630_barcode4546_30x	polished_fasta_30x/isolate_7176_PAY37630_barcode4546_30x.fasta			
+30x	isolate_7181_PAY37630_barcode4748_30x	polished_fasta_30x/isolate_7181_PAY37630_barcode4748_30x.fasta	klebsiella	3430	gapA(2);infB(3);mdh(2);pgi(6);phoE(1);rpoB(4);tonB(12)
+30x	isolate_7221_PAY37630_barcode4950_30x	polished_fasta_30x/isolate_7221_PAY37630_barcode4950_30x.fasta	ecoli_achtman_4	361	adk(10);fumC(99);gyrB(5);icd(91);mdh(8);purA(7);recA(2)
+30x	isolate_7243_PAY37630_barcode5152_30x	polished_fasta_30x/isolate_7243_PAY37630_barcode5152_30x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+30x	isolate_7273_FBCPAY_30x	polished_fasta_30x/isolate_7273_FBCPAY_30x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+30x	isolate_7285_PAY37630_barcode5556_30x	polished_fasta_30x/isolate_7285_PAY37630_barcode5556_30x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+30x	isolate_7310_PAY37630_barcode5758_30x	polished_fasta_30x/isolate_7310_PAY37630_barcode5758_30x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+30x	isolate_7316_PAY37630_barcode5960_30x	polished_fasta_30x/isolate_7316_PAY37630_barcode5960_30x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+30x	isolate_7365_PAY37630_barcode6162_30x	polished_fasta_30x/isolate_7365_PAY37630_barcode6162_30x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+30x	isolate_7369_PAY37630_barcode6364_30x	polished_fasta_30x/isolate_7369_PAY37630_barcode6364_30x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+30x	isolate_7370_PAY37630_barcode6566_30x	polished_fasta_30x/isolate_7370_PAY37630_barcode6566_30x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+30x	isolate_7387_FBCFBD_30x	polished_fasta_30x/isolate_7387_FBCFBD_30x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+30x	isolate_7397_PAY37630_barcode7172_30x	polished_fasta_30x/isolate_7397_PAY37630_barcode7172_30x.fasta	klebsiella	2096	gapA(1);infB(6);mdh(1);pgi(1);phoE(1);rpoB(46);tonB(1)
+30x	isolate_7418_PAY37630_barcode7374_30x	polished_fasta_30x/isolate_7418_PAY37630_barcode7374_30x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+30x	isolate_7419_FBCPAY_30x	polished_fasta_30x/isolate_7419_FBCPAY_30x.fasta	ecloacae	108	dnaA(68);fusA(8);gyrB(75);leuS(63);pyrG(65);rplB(34);rpoB(35)
+30x	isolate_7454_PAY37630_barcode7778_30x	polished_fasta_30x/isolate_7454_PAY37630_barcode7778_30x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+30x	isolate_7475_PAY37630_barcode8182_30x	polished_fasta_30x/isolate_7475_PAY37630_barcode8182_30x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+30x	isolate_7476_PAY37630_barcode8384_30x	polished_fasta_30x/isolate_7476_PAY37630_barcode8384_30x.fasta	klebsiella	485	gapA(2);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(12)
+30x	isolate_7488_FBC05034_barcode2324_30x	polished_fasta_30x/isolate_7488_FBC05034_barcode2324_30x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+30x	isolate_7521_FAX65952_barcode1824_30x	polished_fasta_30x/isolate_7521_FAX65952_barcode1824_30x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+20x	isolate_6394_PAU61707_barcode3536_20x	polished_fasta_20x/isolate_6394_PAU61707_barcode3536_20x.fasta	klebsiella	874	gapA(4);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(22)
+20x	isolate_6403_PAU61707_barcode3738_20x	polished_fasta_20x/isolate_6403_PAU61707_barcode3738_20x.fasta	ecoli_achtman_4	167	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(13);recA(2)
+20x	isolate_6433_PAU61707_barcode3940_20x	polished_fasta_20x/isolate_6433_PAU61707_barcode3940_20x.fasta	-	-	
+20x	isolate_6454_PAU61707_barcode4142_20x	polished_fasta_20x/isolate_6454_PAU61707_barcode4142_20x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+20x	isolate_6455_PAUPAY_20x	polished_fasta_20x/isolate_6455_PAUPAY_20x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+30x	isolate_6068_PAU61707_barcode2324_30x	polished_fasta_30x/isolate_6068_PAU61707_barcode2324_30x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+30x	isolate_6233_FAY24367_barcode0410_30x	polished_fasta_30x/isolate_6233_FAY24367_barcode0410_30x.fasta	ecoli_achtman_4	2524	adk(10);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(2)
+30x	isolate_6243_FAY24367_barcode0107_30x	polished_fasta_30x/isolate_6243_FAY24367_barcode0107_30x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+30x	isolate_6244_PAU61707_barcode2526_30x	polished_fasta_30x/isolate_6244_PAU61707_barcode2526_30x.fasta	klebsiella	231	gapA(2);infB(6);mdh(1);pgi(3);phoE(26);rpoB(1);tonB(77)
+30x	isolate_6247_PAU61707_barcode2728_30x	polished_fasta_30x/isolate_6247_PAU61707_barcode2728_30x.fasta	ecoli_achtman_4	44	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(7)
+30x	isolate_6287_PAU61707_barcode2930_30x	polished_fasta_30x/isolate_6287_PAU61707_barcode2930_30x.fasta	klebsiella	3506	gapA(18);infB(22);mdh(56);pgi(61);phoE(234);rpoB(20);tonB(169)
+30x	isolate_6312_PAU61707_barcode3132_30x	polished_fasta_30x/isolate_6312_PAU61707_barcode3132_30x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+30x	isolate_6365_PAU61707_barcode3334_30x	polished_fasta_30x/isolate_6365_PAU61707_barcode3334_30x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+30x	isolate_6466_PAU61707_barcode4546_30x	polished_fasta_30x/isolate_6466_PAU61707_barcode4546_30x.fasta	ecoli_achtman_4	448	adk(6);fumC(6);gyrB(5);icd(16);mdh(11);purA(8);recA(7)
+30x	isolate_6472_PAU61707_barcode4748_30x	polished_fasta_30x/isolate_6472_PAU61707_barcode4748_30x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+30x	isolate_6482_FAYFAY_30x	polished_fasta_30x/isolate_6482_FAYFAY_30x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+30x	isolate_6500_PAU61707_barcode5152_30x	polished_fasta_30x/isolate_6500_PAU61707_barcode5152_30x.fasta	klebsiella	512	gapA(54);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+30x	isolate_6520_PAU61707_barcode5354_30x	polished_fasta_30x/isolate_6520_PAU61707_barcode5354_30x.fasta	klebsiella	20	gapA(2);infB(3);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+30x	isolate_6567_PAU61707_barcode5758_30x	polished_fasta_30x/isolate_6567_PAU61707_barcode5758_30x.fasta	koxytoca	-	gapA(~31);infB(47);mdh(~65);pgi(37?);phoE(~93);rpoB(44);tonB(40?)
+30x	isolate_6571_PAU61707_barcode5556_30x	polished_fasta_30x/isolate_6571_PAU61707_barcode5556_30x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+30x	isolate_6601_PAU61707_barcode5960_30x	polished_fasta_30x/isolate_6601_PAU61707_barcode5960_30x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+30x	isolate_6623_FBDPAY_30x	polished_fasta_30x/isolate_6623_FBDPAY_30x.fasta	ecloacae	461	dnaA(9);fusA(4);gyrB(14);leuS(6);pyrG(37);rplB(4);rpoB(9)
+30x	isolate_6669_PAU61707_barcode6162_30x	polished_fasta_30x/isolate_6669_PAU61707_barcode6162_30x.fasta	klebsiella	462	gapA(2);infB(1);mdh(1);pgi(6);phoE(1);rpoB(4);tonB(12)
+30x	isolate_6670_PAU61707_barcode6364_30x	polished_fasta_30x/isolate_6670_PAU61707_barcode6364_30x.fasta	cfreundii	396	aspC(16);clpX(12);fadD(70);mdh(15);arcA(88);dnaG(6);lysP(50)
+30x	isolate_6701_PAU61707_barcode6566_30x	polished_fasta_30x/isolate_6701_PAU61707_barcode6566_30x.fasta	koxytoca	151	gapA(3);infB(5);mdh(21);pgi(13);phoE(20);rpoB(6);tonB(12)
+30x	isolate_6711_FAY24367_barcode0208_30x	polished_fasta_30x/isolate_6711_FAY24367_barcode0208_30x.fasta	cfreundii	409	aspC(53);clpX(166);fadD(59);mdh(90);arcA(89);dnaG(151);lysP(107)
+30x	isolate_6712_FAY24367_barcode0309_30x	polished_fasta_30x/isolate_6712_FAY24367_barcode0309_30x.fasta	ecoli_achtman_4	224	adk(6);fumC(4);gyrB(33);icd(16);mdh(11);purA(8);recA(6)
+30x	isolate_6726_PAYPAU_30x	polished_fasta_30x/isolate_6726_PAYPAU_30x.fasta	klebsiella	258	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+30x	isolate_6735_PAU61707_barcode6970_30x	polished_fasta_30x/isolate_6735_PAU61707_barcode6970_30x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+30x	isolate_6737_FBD_PAU_PAY_30x	polished_fasta_30x/isolate_6737_FBD_PAU_PAY_30x.fasta	klebsiella	395	gapA(3);infB(1);mdh(2);pgi(4);phoE(1);rpoB(1);tonB(4)
+30x	isolate_6738_FBCPAUPAY_30x	polished_fasta_30x/isolate_6738_FBCPAUPAY_30x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+30x	isolate_6748_PAU61707_barcode7576_30x	polished_fasta_30x/isolate_6748_PAU61707_barcode7576_30x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+30x	isolate_6774_PAU61707_barcode7778_30x	polished_fasta_30x/isolate_6774_PAU61707_barcode7778_30x.fasta	klebsiella	1653	gapA(4);infB(3);mdh(2);pgi(3);phoE(13);rpoB(1);tonB(9)
+30x	isolate_6775_PAUPAY_30x	polished_fasta_30x/isolate_6775_PAUPAY_30x.fasta	kaerogenes	14	dnaA(12);fusA(5);gyrB(1);leuS(4);pryG(2);rplB(1);rpoB(2)
+30x	isolate_6776_PAUPAY_30x	polished_fasta_30x/isolate_6776_PAUPAY_30x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+30x	isolate_6779_FBDPAU_30x	polished_fasta_30x/isolate_6779_FBDPAU_30x.fasta	kaerogenes	379	dnaA(60);fusA(2);gyrB(7);leuS(25);pryG(2);rplB(2);rpoB(2)
+30x	isolate_6795_PAUPAY_30x	polished_fasta_30x/isolate_6795_PAUPAY_30x.fasta	cfreundii	-	aspC(223);clpX(~152);fadD(281);mdh(~229);arcA(75);dnaG(185);lysP(187)
+30x	isolate_6797_PAU61707_barcode8990_30x	polished_fasta_30x/isolate_6797_PAU61707_barcode8990_30x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+30x	isolate_6813_PAU61707_barcode9192_30x	polished_fasta_30x/isolate_6813_PAU61707_barcode9192_30x.fasta	-	-	
+30x	isolate_6817_PAUPAY_30x	polished_fasta_30x/isolate_6817_PAUPAY_30x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+30x	isolate_6838_PAU61707_barcode9596_30x	polished_fasta_30x/isolate_6838_PAU61707_barcode9596_30x.fasta	ecoli_achtman_4	101	adk(43);fumC(41);gyrB(15);icd(18);mdh(11);purA(7);recA(6)
+30x	isolate_6855_PAY37630_barcode1920_30x	polished_fasta_30x/isolate_6855_PAY37630_barcode1920_30x.fasta	koxytoca	303	gapA(12);infB(29);mdh(20);pgi(21);phoE(40);rpoB(32);tonB(46)
+30x	isolate_6856_FBCPAY_30x	polished_fasta_30x/isolate_6856_FBCPAY_30x.fasta	ecloacae	278	dnaA(59);fusA(9);gyrB(59);leuS(9);pyrG(67);rplB(6);rpoB(6)
+30x	isolate_6888_PAY37630_barcode9394_30x	polished_fasta_30x/isolate_6888_PAY37630_barcode9394_30x.fasta	klebsiella	976	gapA(2);infB(3);mdh(108);pgi(26);phoE(3);rpoB(4);tonB(64)
+30x	isolate_6900_PAY37630_barcode2324_30x	polished_fasta_30x/isolate_6900_PAY37630_barcode2324_30x.fasta	cfreundii	534	aspC(9);clpX(11);fadD(205);mdh(95);arcA(47);dnaG(8);lysP(172)
+30x	isolate_6901_FBC05034_barcode0910_30x	polished_fasta_30x/isolate_6901_FBC05034_barcode0910_30x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+30x	isolate_6951_PAY37630_barcode2728_30x	polished_fasta_30x/isolate_6951_PAY37630_barcode2728_30x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+30x	isolate_6970_PAY37630_barcode2930_30x	polished_fasta_30x/isolate_6970_PAY37630_barcode2930_30x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+30x	isolate_6989_FBCFBDPAY_30x	polished_fasta_30x/isolate_6989_FBCFBDPAY_30x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+30x	isolate_7067_PAY37630_barcode3334_30x	polished_fasta_30x/isolate_7067_PAY37630_barcode3334_30x.fasta	ecoli_achtman_4	607	adk(113);fumC(4);gyrB(5);icd(83);mdh(8);purA(8);recA(6)
+30x	isolate_7077_PAY37630_barcode3536_30x	polished_fasta_30x/isolate_7077_PAY37630_barcode3536_30x.fasta	-	-	
+30x	isolate_7083_PAY37630_barcode3738_30x	polished_fasta_30x/isolate_7083_PAY37630_barcode3738_30x.fasta	ecoli_achtman_4	2015	adk(76);fumC(319);gyrB(30);icd(37);mdh(17);purA(10);recA(96)
+30x	isolate_7084_PAY37630_barcode3940_30x	polished_fasta_30x/isolate_7084_PAY37630_barcode3940_30x.fasta	ecloacae	595	dnaA(80);fusA(55);gyrB(92);leuS(72);pyrG(169);rplB(12);rpoB(26)
+30x	isolate_7085_FAY29226_barcode07_30x	polished_fasta_30x/isolate_7085_FAY29226_barcode07_30x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+30x	isolate_7088_FAX65952_barcode1319_30x	polished_fasta_30x/isolate_7088_FAX65952_barcode1319_30x.fasta	cfreundii	-	aspC(214);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+30x	isolate_7089_FAXFAY_30x	polished_fasta_30x/isolate_7089_FAXFAY_30x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+30x	isolate_7090_FAXFBD_30x	polished_fasta_30x/isolate_7090_FAXFBD_30x.fasta	cfreundii	-	aspC(253?);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+30x	isolate_7092_FBCPAY_30x	polished_fasta_30x/isolate_7092_FBCPAY_30x.fasta	klebsiella	-	gapA(3);infB(3);mdh(1);pgi(1);phoE(1,7);rpoB(1);tonB(31)
+30x	isolate_7106_PAY37630_barcode4344_30x	polished_fasta_30x/isolate_7106_PAY37630_barcode4344_30x.fasta	klebsiella	383	gapA(2);infB(6);mdh(1);pgi(3);phoE(8);rpoB(1);tonB(18)
+30x	isolate_7136_PAY37630_barcode7980_30x	polished_fasta_30x/isolate_7136_PAY37630_barcode7980_30x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+30x	isolate_7176_PAY37630_barcode4546_30x	polished_fasta_30x/isolate_7176_PAY37630_barcode4546_30x.fasta	klebsiella	273	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(4)
+40x	isolate_4704_FAY64384_barcode1218_40x	polished_fasta_40x/isolate_4704_FAY64384_barcode1218_40x.fasta	cfreundii	-	aspC(10);clpX(~51);fadD(14);mdh(15);arcA(5);dnaG(11);lysP(11)
+40x	isolate_4838_FAY34264_barcode01_40x	polished_fasta_40x/isolate_4838_FAY34264_barcode01_40x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+40x	isolate_4920_FAYFAX_40x	polished_fasta_40x/isolate_4920_FAYFAX_40x.fasta	klebsiella	-	gapA(10);infB(7);mdh(1);pgi(1);phoE(1);rpoB(67);tonB(35)
+40x	isolate_5244_FAYFAY_40x	polished_fasta_40x/isolate_5244_FAYFAY_40x.fasta	klebsiella	17	gapA(2);infB(1);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+40x	isolate_5305_FAY24367_barcode0612_40x	polished_fasta_40x/isolate_5305_FAY24367_barcode0612_40x.fasta	-	-	
+40x	isolate_5399_FAYFAY_40x	polished_fasta_40x/isolate_5399_FAYFAY_40x.fasta	ecoli_achtman_4	-	adk(10);fumC(11);gyrB(4);icd(8);mdh(92);purA(~8);recA(2)
+40x	isolate_5590_FAX65952_barcode1622_40x	polished_fasta_40x/isolate_5590_FAX65952_barcode1622_40x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+40x	isolate_5860_PAU61707_barcode0102_40x	polished_fasta_40x/isolate_5860_PAU61707_barcode0102_40x.fasta	klebsiella	11	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(4)
+40x	isolate_5871_PAU61707_barcode0304_40x	polished_fasta_40x/isolate_5871_PAU61707_barcode0304_40x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+40x	isolate_5969_PAU61707_barcode0506_40x	polished_fasta_40x/isolate_5969_PAU61707_barcode0506_40x.fasta	cfreundii	-	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17,17,17)
+40x	isolate_5970_FBDPAU_40x	polished_fasta_40x/isolate_5970_FBDPAU_40x.fasta	cfreundii	136	aspC(10);clpX(71);fadD(62);mdh(15);arcA(5);dnaG(9);lysP(50)
+40x	isolate_5976_PAU61707_barcode0910_40x	polished_fasta_40x/isolate_5976_PAU61707_barcode0910_40x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+40x	isolate_6009_PAU61707_barcode1112_40x	polished_fasta_40x/isolate_6009_PAU61707_barcode1112_40x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+40x	isolate_6014_PAU61707_barcode1314_40x	polished_fasta_40x/isolate_6014_PAU61707_barcode1314_40x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+40x	isolate_6035_PAU61707_barcode1516_40x	polished_fasta_40x/isolate_6035_PAU61707_barcode1516_40x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+40x	isolate_6056_PAU61707_barcode1718_40x	polished_fasta_40x/isolate_6056_PAU61707_barcode1718_40x.fasta	-	-	
+40x	isolate_6057_PAU61707_barcode1920_40x	polished_fasta_40x/isolate_6057_PAU61707_barcode1920_40x.fasta			
+40x	isolate_6067_PAUPAY_40x	polished_fasta_40x/isolate_6067_PAUPAY_40x.fasta			
+40x	isolate_6068_PAU61707_barcode2324_40x	polished_fasta_40x/isolate_6068_PAU61707_barcode2324_40x.fasta			
+40x	isolate_6233_FAY24367_barcode0410_40x	polished_fasta_40x/isolate_6233_FAY24367_barcode0410_40x.fasta			
+40x	isolate_6243_FAY24367_barcode0107_40x	polished_fasta_40x/isolate_6243_FAY24367_barcode0107_40x.fasta			
+40x	isolate_6244_PAU61707_barcode2526_40x	polished_fasta_40x/isolate_6244_PAU61707_barcode2526_40x.fasta			
+40x	isolate_6247_PAU61707_barcode2728_40x	polished_fasta_40x/isolate_6247_PAU61707_barcode2728_40x.fasta			
+40x	isolate_6287_PAU61707_barcode2930_40x	polished_fasta_40x/isolate_6287_PAU61707_barcode2930_40x.fasta			
+40x	isolate_6312_PAU61707_barcode3132_40x	polished_fasta_40x/isolate_6312_PAU61707_barcode3132_40x.fasta			
+40x	isolate_6365_PAU61707_barcode3334_40x	polished_fasta_40x/isolate_6365_PAU61707_barcode3334_40x.fasta			
+40x	isolate_6378_FAY24367_barcode0511_40x	polished_fasta_40x/isolate_6378_FAY24367_barcode0511_40x.fasta			
+40x	isolate_6394_PAU61707_barcode3536_40x	polished_fasta_40x/isolate_6394_PAU61707_barcode3536_40x.fasta			
+40x	isolate_6403_PAU61707_barcode3738_40x	polished_fasta_40x/isolate_6403_PAU61707_barcode3738_40x.fasta			
+40x	isolate_6433_PAU61707_barcode3940_40x	polished_fasta_40x/isolate_6433_PAU61707_barcode3940_40x.fasta			
+40x	isolate_6454_PAU61707_barcode4142_40x	polished_fasta_40x/isolate_6454_PAU61707_barcode4142_40x.fasta			
+40x	isolate_6455_PAUPAY_40x	polished_fasta_40x/isolate_6455_PAUPAY_40x.fasta			
+40x	isolate_6466_PAU61707_barcode4546_40x	polished_fasta_40x/isolate_6466_PAU61707_barcode4546_40x.fasta			
+40x	isolate_6472_PAU61707_barcode4748_40x	polished_fasta_40x/isolate_6472_PAU61707_barcode4748_40x.fasta			
+40x	isolate_6482_FAYFAY_40x	polished_fasta_40x/isolate_6482_FAYFAY_40x.fasta			
+40x	isolate_6500_PAU61707_barcode5152_40x	polished_fasta_40x/isolate_6500_PAU61707_barcode5152_40x.fasta			
+40x	isolate_6520_PAU61707_barcode5354_40x	polished_fasta_40x/isolate_6520_PAU61707_barcode5354_40x.fasta			
+40x	isolate_6567_PAU61707_barcode5758_40x	polished_fasta_40x/isolate_6567_PAU61707_barcode5758_40x.fasta			
+40x	isolate_6571_PAU61707_barcode5556_40x	polished_fasta_40x/isolate_6571_PAU61707_barcode5556_40x.fasta			
+40x	isolate_6601_PAU61707_barcode5960_40x	polished_fasta_40x/isolate_6601_PAU61707_barcode5960_40x.fasta			
+40x	isolate_6623_FBDPAY_40x	polished_fasta_40x/isolate_6623_FBDPAY_40x.fasta			
+40x	isolate_6669_PAU61707_barcode6162_40x	polished_fasta_40x/isolate_6669_PAU61707_barcode6162_40x.fasta			
+40x	isolate_6670_PAU61707_barcode6364_40x	polished_fasta_40x/isolate_6670_PAU61707_barcode6364_40x.fasta			
+40x	isolate_6701_PAU61707_barcode6566_40x	polished_fasta_40x/isolate_6701_PAU61707_barcode6566_40x.fasta			
+40x	isolate_6711_FAY24367_barcode0208_40x	polished_fasta_40x/isolate_6711_FAY24367_barcode0208_40x.fasta			
+40x	isolate_6712_FAY24367_barcode0309_40x	polished_fasta_40x/isolate_6712_FAY24367_barcode0309_40x.fasta			
+40x	isolate_6726_PAYPAU_40x	polished_fasta_40x/isolate_6726_PAYPAU_40x.fasta			
+40x	isolate_6735_PAU61707_barcode6970_40x	polished_fasta_40x/isolate_6735_PAU61707_barcode6970_40x.fasta			
+40x	isolate_6737_FBD_PAU_PAY_40x	polished_fasta_40x/isolate_6737_FBD_PAU_PAY_40x.fasta			
+40x	isolate_6738_FBCPAUPAY_40x	polished_fasta_40x/isolate_6738_FBCPAUPAY_40x.fasta			
+40x	isolate_6748_PAU61707_barcode7576_40x	polished_fasta_40x/isolate_6748_PAU61707_barcode7576_40x.fasta			
+40x	isolate_6774_PAU61707_barcode7778_40x	polished_fasta_40x/isolate_6774_PAU61707_barcode7778_40x.fasta			
+40x	isolate_6775_PAUPAY_40x	polished_fasta_40x/isolate_6775_PAUPAY_40x.fasta			
+40x	isolate_6776_PAUPAY_40x	polished_fasta_40x/isolate_6776_PAUPAY_40x.fasta			
+40x	isolate_6779_FBDPAU_40x	polished_fasta_40x/isolate_6779_FBDPAU_40x.fasta			
+40x	isolate_6795_PAUPAY_40x	polished_fasta_40x/isolate_6795_PAUPAY_40x.fasta			
+40x	isolate_6797_PAU61707_barcode8990_40x	polished_fasta_40x/isolate_6797_PAU61707_barcode8990_40x.fasta			
+40x	isolate_6813_PAU61707_barcode9192_40x	polished_fasta_40x/isolate_6813_PAU61707_barcode9192_40x.fasta			
+40x	isolate_6817_PAUPAY_40x	polished_fasta_40x/isolate_6817_PAUPAY_40x.fasta			
+40x	isolate_6838_PAU61707_barcode9596_40x	polished_fasta_40x/isolate_6838_PAU61707_barcode9596_40x.fasta			
+40x	isolate_6855_PAY37630_barcode1920_40x	polished_fasta_40x/isolate_6855_PAY37630_barcode1920_40x.fasta			
+40x	isolate_6856_FBCPAY_40x	polished_fasta_40x/isolate_6856_FBCPAY_40x.fasta			
+40x	isolate_6888_PAY37630_barcode9394_40x	polished_fasta_40x/isolate_6888_PAY37630_barcode9394_40x.fasta			
+40x	isolate_6900_PAY37630_barcode2324_40x	polished_fasta_40x/isolate_6900_PAY37630_barcode2324_40x.fasta			
+40x	isolate_6901_FBC05034_barcode0910_40x	polished_fasta_40x/isolate_6901_FBC05034_barcode0910_40x.fasta			
+40x	isolate_6951_PAY37630_barcode2728_40x	polished_fasta_40x/isolate_6951_PAY37630_barcode2728_40x.fasta			
+40x	isolate_6970_PAY37630_barcode2930_40x	polished_fasta_40x/isolate_6970_PAY37630_barcode2930_40x.fasta			
+40x	isolate_6989_FBCFBDPAY_40x	polished_fasta_40x/isolate_6989_FBCFBDPAY_40x.fasta			
+40x	isolate_7067_PAY37630_barcode3334_40x	polished_fasta_40x/isolate_7067_PAY37630_barcode3334_40x.fasta			
+40x	isolate_7077_PAY37630_barcode3536_40x	polished_fasta_40x/isolate_7077_PAY37630_barcode3536_40x.fasta			
+40x	isolate_7083_PAY37630_barcode3738_40x	polished_fasta_40x/isolate_7083_PAY37630_barcode3738_40x.fasta			
+40x	isolate_7084_PAY37630_barcode3940_40x	polished_fasta_40x/isolate_7084_PAY37630_barcode3940_40x.fasta			
+40x	isolate_7085_FAY29226_barcode07_40x	polished_fasta_40x/isolate_7085_FAY29226_barcode07_40x.fasta			
+40x	isolate_7088_FAX65952_barcode1319_40x	polished_fasta_40x/isolate_7088_FAX65952_barcode1319_40x.fasta			
+40x	isolate_7089_FAXFAY_40x	polished_fasta_40x/isolate_7089_FAXFAY_40x.fasta			
+40x	isolate_7090_FAXFBD_40x	polished_fasta_40x/isolate_7090_FAXFBD_40x.fasta			
+40x	isolate_7092_FBCPAY_40x	polished_fasta_40x/isolate_7092_FBCPAY_40x.fasta			
+40x	isolate_7106_PAY37630_barcode4344_40x	polished_fasta_40x/isolate_7106_PAY37630_barcode4344_40x.fasta			
+40x	isolate_7136_PAY37630_barcode7980_40x	polished_fasta_40x/isolate_7136_PAY37630_barcode7980_40x.fasta			
+40x	isolate_7176_PAY37630_barcode4546_40x	polished_fasta_40x/isolate_7176_PAY37630_barcode4546_40x.fasta			
+40x	isolate_7181_PAY37630_barcode4748_40x	polished_fasta_40x/isolate_7181_PAY37630_barcode4748_40x.fasta			
+40x	isolate_7221_PAY37630_barcode4950_40x	polished_fasta_40x/isolate_7221_PAY37630_barcode4950_40x.fasta			
+40x	isolate_7243_PAY37630_barcode5152_40x	polished_fasta_40x/isolate_7243_PAY37630_barcode5152_40x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+40x	isolate_7273_FBCPAY_40x	polished_fasta_40x/isolate_7273_FBCPAY_40x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+40x	isolate_7285_PAY37630_barcode5556_40x	polished_fasta_40x/isolate_7285_PAY37630_barcode5556_40x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+40x	isolate_7310_PAY37630_barcode5758_40x	polished_fasta_40x/isolate_7310_PAY37630_barcode5758_40x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+40x	isolate_7316_PAY37630_barcode5960_40x	polished_fasta_40x/isolate_7316_PAY37630_barcode5960_40x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+40x	isolate_7365_PAY37630_barcode6162_40x	polished_fasta_40x/isolate_7365_PAY37630_barcode6162_40x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+40x	isolate_7369_PAY37630_barcode6364_40x	polished_fasta_40x/isolate_7369_PAY37630_barcode6364_40x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+40x	isolate_7370_PAY37630_barcode6566_40x	polished_fasta_40x/isolate_7370_PAY37630_barcode6566_40x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+40x	isolate_7387_FBCFBD_40x	polished_fasta_40x/isolate_7387_FBCFBD_40x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+40x	isolate_7397_PAY37630_barcode7172_40x	polished_fasta_40x/isolate_7397_PAY37630_barcode7172_40x.fasta	klebsiella	2096	gapA(1);infB(6);mdh(1);pgi(1);phoE(1);rpoB(46);tonB(1)
+40x	isolate_7419_FBCPAY_40x	polished_fasta_40x/isolate_7419_FBCPAY_40x.fasta	ecloacae	108	dnaA(68);fusA(8);gyrB(75);leuS(63);pyrG(65);rplB(34);rpoB(35)
+40x	isolate_7454_PAY37630_barcode7778_40x	polished_fasta_40x/isolate_7454_PAY37630_barcode7778_40x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+40x	isolate_7475_PAY37630_barcode8182_40x	polished_fasta_40x/isolate_7475_PAY37630_barcode8182_40x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+40x	isolate_7476_PAY37630_barcode8384_40x	polished_fasta_40x/isolate_7476_PAY37630_barcode8384_40x.fasta	klebsiella	485	gapA(2);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(12)
+40x	isolate_7488_FBC05034_barcode2324_40x	polished_fasta_40x/isolate_7488_FBC05034_barcode2324_40x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+40x	isolate_7521_FAX65952_barcode1824_40x	polished_fasta_40x/isolate_7521_FAX65952_barcode1824_40x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+30x	isolate_6378_FAY24367_barcode0511_30x	polished_fasta_30x/isolate_6378_FAY24367_barcode0511_30x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+30x	isolate_6394_PAU61707_barcode3536_30x	polished_fasta_30x/isolate_6394_PAU61707_barcode3536_30x.fasta	klebsiella	874	gapA(4);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(22)
+30x	isolate_6403_PAU61707_barcode3738_30x	polished_fasta_30x/isolate_6403_PAU61707_barcode3738_30x.fasta	ecoli_achtman_4	167	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(13);recA(2)
+30x	isolate_6433_PAU61707_barcode3940_30x	polished_fasta_30x/isolate_6433_PAU61707_barcode3940_30x.fasta	-	-	
+30x	isolate_6454_PAU61707_barcode4142_30x	polished_fasta_30x/isolate_6454_PAU61707_barcode4142_30x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+30x	isolate_6455_PAUPAY_30x	polished_fasta_30x/isolate_6455_PAUPAY_30x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+40x	isolate_6057_PAU61707_barcode1920_40x	polished_fasta_40x/isolate_6057_PAU61707_barcode1920_40x.fasta	ecoli_achtman_4	648	adk(92);fumC(4);gyrB(87);icd(96);mdh(70);purA(58);recA(2)
+40x	isolate_6067_PAUPAY_40x	polished_fasta_40x/isolate_6067_PAUPAY_40x.fasta	koxytoca	44	gapA(3);infB(14);mdh(22);pgi(21);phoE(25);rpoB(17);tonB(21)
+40x	isolate_6068_PAU61707_barcode2324_40x	polished_fasta_40x/isolate_6068_PAU61707_barcode2324_40x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+40x	isolate_6233_FAY24367_barcode0410_40x	polished_fasta_40x/isolate_6233_FAY24367_barcode0410_40x.fasta	ecoli_achtman_4	2524	adk(10);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(2)
+40x	isolate_6243_FAY24367_barcode0107_40x	polished_fasta_40x/isolate_6243_FAY24367_barcode0107_40x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+40x	isolate_6244_PAU61707_barcode2526_40x	polished_fasta_40x/isolate_6244_PAU61707_barcode2526_40x.fasta	klebsiella	231	gapA(2);infB(6);mdh(1);pgi(3);phoE(26);rpoB(1);tonB(77)
+40x	isolate_6247_PAU61707_barcode2728_40x	polished_fasta_40x/isolate_6247_PAU61707_barcode2728_40x.fasta	ecoli_achtman_4	44	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(7)
+40x	isolate_6287_PAU61707_barcode2930_40x	polished_fasta_40x/isolate_6287_PAU61707_barcode2930_40x.fasta	klebsiella	3506	gapA(18);infB(22);mdh(56);pgi(61);phoE(234);rpoB(20);tonB(169)
+40x	isolate_6312_PAU61707_barcode3132_40x	polished_fasta_40x/isolate_6312_PAU61707_barcode3132_40x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+40x	isolate_6365_PAU61707_barcode3334_40x	polished_fasta_40x/isolate_6365_PAU61707_barcode3334_40x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+40x	isolate_6378_FAY24367_barcode0511_40x	polished_fasta_40x/isolate_6378_FAY24367_barcode0511_40x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+40x	isolate_6466_PAU61707_barcode4546_40x	polished_fasta_40x/isolate_6466_PAU61707_barcode4546_40x.fasta	ecoli_achtman_4	448	adk(6);fumC(6);gyrB(5);icd(16);mdh(11);purA(8);recA(7)
+40x	isolate_6472_PAU61707_barcode4748_40x	polished_fasta_40x/isolate_6472_PAU61707_barcode4748_40x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+40x	isolate_6482_FAYFAY_40x	polished_fasta_40x/isolate_6482_FAYFAY_40x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+40x	isolate_6500_PAU61707_barcode5152_40x	polished_fasta_40x/isolate_6500_PAU61707_barcode5152_40x.fasta	klebsiella	512	gapA(54);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+40x	isolate_6520_PAU61707_barcode5354_40x	polished_fasta_40x/isolate_6520_PAU61707_barcode5354_40x.fasta	klebsiella	20	gapA(2);infB(3);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+40x	isolate_6567_PAU61707_barcode5758_40x	polished_fasta_40x/isolate_6567_PAU61707_barcode5758_40x.fasta	koxytoca	-	gapA(~31);infB(47);mdh(~65);pgi(37?);phoE(~93);rpoB(44);tonB(40?)
+40x	isolate_6571_PAU61707_barcode5556_40x	polished_fasta_40x/isolate_6571_PAU61707_barcode5556_40x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+40x	isolate_6601_PAU61707_barcode5960_40x	polished_fasta_40x/isolate_6601_PAU61707_barcode5960_40x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+40x	isolate_6623_FBDPAY_40x	polished_fasta_40x/isolate_6623_FBDPAY_40x.fasta	ecloacae	461	dnaA(9);fusA(4);gyrB(14);leuS(6);pyrG(37);rplB(4);rpoB(9)
+40x	isolate_6669_PAU61707_barcode6162_40x	polished_fasta_40x/isolate_6669_PAU61707_barcode6162_40x.fasta	klebsiella	462	gapA(2);infB(1);mdh(1);pgi(6);phoE(1);rpoB(4);tonB(12)
+40x	isolate_6670_PAU61707_barcode6364_40x	polished_fasta_40x/isolate_6670_PAU61707_barcode6364_40x.fasta	cfreundii	396	aspC(16);clpX(12);fadD(70);mdh(15);arcA(88);dnaG(6);lysP(50)
+40x	isolate_6701_PAU61707_barcode6566_40x	polished_fasta_40x/isolate_6701_PAU61707_barcode6566_40x.fasta	koxytoca	151	gapA(3);infB(5);mdh(21);pgi(13);phoE(20);rpoB(6);tonB(12)
+40x	isolate_6711_FAY24367_barcode0208_40x	polished_fasta_40x/isolate_6711_FAY24367_barcode0208_40x.fasta	cfreundii	409	aspC(53);clpX(166);fadD(59);mdh(90);arcA(89);dnaG(151);lysP(107)
+40x	isolate_6712_FAY24367_barcode0309_40x	polished_fasta_40x/isolate_6712_FAY24367_barcode0309_40x.fasta	ecoli_achtman_4	224	adk(6);fumC(4);gyrB(33);icd(16);mdh(11);purA(8);recA(6)
+40x	isolate_6726_PAYPAU_40x	polished_fasta_40x/isolate_6726_PAYPAU_40x.fasta	klebsiella	258	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+40x	isolate_6735_PAU61707_barcode6970_40x	polished_fasta_40x/isolate_6735_PAU61707_barcode6970_40x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+40x	isolate_6737_FBD_PAU_PAY_40x	polished_fasta_40x/isolate_6737_FBD_PAU_PAY_40x.fasta	klebsiella	395	gapA(3);infB(1);mdh(2);pgi(4);phoE(1);rpoB(1);tonB(4)
+40x	isolate_6738_FBCPAUPAY_40x	polished_fasta_40x/isolate_6738_FBCPAUPAY_40x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+40x	isolate_6748_PAU61707_barcode7576_40x	polished_fasta_40x/isolate_6748_PAU61707_barcode7576_40x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+40x	isolate_6774_PAU61707_barcode7778_40x	polished_fasta_40x/isolate_6774_PAU61707_barcode7778_40x.fasta	klebsiella	1653	gapA(4);infB(3);mdh(2);pgi(3);phoE(13);rpoB(1);tonB(9)
+40x	isolate_6775_PAUPAY_40x	polished_fasta_40x/isolate_6775_PAUPAY_40x.fasta	kaerogenes	14	dnaA(12);fusA(5);gyrB(1);leuS(4);pryG(2);rplB(1);rpoB(2)
+40x	isolate_6776_PAUPAY_40x	polished_fasta_40x/isolate_6776_PAUPAY_40x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+40x	isolate_6779_FBDPAU_40x	polished_fasta_40x/isolate_6779_FBDPAU_40x.fasta	kaerogenes	379	dnaA(60);fusA(2);gyrB(7);leuS(25);pryG(2);rplB(2);rpoB(2)
+40x	isolate_6795_PAUPAY_40x	polished_fasta_40x/isolate_6795_PAUPAY_40x.fasta	cfreundii	-	aspC(223);clpX(~152);fadD(281);mdh(~229);arcA(75);dnaG(185);lysP(187)
+40x	isolate_6797_PAU61707_barcode8990_40x	polished_fasta_40x/isolate_6797_PAU61707_barcode8990_40x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+40x	isolate_6813_PAU61707_barcode9192_40x	polished_fasta_40x/isolate_6813_PAU61707_barcode9192_40x.fasta	-	-	
+40x	isolate_6817_PAUPAY_40x	polished_fasta_40x/isolate_6817_PAUPAY_40x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+40x	isolate_6838_PAU61707_barcode9596_40x	polished_fasta_40x/isolate_6838_PAU61707_barcode9596_40x.fasta	ecoli_achtman_4	101	adk(43);fumC(41);gyrB(15);icd(18);mdh(11);purA(7);recA(6)
+40x	isolate_6855_PAY37630_barcode1920_40x	polished_fasta_40x/isolate_6855_PAY37630_barcode1920_40x.fasta	koxytoca	303	gapA(12);infB(29);mdh(20);pgi(21);phoE(40);rpoB(32);tonB(46)
+40x	isolate_6856_FBCPAY_40x	polished_fasta_40x/isolate_6856_FBCPAY_40x.fasta	ecloacae	278	dnaA(59);fusA(9);gyrB(59);leuS(9);pyrG(67);rplB(6);rpoB(6)
+40x	isolate_6888_PAY37630_barcode9394_40x	polished_fasta_40x/isolate_6888_PAY37630_barcode9394_40x.fasta	klebsiella	976	gapA(2);infB(3);mdh(108);pgi(26);phoE(3);rpoB(4);tonB(64)
+40x	isolate_6900_PAY37630_barcode2324_40x	polished_fasta_40x/isolate_6900_PAY37630_barcode2324_40x.fasta	cfreundii	534	aspC(9);clpX(11);fadD(205);mdh(95);arcA(47);dnaG(8);lysP(172)
+40x	isolate_6901_FBC05034_barcode0910_40x	polished_fasta_40x/isolate_6901_FBC05034_barcode0910_40x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+40x	isolate_6951_PAY37630_barcode2728_40x	polished_fasta_40x/isolate_6951_PAY37630_barcode2728_40x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+40x	isolate_6970_PAY37630_barcode2930_40x	polished_fasta_40x/isolate_6970_PAY37630_barcode2930_40x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+40x	isolate_6989_FBCFBDPAY_40x	polished_fasta_40x/isolate_6989_FBCFBDPAY_40x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+40x	isolate_7067_PAY37630_barcode3334_40x	polished_fasta_40x/isolate_7067_PAY37630_barcode3334_40x.fasta	ecoli_achtman_4	607	adk(113);fumC(4);gyrB(5);icd(83);mdh(8);purA(8);recA(6)
+40x	isolate_7077_PAY37630_barcode3536_40x	polished_fasta_40x/isolate_7077_PAY37630_barcode3536_40x.fasta	-	-	
+40x	isolate_7083_PAY37630_barcode3738_40x	polished_fasta_40x/isolate_7083_PAY37630_barcode3738_40x.fasta	ecoli_achtman_4	2015	adk(76);fumC(319);gyrB(30);icd(37);mdh(17);purA(10);recA(96)
+40x	isolate_7084_PAY37630_barcode3940_40x	polished_fasta_40x/isolate_7084_PAY37630_barcode3940_40x.fasta	ecloacae	595	dnaA(80);fusA(55);gyrB(92);leuS(72);pyrG(169);rplB(12);rpoB(26)
+40x	isolate_7085_FAY29226_barcode07_40x	polished_fasta_40x/isolate_7085_FAY29226_barcode07_40x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+40x	isolate_7088_FAX65952_barcode1319_40x	polished_fasta_40x/isolate_7088_FAX65952_barcode1319_40x.fasta	cfreundii	-	aspC(214);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+40x	isolate_7089_FAXFAY_40x	polished_fasta_40x/isolate_7089_FAXFAY_40x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+40x	isolate_7090_FAXFBD_40x	polished_fasta_40x/isolate_7090_FAXFBD_40x.fasta	cfreundii	-	aspC(214);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+40x	isolate_7092_FBCPAY_40x	polished_fasta_40x/isolate_7092_FBCPAY_40x.fasta	klebsiella	-	gapA(3);infB(3);mdh(1);pgi(1);phoE(1,7);rpoB(1);tonB(31)
+40x	isolate_7106_PAY37630_barcode4344_40x	polished_fasta_40x/isolate_7106_PAY37630_barcode4344_40x.fasta	klebsiella	383	gapA(2);infB(6);mdh(1);pgi(3);phoE(8);rpoB(1);tonB(18)
+40x	isolate_7136_PAY37630_barcode7980_40x	polished_fasta_40x/isolate_7136_PAY37630_barcode7980_40x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+40x	isolate_7176_PAY37630_barcode4546_40x	polished_fasta_40x/isolate_7176_PAY37630_barcode4546_40x.fasta	klebsiella	273	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(4)
+40x	isolate_7181_PAY37630_barcode4748_40x	polished_fasta_40x/isolate_7181_PAY37630_barcode4748_40x.fasta	klebsiella	3430	gapA(2);infB(3);mdh(2);pgi(6);phoE(1);rpoB(4);tonB(12)
+40x	isolate_7221_PAY37630_barcode4950_40x	polished_fasta_40x/isolate_7221_PAY37630_barcode4950_40x.fasta	ecoli_achtman_4	361	adk(10);fumC(99);gyrB(5);icd(91);mdh(8);purA(7);recA(2)
+60x	isolate_4704_FAY64384_barcode1218_60x	polished_fasta_60x/isolate_4704_FAY64384_barcode1218_60x.fasta	cfreundii	-	aspC(10);clpX(~51);fadD(14);mdh(15);arcA(5);dnaG(11);lysP(11)
+60x	isolate_4838_FAY34264_barcode01_60x	polished_fasta_60x/isolate_4838_FAY34264_barcode01_60x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+60x	isolate_4920_FAYFAX_60x	polished_fasta_60x/isolate_4920_FAYFAX_60x.fasta	klebsiella	-	gapA(10);infB(7);mdh(1);pgi(1);phoE(1);rpoB(67);tonB(35)
+60x	isolate_5244_FAYFAY_60x	polished_fasta_60x/isolate_5244_FAYFAY_60x.fasta	klebsiella	17	gapA(2);infB(1);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+60x	isolate_5305_FAY24367_barcode0612_60x	polished_fasta_60x/isolate_5305_FAY24367_barcode0612_60x.fasta	-	-	
+60x	isolate_5399_FAYFAY_60x	polished_fasta_60x/isolate_5399_FAYFAY_60x.fasta	ecoli_achtman_4	-	adk(10);fumC(11);gyrB(4);icd(8);mdh(92);purA(~8);recA(2)
+60x	isolate_5590_FAX65952_barcode1622_60x	polished_fasta_60x/isolate_5590_FAX65952_barcode1622_60x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+60x	isolate_5860_PAU61707_barcode0102_60x	polished_fasta_60x/isolate_5860_PAU61707_barcode0102_60x.fasta	klebsiella	11	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(4)
+60x	isolate_5871_PAU61707_barcode0304_60x	polished_fasta_60x/isolate_5871_PAU61707_barcode0304_60x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+60x	isolate_5969_PAU61707_barcode0506_60x	polished_fasta_60x/isolate_5969_PAU61707_barcode0506_60x.fasta	cfreundii	-	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17,17,17)
+60x	isolate_5970_FBDPAU_60x	polished_fasta_60x/isolate_5970_FBDPAU_60x.fasta	cfreundii	136	aspC(10);clpX(71);fadD(62);mdh(15);arcA(5);dnaG(9);lysP(50)
+60x	isolate_5976_PAU61707_barcode0910_60x	polished_fasta_60x/isolate_5976_PAU61707_barcode0910_60x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+60x	isolate_6009_PAU61707_barcode1112_60x	polished_fasta_60x/isolate_6009_PAU61707_barcode1112_60x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+60x	isolate_6014_PAU61707_barcode1314_60x	polished_fasta_60x/isolate_6014_PAU61707_barcode1314_60x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+60x	isolate_6035_PAU61707_barcode1516_60x	polished_fasta_60x/isolate_6035_PAU61707_barcode1516_60x.fasta			
+60x	isolate_6056_PAU61707_barcode1718_60x	polished_fasta_60x/isolate_6056_PAU61707_barcode1718_60x.fasta			
+60x	isolate_6057_PAU61707_barcode1920_60x	polished_fasta_60x/isolate_6057_PAU61707_barcode1920_60x.fasta			
+60x	isolate_6067_PAUPAY_60x	polished_fasta_60x/isolate_6067_PAUPAY_60x.fasta			
+60x	isolate_6068_PAU61707_barcode2324_60x	polished_fasta_60x/isolate_6068_PAU61707_barcode2324_60x.fasta			
+60x	isolate_6233_FAY24367_barcode0410_60x	polished_fasta_60x/isolate_6233_FAY24367_barcode0410_60x.fasta			
+60x	isolate_6243_FAY24367_barcode0107_60x	polished_fasta_60x/isolate_6243_FAY24367_barcode0107_60x.fasta			
+60x	isolate_6244_PAU61707_barcode2526_60x	polished_fasta_60x/isolate_6244_PAU61707_barcode2526_60x.fasta			
+60x	isolate_6247_PAU61707_barcode2728_60x	polished_fasta_60x/isolate_6247_PAU61707_barcode2728_60x.fasta			
+60x	isolate_6287_PAU61707_barcode2930_60x	polished_fasta_60x/isolate_6287_PAU61707_barcode2930_60x.fasta			
+60x	isolate_6312_PAU61707_barcode3132_60x	polished_fasta_60x/isolate_6312_PAU61707_barcode3132_60x.fasta			
+60x	isolate_6365_PAU61707_barcode3334_60x	polished_fasta_60x/isolate_6365_PAU61707_barcode3334_60x.fasta			
+60x	isolate_6378_FAY24367_barcode0511_60x	polished_fasta_60x/isolate_6378_FAY24367_barcode0511_60x.fasta			
+60x	isolate_6394_PAU61707_barcode3536_60x	polished_fasta_60x/isolate_6394_PAU61707_barcode3536_60x.fasta			
+60x	isolate_6403_PAU61707_barcode3738_60x	polished_fasta_60x/isolate_6403_PAU61707_barcode3738_60x.fasta			
+60x	isolate_6433_PAU61707_barcode3940_60x	polished_fasta_60x/isolate_6433_PAU61707_barcode3940_60x.fasta			
+60x	isolate_6454_PAU61707_barcode4142_60x	polished_fasta_60x/isolate_6454_PAU61707_barcode4142_60x.fasta			
+60x	isolate_6455_PAUPAY_60x	polished_fasta_60x/isolate_6455_PAUPAY_60x.fasta			
+60x	isolate_6466_PAU61707_barcode4546_60x	polished_fasta_60x/isolate_6466_PAU61707_barcode4546_60x.fasta			
+60x	isolate_6472_PAU61707_barcode4748_60x	polished_fasta_60x/isolate_6472_PAU61707_barcode4748_60x.fasta			
+60x	isolate_6482_FAYFAY_60x	polished_fasta_60x/isolate_6482_FAYFAY_60x.fasta			
+60x	isolate_6500_PAU61707_barcode5152_60x	polished_fasta_60x/isolate_6500_PAU61707_barcode5152_60x.fasta			
+60x	isolate_6520_PAU61707_barcode5354_60x	polished_fasta_60x/isolate_6520_PAU61707_barcode5354_60x.fasta			
+60x	isolate_6567_PAU61707_barcode5758_60x	polished_fasta_60x/isolate_6567_PAU61707_barcode5758_60x.fasta			
+60x	isolate_6571_PAU61707_barcode5556_60x	polished_fasta_60x/isolate_6571_PAU61707_barcode5556_60x.fasta			
+60x	isolate_6601_PAU61707_barcode5960_60x	polished_fasta_60x/isolate_6601_PAU61707_barcode5960_60x.fasta			
+60x	isolate_6623_FBDPAY_60x	polished_fasta_60x/isolate_6623_FBDPAY_60x.fasta			
+60x	isolate_6669_PAU61707_barcode6162_60x	polished_fasta_60x/isolate_6669_PAU61707_barcode6162_60x.fasta			
+60x	isolate_6670_PAU61707_barcode6364_60x	polished_fasta_60x/isolate_6670_PAU61707_barcode6364_60x.fasta			
+60x	isolate_6701_PAU61707_barcode6566_60x	polished_fasta_60x/isolate_6701_PAU61707_barcode6566_60x.fasta			
+60x	isolate_6711_FAY24367_barcode0208_60x	polished_fasta_60x/isolate_6711_FAY24367_barcode0208_60x.fasta			
+60x	isolate_6712_FAY24367_barcode0309_60x	polished_fasta_60x/isolate_6712_FAY24367_barcode0309_60x.fasta			
+60x	isolate_6726_PAYPAU_60x	polished_fasta_60x/isolate_6726_PAYPAU_60x.fasta			
+60x	isolate_6735_PAU61707_barcode6970_60x	polished_fasta_60x/isolate_6735_PAU61707_barcode6970_60x.fasta			
+60x	isolate_6737_FBD_PAU_PAY_60x	polished_fasta_60x/isolate_6737_FBD_PAU_PAY_60x.fasta			
+60x	isolate_6738_FBCPAUPAY_60x	polished_fasta_60x/isolate_6738_FBCPAUPAY_60x.fasta			
+60x	isolate_6748_PAU61707_barcode7576_60x	polished_fasta_60x/isolate_6748_PAU61707_barcode7576_60x.fasta			
+60x	isolate_6774_PAU61707_barcode7778_60x	polished_fasta_60x/isolate_6774_PAU61707_barcode7778_60x.fasta			
+60x	isolate_6775_PAUPAY_60x	polished_fasta_60x/isolate_6775_PAUPAY_60x.fasta			
+60x	isolate_6776_PAUPAY_60x	polished_fasta_60x/isolate_6776_PAUPAY_60x.fasta			
+60x	isolate_6779_FBDPAU_60x	polished_fasta_60x/isolate_6779_FBDPAU_60x.fasta			
+60x	isolate_6795_PAUPAY_60x	polished_fasta_60x/isolate_6795_PAUPAY_60x.fasta			
+60x	isolate_6797_PAU61707_barcode8990_60x	polished_fasta_60x/isolate_6797_PAU61707_barcode8990_60x.fasta			
+60x	isolate_6813_PAU61707_barcode9192_60x	polished_fasta_60x/isolate_6813_PAU61707_barcode9192_60x.fasta			
+60x	isolate_6817_PAUPAY_60x	polished_fasta_60x/isolate_6817_PAUPAY_60x.fasta			
+60x	isolate_6838_PAU61707_barcode9596_60x	polished_fasta_60x/isolate_6838_PAU61707_barcode9596_60x.fasta			
+60x	isolate_6855_PAY37630_barcode1920_60x	polished_fasta_60x/isolate_6855_PAY37630_barcode1920_60x.fasta			
+60x	isolate_6856_FBCPAY_60x	polished_fasta_60x/isolate_6856_FBCPAY_60x.fasta			
+60x	isolate_6888_PAY37630_barcode9394_60x	polished_fasta_60x/isolate_6888_PAY37630_barcode9394_60x.fasta			
+60x	isolate_6900_PAY37630_barcode2324_60x	polished_fasta_60x/isolate_6900_PAY37630_barcode2324_60x.fasta			
+60x	isolate_6901_FBC05034_barcode0910_60x	polished_fasta_60x/isolate_6901_FBC05034_barcode0910_60x.fasta			
+60x	isolate_6951_PAY37630_barcode2728_60x	polished_fasta_60x/isolate_6951_PAY37630_barcode2728_60x.fasta			
+60x	isolate_6970_PAY37630_barcode2930_60x	polished_fasta_60x/isolate_6970_PAY37630_barcode2930_60x.fasta			
+60x	isolate_6989_FBCFBDPAY_60x	polished_fasta_60x/isolate_6989_FBCFBDPAY_60x.fasta			
+60x	isolate_7067_PAY37630_barcode3334_60x	polished_fasta_60x/isolate_7067_PAY37630_barcode3334_60x.fasta			
+60x	isolate_7077_PAY37630_barcode3536_60x	polished_fasta_60x/isolate_7077_PAY37630_barcode3536_60x.fasta			
+60x	isolate_7083_PAY37630_barcode3738_60x	polished_fasta_60x/isolate_7083_PAY37630_barcode3738_60x.fasta			
+60x	isolate_7084_PAY37630_barcode3940_60x	polished_fasta_60x/isolate_7084_PAY37630_barcode3940_60x.fasta			
+60x	isolate_7085_FAY29226_barcode07_60x	polished_fasta_60x/isolate_7085_FAY29226_barcode07_60x.fasta			
+60x	isolate_7088_FAX65952_barcode1319_60x	polished_fasta_60x/isolate_7088_FAX65952_barcode1319_60x.fasta			
+60x	isolate_7089_FAXFAY_60x	polished_fasta_60x/isolate_7089_FAXFAY_60x.fasta			
+60x	isolate_7090_FAXFBD_60x	polished_fasta_60x/isolate_7090_FAXFBD_60x.fasta			
+60x	isolate_7092_FBCPAY_60x	polished_fasta_60x/isolate_7092_FBCPAY_60x.fasta			
+60x	isolate_7106_PAY37630_barcode4344_60x	polished_fasta_60x/isolate_7106_PAY37630_barcode4344_60x.fasta			
+60x	isolate_7136_PAY37630_barcode7980_60x	polished_fasta_60x/isolate_7136_PAY37630_barcode7980_60x.fasta			
+60x	isolate_7176_PAY37630_barcode4546_60x	polished_fasta_60x/isolate_7176_PAY37630_barcode4546_60x.fasta			
+60x	isolate_7181_PAY37630_barcode4748_60x	polished_fasta_60x/isolate_7181_PAY37630_barcode4748_60x.fasta			
+60x	isolate_7221_PAY37630_barcode4950_60x	polished_fasta_60x/isolate_7221_PAY37630_barcode4950_60x.fasta			
+60x	isolate_7243_PAY37630_barcode5152_60x	polished_fasta_60x/isolate_7243_PAY37630_barcode5152_60x.fasta			
+60x	isolate_7273_FBCPAY_60x	polished_fasta_60x/isolate_7273_FBCPAY_60x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+60x	isolate_7285_PAY37630_barcode5556_60x	polished_fasta_60x/isolate_7285_PAY37630_barcode5556_60x.fasta	cfreundii	583	aspC(133);clpX(205);fadD(58);mdh(42);arcA(30);dnaG(175);lysP(105)
+60x	isolate_7310_PAY37630_barcode5758_60x	polished_fasta_60x/isolate_7310_PAY37630_barcode5758_60x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+60x	isolate_7316_PAY37630_barcode5960_60x	polished_fasta_60x/isolate_7316_PAY37630_barcode5960_60x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+60x	isolate_7365_PAY37630_barcode6162_60x	polished_fasta_60x/isolate_7365_PAY37630_barcode6162_60x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+60x	isolate_7369_PAY37630_barcode6364_60x	polished_fasta_60x/isolate_7369_PAY37630_barcode6364_60x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+60x	isolate_7370_PAY37630_barcode6566_60x	polished_fasta_60x/isolate_7370_PAY37630_barcode6566_60x.fasta	ecoli_achtman_4	46	adk(8);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(6)
+60x	isolate_7387_FBCFBD_60x	polished_fasta_60x/isolate_7387_FBCFBD_60x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+60x	isolate_7397_PAY37630_barcode7172_60x	polished_fasta_60x/isolate_7397_PAY37630_barcode7172_60x.fasta	klebsiella	2096	gapA(1);infB(6);mdh(1);pgi(1);phoE(1);rpoB(46);tonB(1)
+60x	isolate_7419_FBCPAY_60x	polished_fasta_60x/isolate_7419_FBCPAY_60x.fasta	ecloacae	108	dnaA(68);fusA(8);gyrB(75);leuS(63);pyrG(65);rplB(34);rpoB(35)
+60x	isolate_7454_PAY37630_barcode7778_60x	polished_fasta_60x/isolate_7454_PAY37630_barcode7778_60x.fasta	ecoli_achtman_4	131	adk(53);fumC(40);gyrB(47);icd(13);mdh(36);purA(28);recA(29)
+60x	isolate_7475_PAY37630_barcode8182_60x	polished_fasta_60x/isolate_7475_PAY37630_barcode8182_60x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+60x	isolate_7476_PAY37630_barcode8384_60x	polished_fasta_60x/isolate_7476_PAY37630_barcode8384_60x.fasta	klebsiella	485	gapA(2);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(12)
+60x	isolate_7488_FBC05034_barcode2324_60x	polished_fasta_60x/isolate_7488_FBC05034_barcode2324_60x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+60x	isolate_7521_FAX65952_barcode1824_60x	polished_fasta_60x/isolate_7521_FAX65952_barcode1824_60x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+40x	isolate_6394_PAU61707_barcode3536_40x	polished_fasta_40x/isolate_6394_PAU61707_barcode3536_40x.fasta	klebsiella	874	gapA(4);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(22)
+40x	isolate_6403_PAU61707_barcode3738_40x	polished_fasta_40x/isolate_6403_PAU61707_barcode3738_40x.fasta	ecoli_achtman_4	167	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(13);recA(2)
+40x	isolate_6433_PAU61707_barcode3940_40x	polished_fasta_40x/isolate_6433_PAU61707_barcode3940_40x.fasta	-	-	
+40x	isolate_6454_PAU61707_barcode4142_40x	polished_fasta_40x/isolate_6454_PAU61707_barcode4142_40x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+40x	isolate_6455_PAUPAY_40x	polished_fasta_40x/isolate_6455_PAUPAY_40x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+60x	isolate_6035_PAU61707_barcode1516_60x	polished_fasta_60x/isolate_6035_PAU61707_barcode1516_60x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+60x	isolate_6056_PAU61707_barcode1718_60x	polished_fasta_60x/isolate_6056_PAU61707_barcode1718_60x.fasta	-	-	
+60x	isolate_6057_PAU61707_barcode1920_60x	polished_fasta_60x/isolate_6057_PAU61707_barcode1920_60x.fasta	ecoli_achtman_4	648	adk(92);fumC(4);gyrB(87);icd(96);mdh(70);purA(58);recA(2)
+60x	isolate_6067_PAUPAY_60x	polished_fasta_60x/isolate_6067_PAUPAY_60x.fasta	koxytoca	44	gapA(3);infB(14);mdh(22);pgi(21);phoE(25);rpoB(17);tonB(21)
+60x	isolate_6068_PAU61707_barcode2324_60x	polished_fasta_60x/isolate_6068_PAU61707_barcode2324_60x.fasta	ecoli_achtman_4	744	adk(10);fumC(11);gyrB(135);icd(8);mdh(8);purA(8);recA(2)
+60x	isolate_6233_FAY24367_barcode0410_60x	polished_fasta_60x/isolate_6233_FAY24367_barcode0410_60x.fasta	ecoli_achtman_4	2524	adk(10);fumC(7);gyrB(1);icd(8);mdh(8);purA(8);recA(2)
+60x	isolate_6243_FAY24367_barcode0107_60x	polished_fasta_60x/isolate_6243_FAY24367_barcode0107_60x.fasta	klebsiella	-	gapA(16);infB(18);mdh(21);pgi(53);phoE(47);rpoB(17);tonB(67)
+60x	isolate_6244_PAU61707_barcode2526_60x	polished_fasta_60x/isolate_6244_PAU61707_barcode2526_60x.fasta	klebsiella	231	gapA(2);infB(6);mdh(1);pgi(3);phoE(26);rpoB(1);tonB(77)
+60x	isolate_6247_PAU61707_barcode2728_60x	polished_fasta_60x/isolate_6247_PAU61707_barcode2728_60x.fasta	ecoli_achtman_4	44	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(7)
+60x	isolate_6287_PAU61707_barcode2930_60x	polished_fasta_60x/isolate_6287_PAU61707_barcode2930_60x.fasta	klebsiella	3506	gapA(18);infB(22);mdh(56);pgi(61);phoE(234);rpoB(20);tonB(169)
+60x	isolate_6312_PAU61707_barcode3132_60x	polished_fasta_60x/isolate_6312_PAU61707_barcode3132_60x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+60x	isolate_6365_PAU61707_barcode3334_60x	polished_fasta_60x/isolate_6365_PAU61707_barcode3334_60x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+60x	isolate_6378_FAY24367_barcode0511_60x	polished_fasta_60x/isolate_6378_FAY24367_barcode0511_60x.fasta	klebsiella	307	gapA(4);infB(1);mdh(2);pgi(52);phoE(1);rpoB(1);tonB(7)
+60x	isolate_6394_PAU61707_barcode3536_60x	polished_fasta_60x/isolate_6394_PAU61707_barcode3536_60x.fasta	klebsiella	874	gapA(4);infB(1);mdh(1);pgi(1);phoE(7);rpoB(1);tonB(22)
+60x	isolate_6455_PAUPAY_60x	polished_fasta_60x/isolate_6455_PAUPAY_60x.fasta	klebsiella	320	gapA(3);infB(6);mdh(2);pgi(1);phoE(7);rpoB(4);tonB(41)
+60x	isolate_6466_PAU61707_barcode4546_60x	polished_fasta_60x/isolate_6466_PAU61707_barcode4546_60x.fasta	ecoli_achtman_4	448	adk(6);fumC(6);gyrB(5);icd(16);mdh(11);purA(8);recA(7)
+60x	isolate_6472_PAU61707_barcode4748_60x	polished_fasta_60x/isolate_6472_PAU61707_barcode4748_60x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+60x	isolate_6482_FAYFAY_60x	polished_fasta_60x/isolate_6482_FAYFAY_60x.fasta	ecloacae	45	dnaA(4);fusA(4);gyrB(14);leuS(6);pyrG(39);rplB(4);rpoB(6)
+60x	isolate_6500_PAU61707_barcode5152_60x	polished_fasta_60x/isolate_6500_PAU61707_barcode5152_60x.fasta	klebsiella	512	gapA(54);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+60x	isolate_6520_PAU61707_barcode5354_60x	polished_fasta_60x/isolate_6520_PAU61707_barcode5354_60x.fasta	klebsiella	20	gapA(2);infB(3);mdh(1);pgi(1);phoE(4);rpoB(4);tonB(4)
+60x	isolate_6567_PAU61707_barcode5758_60x	polished_fasta_60x/isolate_6567_PAU61707_barcode5758_60x.fasta	koxytoca	-	gapA(~31);infB(47);mdh(~65);pgi(37?);phoE(~93);rpoB(44);tonB(40?)
+60x	isolate_6571_PAU61707_barcode5556_60x	polished_fasta_60x/isolate_6571_PAU61707_barcode5556_60x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+60x	isolate_6601_PAU61707_barcode5960_60x	polished_fasta_60x/isolate_6601_PAU61707_barcode5960_60x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+60x	isolate_6623_FBDPAY_60x	polished_fasta_60x/isolate_6623_FBDPAY_60x.fasta	ecloacae	461	dnaA(9);fusA(4);gyrB(14);leuS(6);pyrG(37);rplB(4);rpoB(9)
+60x	isolate_6669_PAU61707_barcode6162_60x	polished_fasta_60x/isolate_6669_PAU61707_barcode6162_60x.fasta	klebsiella	462	gapA(2);infB(1);mdh(1);pgi(6);phoE(1);rpoB(4);tonB(12)
+60x	isolate_6670_PAU61707_barcode6364_60x	polished_fasta_60x/isolate_6670_PAU61707_barcode6364_60x.fasta	cfreundii	396	aspC(16);clpX(12);fadD(70);mdh(15);arcA(88);dnaG(6);lysP(50)
+60x	isolate_6701_PAU61707_barcode6566_60x	polished_fasta_60x/isolate_6701_PAU61707_barcode6566_60x.fasta	koxytoca	151	gapA(3);infB(5);mdh(21);pgi(13);phoE(20);rpoB(6);tonB(12)
+60x	isolate_6711_FAY24367_barcode0208_60x	polished_fasta_60x/isolate_6711_FAY24367_barcode0208_60x.fasta	cfreundii	409	aspC(53);clpX(166);fadD(59);mdh(90);arcA(89);dnaG(151);lysP(107)
+60x	isolate_6712_FAY24367_barcode0309_60x	polished_fasta_60x/isolate_6712_FAY24367_barcode0309_60x.fasta	ecoli_achtman_4	224	adk(6);fumC(4);gyrB(33);icd(16);mdh(11);purA(8);recA(6)
+60x	isolate_6726_PAYPAU_60x	polished_fasta_60x/isolate_6726_PAYPAU_60x.fasta	klebsiella	258	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(79)
+60x	isolate_6735_PAU61707_barcode6970_60x	polished_fasta_60x/isolate_6735_PAU61707_barcode6970_60x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+60x	isolate_6737_FBD_PAU_PAY_60x	polished_fasta_60x/isolate_6737_FBD_PAU_PAY_60x.fasta	klebsiella	395	gapA(3);infB(1);mdh(2);pgi(4);phoE(1);rpoB(1);tonB(4)
+60x	isolate_6738_FBCPAUPAY_60x	polished_fasta_60x/isolate_6738_FBCPAUPAY_60x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+60x	isolate_6748_PAU61707_barcode7576_60x	polished_fasta_60x/isolate_6748_PAU61707_barcode7576_60x.fasta	ecoli_achtman_4	38	adk(4);fumC(26);gyrB(2);icd(25);mdh(5);purA(5);recA(19)
+60x	isolate_6774_PAU61707_barcode7778_60x	polished_fasta_60x/isolate_6774_PAU61707_barcode7778_60x.fasta	klebsiella	1653	gapA(4);infB(3);mdh(2);pgi(3);phoE(13);rpoB(1);tonB(9)
+60x	isolate_6775_PAUPAY_60x	polished_fasta_60x/isolate_6775_PAUPAY_60x.fasta	kaerogenes	14	dnaA(12);fusA(5);gyrB(1);leuS(4);pryG(2);rplB(1);rpoB(2)
+60x	isolate_6776_PAUPAY_60x	polished_fasta_60x/isolate_6776_PAUPAY_60x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+60x	isolate_6779_FBDPAU_60x	polished_fasta_60x/isolate_6779_FBDPAU_60x.fasta	kaerogenes	379	dnaA(60);fusA(2);gyrB(7);leuS(25);pryG(2);rplB(2);rpoB(2)
+60x	isolate_6795_PAUPAY_60x	polished_fasta_60x/isolate_6795_PAUPAY_60x.fasta	cfreundii	-	aspC(223);clpX(~152);fadD(281);mdh(~229);arcA(75);dnaG(185);lysP(187)
+60x	isolate_6797_PAU61707_barcode8990_60x	polished_fasta_60x/isolate_6797_PAU61707_barcode8990_60x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+60x	isolate_6813_PAU61707_barcode9192_60x	polished_fasta_60x/isolate_6813_PAU61707_barcode9192_60x.fasta	-	-	
+60x	isolate_6817_PAUPAY_60x	polished_fasta_60x/isolate_6817_PAUPAY_60x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+60x	isolate_6838_PAU61707_barcode9596_60x	polished_fasta_60x/isolate_6838_PAU61707_barcode9596_60x.fasta	ecoli_achtman_4	101	adk(43);fumC(41);gyrB(15);icd(18);mdh(11);purA(7);recA(6)
+60x	isolate_6855_PAY37630_barcode1920_60x	polished_fasta_60x/isolate_6855_PAY37630_barcode1920_60x.fasta	koxytoca	303	gapA(12);infB(29);mdh(20);pgi(21);phoE(40);rpoB(32);tonB(46)
+60x	isolate_6856_FBCPAY_60x	polished_fasta_60x/isolate_6856_FBCPAY_60x.fasta	ecloacae	278	dnaA(59);fusA(9);gyrB(59);leuS(9);pyrG(67);rplB(6);rpoB(6)
+60x	isolate_6888_PAY37630_barcode9394_60x	polished_fasta_60x/isolate_6888_PAY37630_barcode9394_60x.fasta	klebsiella	976	gapA(2);infB(3);mdh(108);pgi(26);phoE(3);rpoB(4);tonB(64)
+60x	isolate_6900_PAY37630_barcode2324_60x	polished_fasta_60x/isolate_6900_PAY37630_barcode2324_60x.fasta	cfreundii	534	aspC(9);clpX(11);fadD(205);mdh(95);arcA(47);dnaG(8);lysP(172)
+60x	isolate_6901_FBC05034_barcode0910_60x	polished_fasta_60x/isolate_6901_FBC05034_barcode0910_60x.fasta	cfreundii	22	aspC(15);clpX(12);fadD(20);mdh(15);arcA(5);dnaG(11);lysP(17)
+60x	isolate_6951_PAY37630_barcode2728_60x	polished_fasta_60x/isolate_6951_PAY37630_barcode2728_60x.fasta	ecoli_achtman_4	10	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(8);recA(2)
+60x	isolate_6970_PAY37630_barcode2930_60x	polished_fasta_60x/isolate_6970_PAY37630_barcode2930_60x.fasta	cfreundii	256	aspC(16);clpX(112);fadD(130);mdh(102);arcA(7);dnaG(100);lysP(115)
+60x	isolate_6989_FBCFBDPAY_60x	polished_fasta_60x/isolate_6989_FBCFBDPAY_60x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+60x	isolate_7067_PAY37630_barcode3334_60x	polished_fasta_60x/isolate_7067_PAY37630_barcode3334_60x.fasta	ecoli_achtman_4	607	adk(113);fumC(4);gyrB(5);icd(83);mdh(8);purA(8);recA(6)
+60x	isolate_7077_PAY37630_barcode3536_60x	polished_fasta_60x/isolate_7077_PAY37630_barcode3536_60x.fasta	-	-	
+60x	isolate_7083_PAY37630_barcode3738_60x	polished_fasta_60x/isolate_7083_PAY37630_barcode3738_60x.fasta	ecoli_achtman_4	2015	adk(76);fumC(319);gyrB(30);icd(37);mdh(17);purA(10);recA(96)
+60x	isolate_7084_PAY37630_barcode3940_60x	polished_fasta_60x/isolate_7084_PAY37630_barcode3940_60x.fasta	ecloacae	595	dnaA(80);fusA(55);gyrB(92);leuS(72);pyrG(169);rplB(12);rpoB(26)
+60x	isolate_7085_FAY29226_barcode07_60x	polished_fasta_60x/isolate_7085_FAY29226_barcode07_60x.fasta	kaerogenes	-	dnaA(24);fusA(10);gyrB(1);leuS(60);pryG(3);rplB(1);rpoB(10)
+60x	isolate_7088_FAX65952_barcode1319_60x	polished_fasta_60x/isolate_7088_FAX65952_barcode1319_60x.fasta	cfreundii	-	aspC(214);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+60x	isolate_7089_FAXFAY_60x	polished_fasta_60x/isolate_7089_FAXFAY_60x.fasta	klebsiella	147	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(38)
+60x	isolate_7090_FAXFBD_60x	polished_fasta_60x/isolate_7090_FAXFBD_60x.fasta	cfreundii	-	aspC(~214);clpX(189);fadD(~319);mdh(269);arcA(101);dnaG(~230);lysP(182)
+60x	isolate_7092_FBCPAY_60x	polished_fasta_60x/isolate_7092_FBCPAY_60x.fasta	klebsiella	-	gapA(3);infB(~144);mdh(1);pgi(1);phoE(1,275);rpoB(1);tonB(31)
+60x	isolate_7106_PAY37630_barcode4344_60x	polished_fasta_60x/isolate_7106_PAY37630_barcode4344_60x.fasta	klebsiella	383	gapA(2);infB(6);mdh(1);pgi(3);phoE(8);rpoB(1);tonB(18)
+60x	isolate_7136_PAY37630_barcode7980_60x	polished_fasta_60x/isolate_7136_PAY37630_barcode7980_60x.fasta	klebsiella	16	gapA(2);infB(1);mdh(2);pgi(1);phoE(4);rpoB(4);tonB(4)
+60x	isolate_7176_PAY37630_barcode4546_60x	polished_fasta_60x/isolate_7176_PAY37630_barcode4546_60x.fasta	klebsiella	273	gapA(3);infB(4);mdh(6);pgi(1);phoE(7);rpoB(4);tonB(4)
+60x	isolate_7181_PAY37630_barcode4748_60x	polished_fasta_60x/isolate_7181_PAY37630_barcode4748_60x.fasta	klebsiella	3430	gapA(2);infB(3);mdh(2);pgi(6);phoE(1);rpoB(4);tonB(12)
+60x	isolate_7221_PAY37630_barcode4950_60x	polished_fasta_60x/isolate_7221_PAY37630_barcode4950_60x.fasta	ecoli_achtman_4	361	adk(10);fumC(99);gyrB(5);icd(91);mdh(8);purA(7);recA(2)
+60x	isolate_7243_PAY37630_barcode5152_60x	polished_fasta_60x/isolate_7243_PAY37630_barcode5152_60x.fasta	ecloacae	78	dnaA(8);fusA(9);gyrB(6);leuS(9);pyrG(9);rplB(6);rpoB(8)
+60x	isolate_6403_PAU61707_barcode3738_60x	polished_fasta_60x/isolate_6403_PAU61707_barcode3738_60x.fasta	ecoli_achtman_4	167	adk(10);fumC(11);gyrB(4);icd(8);mdh(8);purA(13);recA(2)
+60x	isolate_6433_PAU61707_barcode3940_60x	polished_fasta_60x/isolate_6433_PAU61707_barcode3940_60x.fasta	-	-	
+60x	isolate_6454_PAU61707_barcode4142_60x	polished_fasta_60x/isolate_6454_PAU61707_barcode4142_60x.fasta	klebsiella	4167	gapA(16);infB(24);mdh(21);pgi(106);phoE(68);rpoB(59);tonB(67)
+100x	isolate_4076_FAY29226_barcode12_100x	polished_fasta_100x/isolate_4076_FAY29226_barcode12_100x.fasta	ecoli_achtman_4	405	adk(35);fumC(37);gyrB(29);icd(25);mdh(4);purA(5);recA(73)
+100x	isolate_4281_FAY29226_barcode16_100x	polished_fasta_100x/isolate_4281_FAY29226_barcode16_100x.fasta	kaerogenes	-	dnaA(23);fusA(1);gyrB(20);leuS(51);pryG(2);rplB(1);rpoB(2)
+100x	isolate_4487_FAY29226_barcode15_100x	polished_fasta_100x/isolate_4487_FAY29226_barcode15_100x.fasta	klebsiella	268	gapA(2);infB(1);mdh(2);pgi(1);phoE(7);rpoB(1);tonB(81)
+100x	isolate_4827_FAY29226_barcode14_100x	polished_fasta_100x/isolate_4827_FAY29226_barcode14_100x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+100x	isolate_5042_FAY34264_barcode02_100x	polished_fasta_100x/isolate_5042_FAY34264_barcode02_100x.fasta	-	-	
+100x	isolate_5043_FAY34264_barcode03_100x	polished_fasta_100x/isolate_5043_FAY34264_barcode03_100x.fasta	-	-	
+100x	isolate_5425_FAZ49665_barcode0304_100x	polished_fasta_100x/isolate_5425_FAZ49665_barcode0304_100x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+100x	isolate_5607_FAZ49665_barcode0708_100x	polished_fasta_100x/isolate_5607_FAZ49665_barcode0708_100x.fasta	ecloacae	13	dnaA(13);fusA(2);gyrB(45);leuS(27);pyrG(56);rplB(2);rpoB(14)
+100x	isolate_5710_FBDPAY_100x	polished_fasta_100x/isolate_5710_FBDPAY_100x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+100x	isolate_5861_FAZPAY_100x	polished_fasta_100x/isolate_5861_FAZPAY_100x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+100x	isolate_6036_PAU61707_barcode4950_100x	polished_fasta_100x/isolate_6036_PAU61707_barcode4950_100x.fasta	ecloacae	94	dnaA(55);fusA(36);gyrB(56);leuS(59);pyrG(60);rplB(4);rpoB(6)
+100x	isolate_6778_FAZ49665_barcode1718_100x	polished_fasta_100x/isolate_6778_FAZ49665_barcode1718_100x.fasta	kaerogenes	133	dnaA(5);fusA(3);gyrB(29);leuS(29);pryG(3);rplB(1);rpoB(2)
+100x	isolate_7000_FBC06048_barcode1516_100x	polished_fasta_100x/isolate_7000_FBC06048_barcode1516_100x.fasta	-	-	
+100x	isolate_7101_FBCFAY_100x	polished_fasta_100x/isolate_7101_FBCFAY_100x.fasta	ecloacae	901	dnaA(112);fusA(18);gyrB(161);leuS(173);pyrG(264);rplB(8);rpoB(30)
+100x	isolate_7213_FBCFBD_100x	polished_fasta_100x/isolate_7213_FBCFBD_100x.fasta	-	-	
+100x	isolate_7320_FAY29226_barcode10_100x	polished_fasta_100x/isolate_7320_FAY29226_barcode10_100x.fasta	klebsiella	-	gapA(2);infB(30);mdh(2);pgi(26);phoE(1);rpoB(4);tonB(4)
+100x	isolate_7503_FBD018114_barcode2122_100x	polished_fasta_100x/isolate_7503_FBD018114_barcode2122_100x.fasta	cfreundii	65	aspC(16);clpX(17);fadD(20);mdh(48);arcA(12);dnaG(11);lysP(46)
+10x	isolate_3964_FAY29226_barcode11_10x	polished_fasta_10x/isolate_3964_FAY29226_barcode11_10x.fasta	ecloacae	175	dnaA(51);fusA(4);gyrB(4);leuS(6);pyrG(68);rplB(30);rpoB(36)
+10x	isolate_4076_FAY29226_barcode12_10x	polished_fasta_10x/isolate_4076_FAY29226_barcode12_10x.fasta	ecoli_achtman_4	405	adk(35);fumC(37);gyrB(29);icd(25);mdh(4);purA(5);recA(73)
+10x	isolate_4265_FAY29226_barcode13_10x	polished_fasta_10x/isolate_4265_FAY29226_barcode13_10x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+10x	isolate_4281_FAY29226_barcode16_10x	polished_fasta_10x/isolate_4281_FAY29226_barcode16_10x.fasta	kaerogenes	-	dnaA(23);fusA(1);gyrB(20);leuS(51);pryG(2);rplB(1);rpoB(2)
+10x	isolate_4487_FAY29226_barcode15_10x	polished_fasta_10x/isolate_4487_FAY29226_barcode15_10x.fasta	klebsiella	268	gapA(2);infB(1);mdh(2);pgi(1);phoE(7);rpoB(1);tonB(81)
+10x	isolate_4806_FAY29226_barcode17_10x	polished_fasta_10x/isolate_4806_FAY29226_barcode17_10x.fasta	kaerogenes	32	dnaA(6);fusA(8);gyrB(13);leuS(19);pryG(4);rplB(1);rpoB(4)
+10x	isolate_4827_FAY29226_barcode14_10x	polished_fasta_10x/isolate_4827_FAY29226_barcode14_10x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+10x	isolate_5042_FAY34264_barcode02_10x	polished_fasta_10x/isolate_5042_FAY34264_barcode02_10x.fasta	-	-	
+10x	isolate_5043_FAY34264_barcode03_10x	polished_fasta_10x/isolate_5043_FAY34264_barcode03_10x.fasta	-	-	
+10x	isolate_5371_FAZ49665_barcode0102_10x	polished_fasta_10x/isolate_5371_FAZ49665_barcode0102_10x.fasta	ecloacae	113	dnaA(4);fusA(22);gyrB(68);leuS(69);pyrG(37);rplB(4);rpoB(24)
+10x	isolate_5425_FAZ49665_barcode0304_10x	polished_fasta_10x/isolate_5425_FAZ49665_barcode0304_10x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+10x	isolate_5426_FAZ49665_barcode0506_10x	polished_fasta_10x/isolate_5426_FAZ49665_barcode0506_10x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+10x	isolate_5607_FAZ49665_barcode0708_10x	polished_fasta_10x/isolate_5607_FAZ49665_barcode0708_10x.fasta	ecloacae	13	dnaA(13);fusA(2);gyrB(45);leuS(27);pyrG(56);rplB(2);rpoB(14)
+10x	isolate_5668_FAYFAY_10x	polished_fasta_10x/isolate_5668_FAYFAY_10x.fasta	cfreundii	19	aspC(11);clpX(12);fadD(14);mdh(6);arcA(5);dnaG(9);lysP(11)
+10x	isolate_5700_FBD018114_barcode0102_10x	polished_fasta_10x/isolate_5700_FBD018114_barcode0102_10x.fasta	cronobacter	731	atpD(134);fusA(101);glnS(163);gltB(192);gyrB(178);infB(174);pps(307)
+10x	isolate_5710_FBDPAY_10x	polished_fasta_10x/isolate_5710_FBDPAY_10x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+10x	isolate_5861_FAZPAY_10x	polished_fasta_10x/isolate_5861_FAZPAY_10x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+10x	isolate_6036_PAU61707_barcode4950_10x	polished_fasta_10x/isolate_6036_PAU61707_barcode4950_10x.fasta	ecloacae	94	dnaA(55);fusA(36);gyrB(56);leuS(59);pyrG(60);rplB(4);rpoB(6)
+10x	isolate_6668_FAZ49665_barcode1516_10x	polished_fasta_10x/isolate_6668_FAZ49665_barcode1516_10x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+10x	isolate_6778_FAZ49665_barcode1718_10x	polished_fasta_10x/isolate_6778_FAZ49665_barcode1718_10x.fasta	kaerogenes	133	dnaA(5);fusA(3);gyrB(29);leuS(29);pryG(3);rplB(1);rpoB(2)
+10x	isolate_6804_FAZ49665_barcode1920_10x	polished_fasta_10x/isolate_6804_FAZ49665_barcode1920_10x.fasta	ecloacae	90	dnaA(58);fusA(37);gyrB(4);leuS(6);pyrG(42);rplB(4);rpoB(25)
+10x	isolate_6840_FBC06048_barcode1314_10x	polished_fasta_10x/isolate_6840_FBC06048_barcode1314_10x.fasta	klebsiella	636	gapA(2);infB(5);mdh(1);pgi(1);phoE(4);rpoB(1);tonB(4)
+10x	isolate_7000_FBC06048_barcode1516_10x	polished_fasta_10x/isolate_7000_FBC06048_barcode1516_10x.fasta	-	-	
+10x	isolate_7101_FBCFAY_10x	polished_fasta_10x/isolate_7101_FBCFAY_10x.fasta	ecloacae	901	dnaA(112);fusA(18);gyrB(161);leuS(173);pyrG(264);rplB(8);rpoB(30)
+10x	isolate_7213_FBCFBD_10x	polished_fasta_10x/isolate_7213_FBCFBD_10x.fasta	-	-	
+10x	isolate_7247_FBC06048_barcode2122_10x	polished_fasta_10x/isolate_7247_FBC06048_barcode2122_10x.fasta	klebsiella	441	gapA(4);infB(1);mdh(2);pgi(1);phoE(1);rpoB(7);tonB(23)
+10x	isolate_7320_FAY29226_barcode10_10x	polished_fasta_10x/isolate_7320_FAY29226_barcode10_10x.fasta	klebsiella	-	gapA(2);infB(30);mdh(2);pgi(26);phoE(1);rpoB(4);tonB(4)
+10x	isolate_7503_FBD018114_barcode2122_10x	polished_fasta_10x/isolate_7503_FBD018114_barcode2122_10x.fasta	cfreundii	65	aspC(16);clpX(17);fadD(20);mdh(48);arcA(12);dnaG(11);lysP(46)
+20x	isolate_3964_FAY29226_barcode11_20x	polished_fasta_20x/isolate_3964_FAY29226_barcode11_20x.fasta	ecloacae	175	dnaA(51);fusA(4);gyrB(4);leuS(6);pyrG(68);rplB(30);rpoB(36)
+20x	isolate_4076_FAY29226_barcode12_20x	polished_fasta_20x/isolate_4076_FAY29226_barcode12_20x.fasta	ecoli_achtman_4	405	adk(35);fumC(37);gyrB(29);icd(25);mdh(4);purA(5);recA(73)
+20x	isolate_4265_FAY29226_barcode13_20x	polished_fasta_20x/isolate_4265_FAY29226_barcode13_20x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+20x	isolate_4281_FAY29226_barcode16_20x	polished_fasta_20x/isolate_4281_FAY29226_barcode16_20x.fasta	kaerogenes	-	dnaA(23);fusA(1);gyrB(20);leuS(51);pryG(2);rplB(1);rpoB(2)
+20x	isolate_4487_FAY29226_barcode15_20x	polished_fasta_20x/isolate_4487_FAY29226_barcode15_20x.fasta	klebsiella	268	gapA(2);infB(1);mdh(2);pgi(1);phoE(7);rpoB(1);tonB(81)
+20x	isolate_4806_FAY29226_barcode17_20x	polished_fasta_20x/isolate_4806_FAY29226_barcode17_20x.fasta	kaerogenes	32	dnaA(6);fusA(8);gyrB(13);leuS(19);pryG(4);rplB(1);rpoB(4)
+20x	isolate_4827_FAY29226_barcode14_20x	polished_fasta_20x/isolate_4827_FAY29226_barcode14_20x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+20x	isolate_5042_FAY34264_barcode02_20x	polished_fasta_20x/isolate_5042_FAY34264_barcode02_20x.fasta	-	-	
+20x	isolate_5043_FAY34264_barcode03_20x	polished_fasta_20x/isolate_5043_FAY34264_barcode03_20x.fasta	-	-	
+20x	isolate_5371_FAZ49665_barcode0102_20x	polished_fasta_20x/isolate_5371_FAZ49665_barcode0102_20x.fasta	ecloacae	113	dnaA(4);fusA(22);gyrB(68);leuS(69);pyrG(37);rplB(4);rpoB(24)
+20x	isolate_5425_FAZ49665_barcode0304_20x	polished_fasta_20x/isolate_5425_FAZ49665_barcode0304_20x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+20x	isolate_5426_FAZ49665_barcode0506_20x	polished_fasta_20x/isolate_5426_FAZ49665_barcode0506_20x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+20x	isolate_5607_FAZ49665_barcode0708_20x	polished_fasta_20x/isolate_5607_FAZ49665_barcode0708_20x.fasta	ecloacae	13	dnaA(13);fusA(2);gyrB(45);leuS(27);pyrG(56);rplB(2);rpoB(14)
+20x	isolate_5668_FAYFAY_20x	polished_fasta_20x/isolate_5668_FAYFAY_20x.fasta	cfreundii	19	aspC(11);clpX(12);fadD(14);mdh(6);arcA(5);dnaG(9);lysP(11)
+20x	isolate_5710_FBDPAY_20x	polished_fasta_20x/isolate_5710_FBDPAY_20x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+20x	isolate_5861_FAZPAY_20x	polished_fasta_20x/isolate_5861_FAZPAY_20x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+20x	isolate_6036_PAU61707_barcode4950_20x	polished_fasta_20x/isolate_6036_PAU61707_barcode4950_20x.fasta	ecloacae	94	dnaA(55);fusA(36);gyrB(56);leuS(59);pyrG(60);rplB(4);rpoB(6)
+20x	isolate_6668_FAZ49665_barcode1516_20x	polished_fasta_20x/isolate_6668_FAZ49665_barcode1516_20x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+20x	isolate_6778_FAZ49665_barcode1718_20x	polished_fasta_20x/isolate_6778_FAZ49665_barcode1718_20x.fasta	kaerogenes	133	dnaA(5);fusA(3);gyrB(29);leuS(29);pryG(3);rplB(1);rpoB(2)
+20x	isolate_6804_FAZ49665_barcode1920_20x	polished_fasta_20x/isolate_6804_FAZ49665_barcode1920_20x.fasta	ecloacae	90	dnaA(58);fusA(37);gyrB(4);leuS(6);pyrG(42);rplB(4);rpoB(25)
+20x	isolate_6840_FBC06048_barcode1314_20x	polished_fasta_20x/isolate_6840_FBC06048_barcode1314_20x.fasta	klebsiella	636	gapA(2);infB(5);mdh(1);pgi(1);phoE(4);rpoB(1);tonB(4)
+20x	isolate_7000_FBC06048_barcode1516_20x	polished_fasta_20x/isolate_7000_FBC06048_barcode1516_20x.fasta	-	-	
+20x	isolate_7101_FBCFAY_20x	polished_fasta_20x/isolate_7101_FBCFAY_20x.fasta	ecloacae	901	dnaA(112);fusA(18);gyrB(161);leuS(173);pyrG(264);rplB(8);rpoB(30)
+20x	isolate_7213_FBCFBD_20x	polished_fasta_20x/isolate_7213_FBCFBD_20x.fasta	-	-	
+20x	isolate_7247_FBC06048_barcode2122_20x	polished_fasta_20x/isolate_7247_FBC06048_barcode2122_20x.fasta	klebsiella	441	gapA(4);infB(1);mdh(2);pgi(1);phoE(1);rpoB(7);tonB(23)
+20x	isolate_7320_FAY29226_barcode10_20x	polished_fasta_20x/isolate_7320_FAY29226_barcode10_20x.fasta	klebsiella	-	gapA(2);infB(30);mdh(2);pgi(26);phoE(1);rpoB(4);tonB(4)
+20x	isolate_7503_FBD018114_barcode2122_20x	polished_fasta_20x/isolate_7503_FBD018114_barcode2122_20x.fasta	cfreundii	65	aspC(16);clpX(17);fadD(20);mdh(48);arcA(12);dnaG(11);lysP(46)
+30x	isolate_3964_FAY29226_barcode11_30x	polished_fasta_30x/isolate_3964_FAY29226_barcode11_30x.fasta	ecloacae	175	dnaA(51);fusA(4);gyrB(4);leuS(6);pyrG(68);rplB(30);rpoB(36)
+30x	isolate_4076_FAY29226_barcode12_30x	polished_fasta_30x/isolate_4076_FAY29226_barcode12_30x.fasta	ecoli_achtman_4	405	adk(35);fumC(37);gyrB(29);icd(25);mdh(4);purA(5);recA(73)
+30x	isolate_4265_FAY29226_barcode13_30x	polished_fasta_30x/isolate_4265_FAY29226_barcode13_30x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+30x	isolate_4281_FAY29226_barcode16_30x	polished_fasta_30x/isolate_4281_FAY29226_barcode16_30x.fasta	kaerogenes	-	dnaA(23);fusA(1);gyrB(20);leuS(51);pryG(2);rplB(1);rpoB(2)
+30x	isolate_4487_FAY29226_barcode15_30x	polished_fasta_30x/isolate_4487_FAY29226_barcode15_30x.fasta	klebsiella	268	gapA(2);infB(1);mdh(2);pgi(1);phoE(7);rpoB(1);tonB(81)
+30x	isolate_4806_FAY29226_barcode17_30x	polished_fasta_30x/isolate_4806_FAY29226_barcode17_30x.fasta	kaerogenes	32	dnaA(6);fusA(8);gyrB(13);leuS(19);pryG(4);rplB(1);rpoB(4)
+30x	isolate_4827_FAY29226_barcode14_30x	polished_fasta_30x/isolate_4827_FAY29226_barcode14_30x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+30x	isolate_5042_FAY34264_barcode02_30x	polished_fasta_30x/isolate_5042_FAY34264_barcode02_30x.fasta	-	-	
+30x	isolate_5043_FAY34264_barcode03_30x	polished_fasta_30x/isolate_5043_FAY34264_barcode03_30x.fasta	-	-	
+30x	isolate_5371_FAZ49665_barcode0102_30x	polished_fasta_30x/isolate_5371_FAZ49665_barcode0102_30x.fasta	ecloacae	113	dnaA(4);fusA(22);gyrB(68);leuS(69);pyrG(37);rplB(4);rpoB(24)
+30x	isolate_5425_FAZ49665_barcode0304_30x	polished_fasta_30x/isolate_5425_FAZ49665_barcode0304_30x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+30x	isolate_5426_FAZ49665_barcode0506_30x	polished_fasta_30x/isolate_5426_FAZ49665_barcode0506_30x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+30x	isolate_5607_FAZ49665_barcode0708_30x	polished_fasta_30x/isolate_5607_FAZ49665_barcode0708_30x.fasta	ecloacae	13	dnaA(13);fusA(2);gyrB(45);leuS(27);pyrG(56);rplB(2);rpoB(14)
+30x	isolate_5668_FAYFAY_30x	polished_fasta_30x/isolate_5668_FAYFAY_30x.fasta	cfreundii	19	aspC(11);clpX(12);fadD(14);mdh(6);arcA(5);dnaG(9);lysP(11)
+30x	isolate_5710_FBDPAY_30x	polished_fasta_30x/isolate_5710_FBDPAY_30x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+30x	isolate_5861_FAZPAY_30x	polished_fasta_30x/isolate_5861_FAZPAY_30x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+30x	isolate_6036_PAU61707_barcode4950_30x	polished_fasta_30x/isolate_6036_PAU61707_barcode4950_30x.fasta	ecloacae	94	dnaA(55);fusA(36);gyrB(56);leuS(59);pyrG(60);rplB(4);rpoB(6)
+30x	isolate_6668_FAZ49665_barcode1516_30x	polished_fasta_30x/isolate_6668_FAZ49665_barcode1516_30x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+30x	isolate_6778_FAZ49665_barcode1718_30x	polished_fasta_30x/isolate_6778_FAZ49665_barcode1718_30x.fasta	kaerogenes	133	dnaA(5);fusA(3);gyrB(29);leuS(29);pryG(3);rplB(1);rpoB(2)
+30x	isolate_6804_FAZ49665_barcode1920_30x	polished_fasta_30x/isolate_6804_FAZ49665_barcode1920_30x.fasta	ecloacae	90	dnaA(58);fusA(37);gyrB(4);leuS(6);pyrG(42);rplB(4);rpoB(25)
+30x	isolate_6840_FBC06048_barcode1314_30x	polished_fasta_30x/isolate_6840_FBC06048_barcode1314_30x.fasta	klebsiella	636	gapA(2);infB(5);mdh(1);pgi(1);phoE(4);rpoB(1);tonB(4)
+30x	isolate_7000_FBC06048_barcode1516_30x	polished_fasta_30x/isolate_7000_FBC06048_barcode1516_30x.fasta	-	-	
+30x	isolate_7101_FBCFAY_30x	polished_fasta_30x/isolate_7101_FBCFAY_30x.fasta	ecloacae	901	dnaA(112);fusA(18);gyrB(161);leuS(173);pyrG(264);rplB(8);rpoB(30)
+30x	isolate_7213_FBCFBD_30x	polished_fasta_30x/isolate_7213_FBCFBD_30x.fasta	-	-	
+30x	isolate_7247_FBC06048_barcode2122_30x	polished_fasta_30x/isolate_7247_FBC06048_barcode2122_30x.fasta	klebsiella	441	gapA(4);infB(1);mdh(2);pgi(1);phoE(1);rpoB(7);tonB(23)
+30x	isolate_7320_FAY29226_barcode10_30x	polished_fasta_30x/isolate_7320_FAY29226_barcode10_30x.fasta	klebsiella	-	gapA(2);infB(30);mdh(2);pgi(26);phoE(1);rpoB(4);tonB(4)
+30x	isolate_7503_FBD018114_barcode2122_30x	polished_fasta_30x/isolate_7503_FBD018114_barcode2122_30x.fasta	cfreundii	65	aspC(16);clpX(17);fadD(20);mdh(48);arcA(12);dnaG(11);lysP(46)
+40x	isolate_3964_FAY29226_barcode11_40x	polished_fasta_40x/isolate_3964_FAY29226_barcode11_40x.fasta	ecloacae	175	dnaA(51);fusA(4);gyrB(4);leuS(6);pyrG(68);rplB(30);rpoB(36)
+40x	isolate_4076_FAY29226_barcode12_40x	polished_fasta_40x/isolate_4076_FAY29226_barcode12_40x.fasta	ecoli_achtman_4	405	adk(35);fumC(37);gyrB(29);icd(25);mdh(4);purA(5);recA(73)
+40x	isolate_4265_FAY29226_barcode13_40x	polished_fasta_40x/isolate_4265_FAY29226_barcode13_40x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+40x	isolate_4281_FAY29226_barcode16_40x	polished_fasta_40x/isolate_4281_FAY29226_barcode16_40x.fasta	kaerogenes	-	dnaA(23);fusA(1);gyrB(20);leuS(51);pryG(2);rplB(1);rpoB(2)
+40x	isolate_4487_FAY29226_barcode15_40x	polished_fasta_40x/isolate_4487_FAY29226_barcode15_40x.fasta	klebsiella	268	gapA(2);infB(1);mdh(2);pgi(1);phoE(7);rpoB(1);tonB(81)
+40x	isolate_4806_FAY29226_barcode17_40x	polished_fasta_40x/isolate_4806_FAY29226_barcode17_40x.fasta	kaerogenes	32	dnaA(6);fusA(8);gyrB(13);leuS(19);pryG(4);rplB(1);rpoB(4)
+40x	isolate_4827_FAY29226_barcode14_40x	polished_fasta_40x/isolate_4827_FAY29226_barcode14_40x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+40x	isolate_5042_FAY34264_barcode02_40x	polished_fasta_40x/isolate_5042_FAY34264_barcode02_40x.fasta	-	-	
+40x	isolate_5043_FAY34264_barcode03_40x	polished_fasta_40x/isolate_5043_FAY34264_barcode03_40x.fasta	-	-	
+40x	isolate_5371_FAZ49665_barcode0102_40x	polished_fasta_40x/isolate_5371_FAZ49665_barcode0102_40x.fasta	ecloacae	113	dnaA(4);fusA(22);gyrB(68);leuS(69);pyrG(37);rplB(4);rpoB(24)
+40x	isolate_5425_FAZ49665_barcode0304_40x	polished_fasta_40x/isolate_5425_FAZ49665_barcode0304_40x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+40x	isolate_5426_FAZ49665_barcode0506_40x	polished_fasta_40x/isolate_5426_FAZ49665_barcode0506_40x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+40x	isolate_5607_FAZ49665_barcode0708_40x	polished_fasta_40x/isolate_5607_FAZ49665_barcode0708_40x.fasta	ecloacae	13	dnaA(13);fusA(2);gyrB(45);leuS(27);pyrG(56);rplB(2);rpoB(14)
+40x	isolate_5668_FAYFAY_40x	polished_fasta_40x/isolate_5668_FAYFAY_40x.fasta	cfreundii	19	aspC(11);clpX(12);fadD(14);mdh(6);arcA(5);dnaG(9);lysP(11)
+40x	isolate_5710_FBDPAY_40x	polished_fasta_40x/isolate_5710_FBDPAY_40x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+40x	isolate_5861_FAZPAY_40x	polished_fasta_40x/isolate_5861_FAZPAY_40x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+40x	isolate_6036_PAU61707_barcode4950_40x	polished_fasta_40x/isolate_6036_PAU61707_barcode4950_40x.fasta	ecloacae	94	dnaA(55);fusA(36);gyrB(56);leuS(59);pyrG(60);rplB(4);rpoB(6)
+40x	isolate_6668_FAZ49665_barcode1516_40x	polished_fasta_40x/isolate_6668_FAZ49665_barcode1516_40x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+40x	isolate_6778_FAZ49665_barcode1718_40x	polished_fasta_40x/isolate_6778_FAZ49665_barcode1718_40x.fasta	kaerogenes	133	dnaA(5);fusA(3);gyrB(29);leuS(29);pryG(3);rplB(1);rpoB(2)
+40x	isolate_6804_FAZ49665_barcode1920_40x	polished_fasta_40x/isolate_6804_FAZ49665_barcode1920_40x.fasta	ecloacae	90	dnaA(58);fusA(37);gyrB(4);leuS(6);pyrG(42);rplB(4);rpoB(25)
+40x	isolate_6840_FBC06048_barcode1314_40x	polished_fasta_40x/isolate_6840_FBC06048_barcode1314_40x.fasta	klebsiella	636	gapA(2);infB(5);mdh(1);pgi(1);phoE(4);rpoB(1);tonB(4)
+40x	isolate_7000_FBC06048_barcode1516_40x	polished_fasta_40x/isolate_7000_FBC06048_barcode1516_40x.fasta	-	-	
+40x	isolate_7101_FBCFAY_40x	polished_fasta_40x/isolate_7101_FBCFAY_40x.fasta	ecloacae	901	dnaA(112);fusA(18);gyrB(161);leuS(173);pyrG(264);rplB(8);rpoB(30)
+40x	isolate_7213_FBCFBD_40x	polished_fasta_40x/isolate_7213_FBCFBD_40x.fasta	-	-	
+40x	isolate_7247_FBC06048_barcode2122_40x	polished_fasta_40x/isolate_7247_FBC06048_barcode2122_40x.fasta	klebsiella	441	gapA(4);infB(1);mdh(2);pgi(1);phoE(1);rpoB(7);tonB(23)
+40x	isolate_7320_FAY29226_barcode10_40x	polished_fasta_40x/isolate_7320_FAY29226_barcode10_40x.fasta	klebsiella	-	gapA(2);infB(30);mdh(2);pgi(26);phoE(1);rpoB(4);tonB(4)
+40x	isolate_7503_FBD018114_barcode2122_40x	polished_fasta_40x/isolate_7503_FBD018114_barcode2122_40x.fasta	cfreundii	65	aspC(16);clpX(17);fadD(20);mdh(48);arcA(12);dnaG(11);lysP(46)
+60x	isolate_3964_FAY29226_barcode11_60x	polished_fasta_60x/isolate_3964_FAY29226_barcode11_60x.fasta	ecloacae	175	dnaA(51);fusA(4);gyrB(4);leuS(6);pyrG(68);rplB(30);rpoB(36)
+60x	isolate_4076_FAY29226_barcode12_60x	polished_fasta_60x/isolate_4076_FAY29226_barcode12_60x.fasta	ecoli_achtman_4	405	adk(35);fumC(37);gyrB(29);icd(25);mdh(4);purA(5);recA(73)
+60x	isolate_4265_FAY29226_barcode13_60x	polished_fasta_60x/isolate_4265_FAY29226_barcode13_60x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+60x	isolate_4281_FAY29226_barcode16_60x	polished_fasta_60x/isolate_4281_FAY29226_barcode16_60x.fasta	kaerogenes	-	dnaA(23);fusA(1);gyrB(20);leuS(51);pryG(2);rplB(1);rpoB(2)
+60x	isolate_4487_FAY29226_barcode15_60x	polished_fasta_60x/isolate_4487_FAY29226_barcode15_60x.fasta	klebsiella	268	gapA(2);infB(1);mdh(2);pgi(1);phoE(7);rpoB(1);tonB(81)
+60x	isolate_4806_FAY29226_barcode17_60x	polished_fasta_60x/isolate_4806_FAY29226_barcode17_60x.fasta	kaerogenes	32	dnaA(6);fusA(8);gyrB(13);leuS(19);pryG(4);rplB(1);rpoB(4)
+60x	isolate_4827_FAY29226_barcode14_60x	polished_fasta_60x/isolate_4827_FAY29226_barcode14_60x.fasta	kaerogenes	137	dnaA(6);fusA(2);gyrB(11);leuS(21);pryG(4);rplB(3);rpoB(11)
+60x	isolate_5042_FAY34264_barcode02_60x	polished_fasta_60x/isolate_5042_FAY34264_barcode02_60x.fasta	-	-	
+60x	isolate_5043_FAY34264_barcode03_60x	polished_fasta_60x/isolate_5043_FAY34264_barcode03_60x.fasta	-	-	
+60x	isolate_5425_FAZ49665_barcode0304_60x	polished_fasta_60x/isolate_5425_FAZ49665_barcode0304_60x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+60x	isolate_5426_FAZ49665_barcode0506_60x	polished_fasta_60x/isolate_5426_FAZ49665_barcode0506_60x.fasta	cfreundii	118	aspC(64);clpX(63);fadD(33);mdh(6);arcA(5);dnaG(22);lysP(14)
+60x	isolate_5607_FAZ49665_barcode0708_60x	polished_fasta_60x/isolate_5607_FAZ49665_barcode0708_60x.fasta	ecloacae	13	dnaA(13);fusA(2);gyrB(45);leuS(27);pyrG(56);rplB(2);rpoB(14)
+60x	isolate_5710_FBDPAY_60x	polished_fasta_60x/isolate_5710_FBDPAY_60x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+60x	isolate_5861_FAZPAY_60x	polished_fasta_60x/isolate_5861_FAZPAY_60x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+60x	isolate_6036_PAU61707_barcode4950_60x	polished_fasta_60x/isolate_6036_PAU61707_barcode4950_60x.fasta	ecloacae	94	dnaA(55);fusA(36);gyrB(56);leuS(59);pyrG(60);rplB(4);rpoB(6)
+60x	isolate_6668_FAZ49665_barcode1516_60x	polished_fasta_60x/isolate_6668_FAZ49665_barcode1516_60x.fasta	kaerogenes	93	dnaA(3);fusA(3);gyrB(2);leuS(18);pryG(3);rplB(1);rpoB(10)
+60x	isolate_6778_FAZ49665_barcode1718_60x	polished_fasta_60x/isolate_6778_FAZ49665_barcode1718_60x.fasta	kaerogenes	133	dnaA(5);fusA(3);gyrB(29);leuS(29);pryG(3);rplB(1);rpoB(2)
+60x	isolate_6840_FBC06048_barcode1314_60x	polished_fasta_60x/isolate_6840_FBC06048_barcode1314_60x.fasta	klebsiella	636	gapA(2);infB(5);mdh(1);pgi(1);phoE(4);rpoB(1);tonB(4)
+60x	isolate_7000_FBC06048_barcode1516_60x	polished_fasta_60x/isolate_7000_FBC06048_barcode1516_60x.fasta	-	-	
+60x	isolate_7101_FBCFAY_60x	polished_fasta_60x/isolate_7101_FBCFAY_60x.fasta	ecloacae	901	dnaA(112);fusA(18);gyrB(161);leuS(173);pyrG(264);rplB(8);rpoB(30)
+60x	isolate_7213_FBCFBD_60x	polished_fasta_60x/isolate_7213_FBCFBD_60x.fasta	-	-	
+60x	isolate_7247_FBC06048_barcode2122_60x	polished_fasta_60x/isolate_7247_FBC06048_barcode2122_60x.fasta	klebsiella	441	gapA(4);infB(1);mdh(2);pgi(1);phoE(1);rpoB(7);tonB(23)
+60x	isolate_7320_FAY29226_barcode10_60x	polished_fasta_60x/isolate_7320_FAY29226_barcode10_60x.fasta	klebsiella	-	gapA(2);infB(30);mdh(2);pgi(26);phoE(1);rpoB(4);tonB(4)
+60x	isolate_7503_FBD018114_barcode2122_60x	polished_fasta_60x/isolate_7503_FBD018114_barcode2122_60x.fasta	cfreundii	65	aspC(16);clpX(17);fadD(20);mdh(48);arcA(12);dnaG(11);lysP(46)

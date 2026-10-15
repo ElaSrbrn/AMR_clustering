@@ -1,0 +1,70 @@
+replicon_group	isolate	kept_annotation_60x	kept_annotation_40x	type_annotation_60x	type_annotation_40x
+IncN	3989	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	5399	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	5871	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	5976	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6014	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6067	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6068	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6243	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6365	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6454	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6482	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6520	False	False		
+IncN	6567	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6601	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6669	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6670	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6701	False	False		
+IncN	6711	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6712	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6795	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6813	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6817	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6855	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6856	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6888	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6901	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6970	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	6989	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	7084	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	7285	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	7365	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	7419	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	7454	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	7475	True	False	community_0_subcommunity_0	
+IncN	7476	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncN	IncN_plasmids	False	False		
+IncN	bakta.sh	False	False		
+IncN	bakta_inputs.txt	False	False		
+IncN	bakta_results	False	False		
+IncN	logs	False	False		
+IncN	plasmid_3989.fasta	False	False		
+IncL_M	3989	False	False		
+IncL_M	4920	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	5244	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	5970	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6233	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncL_M	6287	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6472	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6571	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6738	True	False	community_0_subcommunity_1	
+IncL_M	6774	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6775	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6776	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6779	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6797	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	6838	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	7077	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncL_M	7083	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	7088	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncL_M	7089	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncL_M	7176	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	7181	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	7488	True	True	community_0_subcommunity_1	community_0_subcommunity_1
+IncL_M	7521	True	True	community_0_subcommunity_0	community_0_subcommunity_0
+IncL_M	IncL_M_plasmids	False	False		
+IncL_M	bakta.sh	False	False		
+IncL_M	bakta_inputs.txt	False	False		
+IncL_M	bakta_results	False	False		
+IncL_M	logs	False	False		

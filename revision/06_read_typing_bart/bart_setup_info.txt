@@ -1,0 +1,10 @@
+date: 2026-10-07T17:03:09+02:00
+bart: bart 
+kma: KMA-1.6.17
+amrfinder_db: /ictstr01/home/haicu/ela.sauerborn/mamba/envs/amr_env/share/amrfinderplus/data/2026-05-15.1
+mlst_scheme: Citrobacter_freundii <- https://rest.pubmlst.org/db/pubmlst_cfreundii_seqdef/schemes/1 (2026-10-07)
+mlst_scheme: Klebsiella_pneumoniae <- https://bigsdb.pasteur.fr/api/db/pubmlst_klebsiella_seqdef/schemes/1 (2026-10-07)
+mlst_scheme: Escherichia_coli#1 <- https://rest.pubmlst.org/db/pubmlst_escherichia_seqdef/schemes/1 (2026-10-07)
+mlst_scheme: Enterobacter_cloacae <- https://rest.pubmlst.org/db/pubmlst_ecloacae_seqdef/schemes/1 (2026-10-07)
+mlst_scheme: Klebsiella_oxytoca <- https://rest.pubmlst.org/db/pubmlst_koxytoca_seqdef/schemes/1 (2026-10-07)
+amr_index_templates: 9712

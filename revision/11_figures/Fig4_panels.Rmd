@@ -1,0 +1,399 @@
+---
+title: "Figure 4: IncN and IncL/M plasmid DCJ-indel distances"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(tibble)
+library(grid)
+library(circlize)
+library(ComplexHeatmap)
+```
+
+# Layout parameters
+
+Cell size drives everything. Label size is capped by cell size, so set the cell
+size first and let the font follow.
+
+`label_pt` must stay below about 0.85 x cell size in points, otherwise adjacent
+tick labels touch. 1 mm = 2.845 pt.
+
+```{r params}
+cell_mm  <- 2.8   # heatmap cell edge, identical in both panels
+label_pt <- 7     # isolate tick labels
+legend_pt <- 10   # legend and colour bar text
+
+text_width_mm  <- 160   # A4 portrait, 25 mm margins
+text_height_mm <- 247
+
+# Fixed overhead per panel, left to right
+dend_mm  <- 12   # row dendrogram
+anno_mm  <- 3    # species strip
+names_mm <- 8    # isolate tick labels
+slack_mm <- 3    # inter-element gaps
+
+cell_pt <- cell_mm * 2.845
+if (label_pt > 0.85 * cell_pt) {
+  warning(sprintf(
+    "label_pt = %.1f exceeds 0.85 x cell (%.1f pt). Labels will crowd.",
+    label_pt, 0.85 * cell_pt
+  ))
+}
+```
+
+# Input
+
+```{r input}
+file_A <- "all_IncN_distances_with_species.tsv"      # panel A, was Fig3A
+file_B <- "inclm_plasmids_distances_with_species.tsv" # panel B, was Fig4A
+```
+
+# Shared species palette
+
+Both panels share one legend, so the palette is the union of the species present
+in either dataset. Names are drawn in italics in the legend.
+
+```{r palette}
+species_cols <- c(
+  "C. freundii"   = "#66c2a5",
+  "E. coli"       = "#fc8d62",
+  "K. aerogenes"  = "#8da0cb",
+  "K. pneumoniae" = "#e78ac3",
+  "E. cloacae"    = "#a6d854",
+  "K. oxytoca"    = "#ffd92f",
+  "H. alvei"      = "#80b1d3",
+  "S. marcescens" = "#c2a36b"
+)
+```
+
+# Label parsing
+
+The two TSVs encode species differently, so each panel keeps its own parser.
+
+Panel A previously mapped `senterica_achtman_2` to *S. enterica*. That was an
+MLST scheme name reported for an isolate that is *E. coli*, so it now maps to
+*E. coli*. This and the two per-isolate overrides below are corrections applied
+downstream of the typing step. Fixing them in the upstream species table and
+keeping this script as a pure plotting step would be preferable.
+
+```{r parsers}
+species_map_A <- c(
+  "cfreundii"           = "C. freundii",
+  "ecloacae"            = "E. cloacae",
+  "ecoli_achtman_4"     = "E. coli",
+  "escherichia_coli"    = "E. coli",
+  "kaerogenes"          = "K. aerogenes",
+  "klebsiella"          = "K. pneumoniae",
+  "koxytoca"            = "K. oxytoca",
+  "senterica_achtman_2" = "E. coli",
+  "-"                   = NA_character_
+)
+
+short_label_A <- function(x) {
+  n <- str_match(x, "isolate_([0-9]+)")[, 2]
+  n[is.na(n)] <- x[is.na(n)]
+  n
+}
+
+extract_species_A <- function(x) {
+  raw <- str_match(x, "\\(([^()]*)\\)$")[, 2]
+  out <- ifelse(!is.na(raw) & raw %in% names(species_map_A),
+                species_map_A[raw], raw)
+  n <- str_match(x, "isolate_([0-9]+)")[, 2]
+  out[n == "6813"] <- "H. alvei"
+  out[n == "7454"] <- "E. coli"
+  out
+}
+
+short_label_B <- function(x) str_match(x, "isolate_([0-9]+)")[, 2]
+
+extract_species_B <- function(x) {
+  s <- str_match(x, "\\[([^\\[\\]]*)\\]$")[, 2]
+  s[s == "Unknown"] <- NA_character_
+  n <- str_match(x, "isolate_([0-9]+)")[, 2]
+  s[n == "7077"] <- "S. marcescens"
+  s
+}
+```
+
+# Matrix builder
+
+```{r builder}
+build_matrix <- function(path, short_fun, species_fun) {
+  d <- read_tsv(path, show_col_types = FALSE)
+
+  req <- c("plasmid_1_labeled", "plasmid_2_labeled", "distance")
+  miss <- setdiff(req, names(d))
+  if (length(miss) > 0) {
+    stop(paste("Missing required columns:", paste(miss, collapse = ", ")))
+  }
+
+  d <- d %>%
+    mutate(
+      s1 = short_fun(plasmid_1_labeled),
+      s2 = short_fun(plasmid_2_labeled),
+      sp1 = species_fun(plasmid_1_labeled),
+      sp2 = species_fun(plasmid_2_labeled)
+    )
+
+  labs <- sort(unique(c(d$s1, d$s2)))
+
+  long <- d %>% select(row = s1, col = s2, distance)
+
+  sym <- bind_rows(
+    long,
+    long %>% rename(row = col, col = row),
+    tibble(row = labs, col = labs, distance = 0)
+  ) %>%
+    distinct(row, col, .keep_all = TRUE)
+
+  m <- sym %>%
+    pivot_wider(names_from = col, values_from = distance) %>%
+    as.data.frame()
+
+  rownames(m) <- m$row
+  m$row <- NULL
+  m <- as.matrix(m)[labs, labs]
+
+  if (any(is.na(m))) {
+    stop("Distance matrix contains missing pairwise comparisons. Do not impute.")
+  }
+
+  sp <- bind_rows(
+    d %>% transmute(short = s1, species = sp1),
+    d %>% transmute(short = s2, species = sp2)
+  ) %>%
+    distinct(short, .keep_all = TRUE) %>%
+    filter(short %in% rownames(m)) %>%
+    arrange(match(short, rownames(m)))
+
+  unknown <- setdiff(na.omit(unique(sp$species)), names(species_cols))
+  if (length(unknown) > 0) {
+    stop(paste("Species not in palette:", paste(unknown, collapse = ", ")))
+  }
+
+  list(mat = m, species = setNames(sp$species, sp$short))
+}
+
+A <- build_matrix(file_A, short_label_A, extract_species_A)
+B <- build_matrix(file_B, short_label_B, extract_species_B)
+```
+
+# Diagnostics
+
+Check these before trusting the figure.
+
+```{r diagnostics}
+cat("Panel A:", nrow(A$mat), "plasmids\n")
+cat("Panel B:", nrow(B$mat), "plasmids\n")
+
+table(A$species, useNA = "ifany")
+table(B$species, useNA = "ifany")
+
+# Isolates reassigned from the S. enterica MLST scheme to E. coli
+d_check <- read_tsv(file_A, show_col_types = FALSE)
+d_check %>%
+  filter(str_detect(plasmid_1_labeled, "senterica")) %>%
+  transmute(isolate = short_label_A(plasmid_1_labeled)) %>%
+  distinct()
+
+# Width budget
+for (nm in c("A", "B")) {
+  n <- nrow(get(nm)$mat)
+  total <- dend_mm + anno_mm + names_mm + slack_mm + n * cell_mm
+  cat(sprintf("Panel %s: body %.0f mm, total %.0f mm of %.0f mm available\n",
+              nm, n * cell_mm, total, text_width_mm))
+  if (total > text_width_mm) warning(sprintf("Panel %s exceeds text width.", nm))
+}
+```
+
+# Colour scales
+
+The two panels are not on a common scale. Panel A is capped at the 95th
+percentile of its off-diagonal distances; panel B has its own range. State this
+explicitly in the caption. `colorRamp2` clamps out-of-range values, so no
+separate capping of the plotted matrix is needed.
+
+```{r scales}
+brk_A <- as.numeric(quantile(A$mat[upper.tri(A$mat)], 0.95, na.rm = TRUE))
+brk_B <- as.numeric(quantile(B$mat[upper.tri(B$mat)], 0.95, na.rm = TRUE))
+
+cat("Panel A colour scale 0 -", round(brk_A, 2), "\n")
+cat("Panel B colour scale 0 -", round(brk_B, 2), "\n")
+
+col_A <- colorRamp2(
+  seq(0, brk_A, length.out = 4),
+  c("#2166ac", "#f7f7f7", "#fdae61", "#d73027")
+)
+
+col_B <- colorRamp2(
+  seq(0, brk_B, length.out = 3),
+  c("#2166ac", "#f7f7f7", "#b2182b")
+)
+```
+
+# Build panels
+
+Column tick labels and the column dendrogram are dropped. The matrix is
+symmetric and the same tree is used on both axes, so they carry no information
+the row side does not already carry, and removing them frees height.
+
+```{r panels}
+make_panel <- function(x, col_fun, name) {
+  tree <- hclust(as.dist(x$mat), method = "average")
+  n <- nrow(x$mat)
+
+  ra <- rowAnnotation(
+    species = x$species,
+    col = list(species = species_cols),
+    simple_anno_size = unit(anno_mm, "mm"),
+    show_annotation_name = FALSE,
+    show_legend = FALSE,
+    na_col = "#ffffff"
+  )
+
+  ca <- columnAnnotation(
+    species = x$species,
+    col = list(species = species_cols),
+    simple_anno_size = unit(anno_mm, "mm"),
+    show_annotation_name = FALSE,
+    show_legend = FALSE,
+    na_col = "#ffffff"
+  )
+
+  Heatmap(
+    x$mat,
+    name = name,
+    col = col_fun,
+    cluster_rows = tree,
+    cluster_columns = tree,
+    row_dend_reorder = FALSE,
+    column_dend_reorder = FALSE,
+    row_split = 4,
+    column_split = 4,
+    row_title = NULL,
+    column_title = NULL,
+    row_gap = unit(0.6, "mm"),
+    column_gap = unit(0.6, "mm"),
+    show_row_names = TRUE,
+    show_column_names = FALSE,
+    row_names_side = "right",
+    row_names_gp = gpar(fontsize = label_pt),
+    show_row_dend = TRUE,
+    show_column_dend = FALSE,
+    row_dend_width = unit(dend_mm, "mm"),
+    left_annotation = ra,
+    top_annotation = ca,
+    width = unit(n * cell_mm, "mm"),
+    height = unit(n * cell_mm, "mm"),
+    rect_gp = gpar(col = NA),
+    border = FALSE,
+    show_heatmap_legend = FALSE
+  )
+}
+
+ht_A <- make_panel(A, col_A, "dist_A")
+ht_B <- make_panel(B, col_B, "dist_B")
+```
+
+# Legends
+
+```{r legends}
+lgd_A <- Legend(
+  col_fun = col_A, title = "DCJ-indel distance, A",
+  direction = "horizontal", legend_width = unit(30, "mm"),
+  title_gp = gpar(fontsize = legend_pt, fontface = "plain"),
+  labels_gp = gpar(fontsize = legend_pt)
+)
+
+lgd_B <- Legend(
+  col_fun = col_B, title = "DCJ-indel distance, B",
+  direction = "horizontal", legend_width = unit(30, "mm"),
+  title_gp = gpar(fontsize = legend_pt, fontface = "plain"),
+  labels_gp = gpar(fontsize = legend_pt)
+)
+
+lgd_sp <- Legend(
+  labels = names(species_cols),
+  legend_gp = gpar(fill = species_cols),
+  title = "Species",
+  nrow = 2,
+  grid_height = unit(3.5, "mm"),
+  grid_width = unit(3.5, "mm"),
+  title_gp = gpar(fontsize = legend_pt, fontface = "plain"),
+  labels_gp = gpar(fontsize = legend_pt, fontface = "italic")
+)
+
+lgd_all <- packLegend(lgd_A, lgd_B, lgd_sp,
+                     direction = "horizontal",
+                     column_gap = unit(6, "mm"))
+```
+
+# Assemble and write
+
+Panel heights are set from the computed body sizes so both panels are drawn at
+the same cell size rather than stretched to equal width.
+
+```{r assemble}
+h_A <- nrow(A$mat) * cell_mm + anno_mm + 8
+h_B <- nrow(B$mat) * cell_mm + anno_mm + 8
+h_L <- 22
+fig_h <- h_A + h_B + h_L + 10
+
+cat(sprintf("Figure height %.0f mm of %.0f mm available\n",
+            fig_h, text_height_mm))
+
+draw_figure <- function() {
+  grid.newpage()
+  pushViewport(viewport(layout = grid.layout(
+    nrow = 3, heights = unit(c(h_A, h_B, h_L), "mm")
+  )))
+
+  pushViewport(viewport(layout.pos.row = 1))
+  draw(ht_A, newpage = FALSE, padding = unit(c(1, 1, 1, 1), "mm"))
+  grid.text("A", x = unit(1, "mm"), y = unit(1, "npc") - unit(1, "mm"),
+            just = c("left", "top"), gp = gpar(fontsize = 12, fontface = "bold"))
+  popViewport()
+
+  pushViewport(viewport(layout.pos.row = 2))
+  draw(ht_B, newpage = FALSE, padding = unit(c(1, 1, 1, 1), "mm"))
+  grid.text("B", x = unit(1, "mm"), y = unit(1, "npc") - unit(1, "mm"),
+            just = c("left", "top"), gp = gpar(fontsize = 12, fontface = "bold"))
+  popViewport()
+
+  pushViewport(viewport(layout.pos.row = 3))
+  draw(lgd_all, x = unit(0.5, "npc"), y = unit(0.5, "npc"))
+  popViewport()
+
+  popViewport()
+}
+
+draw_figure()
+```
+
+```{r write-files}
+mm_to_in <- function(x) x / 25.4
+
+pdf("Fig4_IncN_IncLM_DCJ_indel_panels.pdf",
+    width = mm_to_in(text_width_mm + 6),
+    height = mm_to_in(fig_h + 6),
+    useDingbats = FALSE)
+draw_figure()
+dev.off()
+
+png("Fig4_IncN_IncLM_DCJ_indel_panels.png",
+    width = text_width_mm + 6, height = fig_h + 6,
+    units = "mm", res = 600)
+draw_figure()
+dev.off()
+```
+
+```{r session}
+sessionInfo()
+```

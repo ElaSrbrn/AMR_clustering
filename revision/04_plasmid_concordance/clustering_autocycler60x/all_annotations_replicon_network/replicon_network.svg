@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200">
+<rect width="100%" height="100%" fill="white"/>
+<text x="30" y="40" font-size="24" font-family="Arial">Replicon-type co-occurrence network from Mash-kept plasmids</text>
+<line x1="1020.0" y1="600.0" x2="774.5" y2="218.0" stroke="black" stroke-opacity="0.35" stroke-width="3.40"/>
+<line x1="774.5" y1="982.0" x2="540.2" y2="1015.7" stroke="black" stroke-opacity="0.35" stroke-width="5.80"/>
+<line x1="774.5" y1="982.0" x2="325.0" y2="917.4" stroke="black" stroke-opacity="0.35" stroke-width="5.80"/>
+<line x1="774.5" y1="982.0" x2="774.5" y2="218.0" stroke="black" stroke-opacity="0.35" stroke-width="2.20"/>
+<line x1="774.5" y1="982.0" x2="953.3" y2="372.9" stroke="black" stroke-opacity="0.35" stroke-width="5.80"/>
+<line x1="540.2" y1="1015.7" x2="953.3" y2="372.9" stroke="black" stroke-opacity="0.35" stroke-width="5.80"/>
+<line x1="325.0" y1="917.4" x2="774.5" y2="218.0" stroke="black" stroke-opacity="0.35" stroke-width="2.20"/>
+<line x1="325.0" y1="282.6" x2="540.2" y2="184.3" stroke="black" stroke-opacity="0.35" stroke-width="7.00"/>
+<circle cx="1020.0" cy="600.0" r="13.7" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="1020.0" y="631.7" text-anchor="middle" font-size="16" font-family="Arial">IncC (2)</text>
+<circle cx="953.3" cy="827.1" r="13.7" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="953.3" y="858.8" text-anchor="middle" font-size="16" font-family="Arial">IncFIA (2)</text>
+<circle cx="774.5" cy="982.0" r="18.8" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="774.5" y="1018.8" text-anchor="middle" font-size="16" font-family="Arial">IncFIB (8)</text>
+<circle cx="540.2" cy="1015.7" r="15.4" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="540.2" y="1049.1" text-anchor="middle" font-size="16" font-family="Arial">IncFII (4)</text>
+<circle cx="325.0" cy="917.4" r="15.4" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="325.0" y="950.8" text-anchor="middle" font-size="16" font-family="Arial">IncHI1B (4)</text>
+<circle cx="197.0" cy="718.3" r="30.7" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="197.0" y="767.0" text-anchor="middle" font-size="16" font-family="Arial">IncL/M (22)</text>
+<circle cx="197.0" cy="481.7" r="40.0" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="197.0" y="539.7" text-anchor="middle" font-size="16" font-family="Arial">IncN (33)</text>
+<circle cx="325.0" cy="282.6" r="18.8" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="325.0" y="319.4" text-anchor="middle" font-size="16" font-family="Arial">IncX3 (8)</text>
+<circle cx="540.2" cy="184.3" r="16.2" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="540.2" y="218.5" text-anchor="middle" font-size="16" font-family="Arial">rep_cluster_1195 (5)</text>
+<circle cx="774.5" cy="218.0" r="14.5" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="774.5" y="250.5" text-anchor="middle" font-size="16" font-family="Arial">rep_cluster_1254 (3)</text>
+<circle cx="953.3" cy="372.9" r="15.4" fill="lightgray" stroke="black" stroke-width="1.5"/>
+<text x="953.3" y="406.3" text-anchor="middle" font-size="16" font-family="Arial">rep_cluster_2183 (4)</text>
+</svg>

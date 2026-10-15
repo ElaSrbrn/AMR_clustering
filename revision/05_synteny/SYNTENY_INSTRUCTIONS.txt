@@ -1,0 +1,12 @@
+Synteny figures for the CRE depth benchmarking revision (pyGenomeViz)
+
+A) synteny_packages/<plasmid>/  (effect of depth and assembler on each plasmid and its carbapenemase context)
+   One figure per plasmid: reference on top, then flye_10x, 20x, 40x, 60x and hybracter_10x ... 60x (only the files present).
+   Links from the alignment of each contig to the reference; mark carbapenemase.bed (red) and is_elements.bed (grey).
+   README.txt in each folder gives the class of every contig (concordant, rearranged, ...).
+
+B) synteny_groups/<group>/  (comparisons between reference plasmids)
+   One figure per group, tracks in file order; see README.txt in each folder.
+   Sequences are rotated so the carbapenemase gene starts at position 1,001 in every track.
+
+Please send figures as SVG/PDF and report the pyGenomeViz version.

@@ -1,0 +1,103 @@
+plasmid_id	assembler	depth	class	primary_contig	kind	side	ref_pos	size_bp	query_pos	dist_is	dist_repeat	near_is	near_is_or_repeat
+4838_4	flye	10x	internal_deletion	contig_10	deletion	left	39185	6698	2996	0	0	yes	yes
+4838_4	flye	10x	internal_deletion	contig_10	deletion	right	46504	6698	3617	24	7318	yes	yes
+4838_4	flye	10x	internal_deletion	contig_10	deletion	left	19652	1144	35021	1117	1116	no	no
+4838_4	flye	10x	internal_deletion	contig_10	deletion	right	20796	1144	35021	0	0	yes	yes
+4838_4	hybracter	10x	rearranged	contig00014	rearrangement	left	49568	-2513	47073	3088	10382	no	no
+4838_4	hybracter	10x	rearranged	contig00014	rearrangement	right	48100	-2513	51054	1620	8914	no	no
+6057_2	flye	60x	rearranged	contig_5	rearrangement	left	29548	-22191	148661	1	1	yes	yes
+6057_2	flye	60x	rearranged	contig_5	rearrangement	right	52559	-22191	147841	0	0	yes	yes
+6057_2	flye	60x	rearranged	contig_5	rearrangement	left	29548	-22191	170852	1	1	yes	yes
+6057_2	flye	60x	rearranged	contig_5	rearrangement	right	52559	-22191	170032	0	0	yes	yes
+6057_2	hybracter	20x	rearranged	plasmid00002	rearrangement	left	52559	-22191	12117	0	0	yes	yes
+6057_2	hybracter	20x	rearranged	plasmid00002	rearrangement	right	29548	-22191	11297	1	1	yes	yes
+6057_2	hybracter	40x	rearranged	plasmid00002	rearrangement	left	52559	-22191	12117	0	0	yes	yes
+6057_2	hybracter	40x	rearranged	plasmid00002	rearrangement	right	29548	-22191	11297	1	1	yes	yes
+6057_2	hybracter	60x	rearranged	plasmid00002	rearrangement	left	52559	-22191	12117	0	0	yes	yes
+6057_2	hybracter	60x	rearranged	plasmid00002	rearrangement	right	29548	-22191	11297	1	1	yes	yes
+6067_4	flye	10x	rearranged	contig_29	rearrangement	left	7613	10662	50665	302	1	yes	yes
+6067_4	flye	10x	rearranged	contig_29	rearrangement	right	77361	10662	49603	1193	0	no	yes
+6067_4	hybracter	10x	rearranged	contig00026	rearrangement	left	7613	10662	50665	302	1	yes	yes
+6067_4	hybracter	10x	rearranged	contig00026	rearrangement	right	77361	10662	49603	1193	0	no	yes
+6247_3	hybracter	40x	expanded_duplication	plasmid00001	deletion	left	69448	3420	95920	1	0	yes	yes
+6247_3	hybracter	40x	expanded_duplication	plasmid00001	deletion	right	72868	3420	95920	1	0	yes	yes
+6520_4	flye	20x	rearranged	contig_5	rearrangement	left	54062	1639	59780	0	5	yes	yes
+6520_4	flye	20x	rearranged	contig_5	rearrangement	right	58459	1639	62538	477	470	yes	yes
+6726_3	flye	20x	rearranged	contig_1	rearrangement	left	34433	-16841	11885	8	536	yes	yes
+6726_3	flye	20x	rearranged	contig_1	rearrangement	right	36075	-16841	30368	439	2178	yes	yes
+6726_3	hybracter	20x	rearranged	contig00002	rearrangement	left	34433	-16841	11885	8	536	yes	yes
+6726_3	hybracter	20x	rearranged	contig00002	rearrangement	right	36075	-16841	30368	439	2178	yes	yes
+6735_3	flye	10x	internal_insertion	contig_2	insertion	left	150282	-3294	212029	1	0	yes	yes
+6735_3	flye	10x	internal_insertion	contig_2	insertion	right	150282	-3294	215323	1	0	yes	yes
+6735_3	flye	20x	internal_insertion	contig_1	insertion	left	150282	-3293	65832	1	0	yes	yes
+6735_3	flye	20x	internal_insertion	contig_1	insertion	right	150282	-3293	69125	1	0	yes	yes
+6735_3	hybracter	10x	internal_insertion	contig00018	insertion	left	150282	-3294	212029	1	0	yes	yes
+6735_3	hybracter	10x	internal_insertion	contig00018	insertion	right	150282	-3294	215323	1	0	yes	yes
+6735_3	hybracter	20x	internal_insertion	contig00005	insertion	left	43613	-3293	150282	586	585	yes	yes
+6735_3	hybracter	20x	internal_insertion	contig00005	insertion	right	43613	-3293	153575	586	585	yes	yes
+6735_3	hybracter	60x	internal_insertion	plasmid00002	insertion	left	150282	-3293	131499	1	0	yes	yes
+6735_3	hybracter	60x	internal_insertion	plasmid00002	insertion	right	150282	-3293	134792	1	0	yes	yes
+6817_3	hybracter	60x	internal_deletion	plasmid00002	deletion	left	50146	10662	55295	3136	360	no	yes
+6817_3	hybracter	60x	internal_deletion	plasmid00002	deletion	right	39484	10662	55295	6707	3134	no	no
+6888_3	flye	10x	rearranged	contig_2	rearrangement	left	110119	-13186	76439	2700	34674	no	no
+6888_3	flye	10x	rearranged	contig_2	rearrangement	right	9583	-13186	76522	192	48451	yes	yes
+6888_3	flye	20x	rearranged	contig_4	rearrangement	left	111319	-66162	1288	1500	35874	no	no
+6888_3	flye	20x	rearranged	contig_4	rearrangement	right	6750	-66162	76520	0	45618	yes	yes
+6888_3	flye	40x	rearranged	contig_2	rearrangement	left	110119	-13263	76435	2700	34674	no	no
+6888_3	flye	40x	rearranged	contig_2	rearrangement	right	9583	-13263	76595	192	48451	yes	yes
+6888_3	hybracter	10x	rearranged	contig00005	rearrangement	left	110119	-13186	76439	2700	34674	no	no
+6888_3	hybracter	10x	rearranged	contig00005	rearrangement	right	9583	-13186	76522	192	48451	yes	yes
+6888_3	hybracter	20x	rearranged	contig00006	rearrangement	left	111319	-66162	1288	1500	35874	no	no
+6888_3	hybracter	20x	rearranged	contig00006	rearrangement	right	6750	-66162	76520	0	45618	yes	yes
+7084_2	flye	10x	internal_deletion	contig_17	deletion	left	51391	22244	3910	4381	0	no	yes
+7084_2	flye	10x	internal_deletion	contig_17	deletion	right	29147	22244	3910	13012	1273	no	no
+7084_2	hybracter	10x	internal_deletion	contig00022	deletion	left	28932	20645	26364	12797	1058	no	no
+7084_2	hybracter	10x	internal_deletion	contig00022	deletion	right	8287	20645	26364	5675	12697	no	no
+7176_3	flye	10x	expanded_duplication	contig_10	deletion	left	53409	2451	1978	6654	6654	no	no
+7176_3	flye	10x	expanded_duplication	contig_10	deletion	right	55860	2451	1978	4203	4203	no	no
+7365_2	flye	40x	internal_deletion	contig_4	deletion	left	33118	9335	35294	3212	1	no	yes
+7365_2	flye	40x	internal_deletion	contig_4	deletion	right	42453	9335	35294	1192	0	no	yes
+7365_2	flye	60x	internal_deletion	contig_2	deletion	left	47781	18670	33118	1237	0	no	yes
+7365_2	flye	60x	internal_deletion	contig_2	deletion	right	29111	18670	33118	491	0	yes	yes
+7365_2	hybracter	20x	internal_deletion	plasmid00001	deletion	left	33118	28005	38422	3212	1	no	yes
+7365_2	hybracter	20x	internal_deletion	plasmid00001	deletion	right	61123	28005	38422	1192	0	no	yes
+7365_2	hybracter	40x	internal_deletion	plasmid00001	deletion	left	33118	28005	38422	3212	1	no	yes
+7365_2	hybracter	40x	internal_deletion	plasmid00001	deletion	right	61123	28005	38422	1192	0	no	yes
+7365_2	hybracter	60x	internal_deletion	plasmid00001	deletion	left	33118	28005	38422	3212	1	no	yes
+7365_2	hybracter	60x	internal_deletion	plasmid00001	deletion	right	61123	28005	38422	1192	0	no	yes
+7419_3	flye	10x	rearranged	contig_40	rearrangement	left	43724		2968	3507	0	no	yes
+7419_3	flye	10x	rearranged	contig_40	rearrangement	right	51595		1846	19	1	yes	yes
+7419_3	flye	10x	rearranged	contig_40	rearrangement	left	51576		79850	0	0	yes	yes
+7419_3	flye	10x	rearranged	contig_40	rearrangement	right	64217		79030	0	0	yes	yes
+7419_3	flye	20x	rearranged	contig_2	rearrangement	left	43724		2953	3507	0	no	yes
+7419_3	flye	20x	rearranged	contig_2	rearrangement	right	51595		1831	19	1	yes	yes
+7419_3	flye	20x	rearranged	contig_2	rearrangement	left	51576		79833	0	0	yes	yes
+7419_3	flye	20x	rearranged	contig_2	rearrangement	right	64217		79013	0	0	yes	yes
+7419_3	flye	40x	rearranged	contig_15	rearrangement	left	64217		14815	0	0	yes	yes
+7419_3	flye	40x	rearranged	contig_15	rearrangement	right	51576		13995	0	0	yes	yes
+7419_3	flye	40x	rearranged	contig_15	rearrangement	left	51595		91997	19	1	yes	yes
+7419_3	flye	40x	rearranged	contig_15	rearrangement	right	43724		90875	3507	0	no	yes
+7419_3	flye	60x	rearranged	contig_5	rearrangement	left	43724		2974	3507	0	no	yes
+7419_3	flye	60x	rearranged	contig_5	rearrangement	right	51595		1852	19	1	yes	yes
+7419_3	flye	60x	rearranged	contig_5	rearrangement	left	51576		79854	0	0	yes	yes
+7419_3	flye	60x	rearranged	contig_5	rearrangement	right	64217		79034	0	0	yes	yes
+7419_3	flye	60x	rearranged	contig_5	rearrangement	left	51595	-9197	91656	19	1	yes	yes
+7419_3	flye	60x	rearranged	contig_5	rearrangement	right	57136	-9197	95312	2150	0	no	yes
+7419_3	hybracter	10x	rearranged	contig00022	rearrangement	left	51576		72435	0	0	yes	yes
+7419_3	hybracter	10x	rearranged	contig00022	rearrangement	right	64217		71615	0	0	yes	yes
+7419_3	hybracter	20x	rearranged	contig00003	rearrangement	left	43724		2953	3507	0	no	yes
+7419_3	hybracter	20x	rearranged	contig00003	rearrangement	right	51595		1831	19	1	yes	yes
+7419_3	hybracter	20x	rearranged	contig00003	rearrangement	left	51576		79833	0	0	yes	yes
+7419_3	hybracter	20x	rearranged	contig00003	rearrangement	right	64217		79013	0	0	yes	yes
+7419_3	hybracter	40x	rearranged	contig00004	rearrangement	left	64217		14815	0	0	yes	yes
+7419_3	hybracter	40x	rearranged	contig00004	rearrangement	right	51576		13995	0	0	yes	yes
+7419_3	hybracter	40x	rearranged	contig00004	rearrangement	left	51595		91997	19	1	yes	yes
+7419_3	hybracter	40x	rearranged	contig00004	rearrangement	right	43724		90875	3507	0	no	yes
+7419_3	hybracter	60x	rearranged	contig00008	rearrangement	left	43724		2980	3507	0	no	yes
+7419_3	hybracter	60x	rearranged	contig00008	rearrangement	right	51595		1858	19	1	yes	yes
+7419_3	hybracter	60x	rearranged	contig00008	rearrangement	left	51576		79860	0	0	yes	yes
+7419_3	hybracter	60x	rearranged	contig00008	rearrangement	right	64217		79040	0	0	yes	yes
+7419_3	hybracter	60x	rearranged	contig00008	rearrangement	left	51595	-9197	91662	19	1	yes	yes
+7419_3	hybracter	60x	rearranged	contig00008	rearrangement	right	57136	-9197	95318	2150	0	no	yes
+7475_3	flye	40x	on_chromosome_contig	contig_1	rearrangement	left	62659	-5243719	79350	0	0	yes	yes
+7475_3	flye	40x	on_chromosome_contig	contig_1	rearrangement	right	43461	-5243719	5303871	4411	1500	no	no

@@ -1,0 +1,43 @@
+written: results/plsdb_nearest_provenance.tsv (93 plasmids)
+
+== all: 93 plasmids, 37 distinct nearest hits
+  hits with location: 33/37; with collection year: 33/37 (range 2008-2023)
+  countries (distinct hits): {'USA': 5, 'Spain': 5, 'NA': 4, 'Canada': 4, 'China': 3, 'Czech Republic': 3, 'Sweden': 3, 'Germany': 2, 'Russia': 1, 'Ghana': 1, 'Denmark': 1, 'Greece': 1, 'Australia': 1, 'Korea': 1, 'Italy': 1, 'France': 1}
+  countries (per plasmid):   {'Germany': 25, 'Spain': 15, 'Czech Republic': 12, 'Canada': 9, 'USA': 8, 'China': 7, 'NA': 5, 'Sweden': 3, 'Russia': 2, 'Ghana': 1, 'Denmark': 1, 'Greece': 1, 'Australia': 1, 'Korea': 1, 'Italy': 1, 'France': 1}
+  host (per plasmid):        {'Homo sapiens': 57, 'NA': 33, 'Free-range White-tailed deer': 2, 'Pteropus poliocephalus': 1}
+  species (per plasmid):     {'Klebsiella_pneumoniae': 32, 'Enterobacter_asburiae': 23, 'Escherichia_coli': 15, 'Enterobacter_hormaechei': 11, 'Citrobacter_freundii': 9, 'Enterobacter_cloacae': 2, 'Salmonella_enterica': 1}
+
+== near_identical (<=0.001, >=950/1000): 41 plasmids, 15 distinct nearest hits
+  hits with location: 13/15; with collection year: 13/15 (range 2010-2019)
+  countries (distinct hits): {'Germany': 2, 'NA': 2, 'USA': 2, 'Czech Republic': 2, 'Ghana': 1, 'Canada': 1, 'Korea': 1, 'Spain': 1, 'Italy': 1, 'France': 1, 'China': 1}
+  countries (per plasmid):   {'Germany': 20, 'USA': 4, 'Canada': 4, 'Czech Republic': 3, 'Spain': 3, 'NA': 2, 'Ghana': 1, 'Korea': 1, 'Italy': 1, 'France': 1, 'China': 1}
+  host (per plasmid):        {'NA': 21, 'Homo sapiens': 18, 'Free-range White-tailed deer': 2}
+  species (per plasmid):     {'Enterobacter_asburiae': 19, 'Klebsiella_pneumoniae': 10, 'Escherichia_coli': 9, 'Enterobacter_hormaechei': 2, 'Enterobacter_cloacae': 1}
+
+== <=0.01: 42 plasmids, 19 distinct nearest hits
+  hits with location: 18/19; with collection year: 17/19 (range 2011-2023)
+  countries (distinct hits): {'Spain': 4, 'China': 2, 'USA': 2, 'Czech Republic': 2, 'Canada': 2, 'Germany': 1, 'Russia': 1, 'Denmark': 1, 'NA': 1, 'Greece': 1, 'Australia': 1, 'Sweden': 1}
+  countries (per plasmid):   {'Spain': 11, 'Czech Republic': 9, 'China': 6, 'Germany': 4, 'USA': 3, 'Russia': 2, 'Canada': 2, 'Denmark': 1, 'NA': 1, 'Greece': 1, 'Australia': 1, 'Sweden': 1}
+  host (per plasmid):        {'Homo sapiens': 33, 'NA': 8, 'Pteropus poliocephalus': 1}
+  species (per plasmid):     {'Klebsiella_pneumoniae': 19, 'Enterobacter_hormaechei': 8, 'Citrobacter_freundii': 8, 'Enterobacter_asburiae': 4, 'Escherichia_coli': 2, 'Enterobacter_cloacae': 1}
+
+== >0.01: 10 plasmids, 10 distinct nearest hits
+  hits with location: 8/10; with collection year: 8/10 (range 2008-2020)
+  countries (distinct hits): {'Canada': 3, 'Sweden': 2, 'NA': 2, 'Germany': 1, 'USA': 1, 'Spain': 1}
+  countries (per plasmid):   {'Canada': 3, 'Sweden': 2, 'NA': 2, 'Germany': 1, 'USA': 1, 'Spain': 1}
+  host (per plasmid):        {'Homo sapiens': 6, 'NA': 4}
+  species (per plasmid):     {'Escherichia_coli': 4, 'Klebsiella_pneumoniae': 3, 'Salmonella_enterica': 1, 'Enterobacter_hormaechei': 1, 'Citrobacter_freundii': 1}
+
+== hits without host but with isolation source (non-human candidates):
+  NZ_CP077413.1	Enterobacter_asburiae	Germany	host=NA	source=NA
+  NZ_CP014757.1	Klebsiella_pneumoniae	USA	host=NA	source=NA
+  CP123693.1	Salmonella_enterica	USA	host=NA	source=animal-swine-market swine
+  NZ_CP021682.1	Escherichia_coli	NA	host=NA	source=NA
+  NZ_CP117991.1	Enterobacter_hormaechei	Denmark	host=NA	source=medicine capsule
+  NZ_CP087579.1	Escherichia_coli	USA	host=Free-range White-tailed deer	source=Cecal
+  NZ_CP077825.1	Klebsiella_pneumoniae	Australia	host=Pteropus poliocephalus	source=NA
+  NZ_CP047744.1	Enterobacter_hormaechei	Canada	host=NA	source=urine
+  NZ_LS992176.1	Citrobacter_freundii	NA	host=NA	source=NA
+  NZ_CP021699.1	Klebsiella_pneumoniae	NA	host=NA	source=NA
+  NZ_CP047741.1	Enterobacter_hormaechei	Canada	host=NA	source=urine
+  CP028705.1	Escherichia_coli	China	host=NA	source=cucumber

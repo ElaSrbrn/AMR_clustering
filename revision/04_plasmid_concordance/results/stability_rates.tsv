@@ -1,0 +1,9 @@
+assembler	depth	n	stable_strict	stable_structural	prop_strict	prop_structural
+flye	10x	93	55	60	0.591	0.645
+flye	20x	93	70	75	0.753	0.806
+flye	40x	93	71	73	0.763	0.785
+flye	60x	93	80	83	0.86	0.892
+hybracter	10x	93	56	63	0.602	0.677
+hybracter	20x	93	68	71	0.731	0.763
+hybracter	40x	93	75	76	0.806	0.817
+hybracter	60x	93	74	76	0.796	0.817

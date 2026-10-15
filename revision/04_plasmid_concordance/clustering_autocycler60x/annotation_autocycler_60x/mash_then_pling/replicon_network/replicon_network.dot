@@ -1,0 +1,22 @@
+graph replicon_network {
+  graph [overlap=false, splines=true];
+  "IncC" [label="IncC\ncount=2"];
+  "IncFIA" [label="IncFIA\ncount=2"];
+  "IncFIB" [label="IncFIB\ncount=8"];
+  "IncFII" [label="IncFII\ncount=4"];
+  "IncHI1B" [label="IncHI1B\ncount=4"];
+  "IncL/M" [label="IncL/M\ncount=22"];
+  "IncN" [label="IncN\ncount=33"];
+  "IncX3" [label="IncX3\ncount=8"];
+  "rep_cluster_1195" [label="rep_cluster_1195\ncount=5"];
+  "rep_cluster_1254" [label="rep_cluster_1254\ncount=3"];
+  "rep_cluster_2183" [label="rep_cluster_2183\ncount=4"];
+  "IncC" -- "rep_cluster_1254" [label="2"];
+  "IncFIB" -- "IncFII" [label="4"];
+  "IncFIB" -- "IncHI1B" [label="4"];
+  "IncFIB" -- "rep_cluster_1254" [label="1"];
+  "IncFIB" -- "rep_cluster_2183" [label="4"];
+  "IncFII" -- "rep_cluster_2183" [label="4"];
+  "IncHI1B" -- "rep_cluster_1254" [label="1"];
+  "IncX3" -- "rep_cluster_1195" [label="5"];
+}

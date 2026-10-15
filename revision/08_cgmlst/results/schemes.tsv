@@ -1,0 +1,8 @@
+key	scheme_id	expected_loci	species
+kpsc	2187931	2358	K. pneumoniae, K. variicola, K. quasipneumoniae
+ecoli	5064703	2513	E. coli (incl. Shigella)
+cfreundii	43774341	3250	C. freundii, C. braakii, C. europaeus, C. portucalensis
+ehorm	39622219	2178	E. hormaechei
+koxy	34259134	2536	K. oxytoca complex (K. michiganensis)
+pmir	39635937	2574	P. mirabilis
+smar	24616475	2692	S. marcescens

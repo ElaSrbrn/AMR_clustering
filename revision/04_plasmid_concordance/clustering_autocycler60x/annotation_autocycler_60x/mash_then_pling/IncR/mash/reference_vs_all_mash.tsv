@@ -1,0 +1,2 @@
+replicon_group	reference_plasmid	query_plasmid	reference_length	query_length	mash_distance	shared_hashes	within_threshold
+IncR	/ictstr01/groups/hpc/urban_lab/projects/plasmid_project/plasmid_contig_stability/clustering_autocycler60x/annotation_autocycler_60x/plasmids/isolate_6247_autocycler60x_6247_3.fasta	/ictstr01/groups/hpc/urban_lab/projects/plasmid_project/plasmid_contig_stability/clustering_autocycler60x/annotation_autocycler_60x/plasmids/isolate_6247_autocycler60x_6247_3.fasta	96740	96740	0.0	1000/1000	yes

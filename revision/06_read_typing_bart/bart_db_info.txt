@@ -1,0 +1,4 @@
+date: 2026-10-07T17:04:01+02:00
+bart_db: /ictstr01/home/haicu/ela.sauerborn/mamba/envs/bart/lib/python3.10/site-packages/bart/db
+mlst_indexes: 616
+amr_index_files: 2026-10-07 /ictstr01/home/haicu/ela.sauerborn/mamba/envs/bart/lib/python3.10/site-packages/bart/db/indexes/amr.comp.b 2026-10-07 /ictstr01/home/haicu/ela.sauerborn/mamba/envs/bart/lib/python3.10/site-packages/bart/db/indexes/amr.length.b 2026-10-07 /ictstr01/home/haicu/ela.sauerborn/mamba/envs/bart/lib/python3.10/site-packages/bart/db/indexes/amr.name 2026-10-07 /ictstr01/home/haicu/ela.sauerborn/mamba/envs/bart/lib/python3.10/site-packages/bart/db/indexes/amr.seq.b 

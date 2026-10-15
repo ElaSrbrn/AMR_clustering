@@ -1,0 +1,5 @@
+read	read_length	strand	mapq_left	mapq_right	read_distance	ref_distance	delta_units	units_in_read	units_rounded
+29f55c6b-8a13-4f87-9855-60ab1afe62b4	44360	-	60	60	37997	38000	-0.0	3.0	3
+945dda5e-f3b9-4507-92fd-3629018be587	35091	+	60	60	28634	38000	-1.0	2.0	2
+1d98db49-5fd2-40e9-b119-6487d6ef72b7	31090	-	60	60	19326	38000	-2.0	1.0	1
+447b8507-cf86-4c20-b435-56a14b8e5aa1	35802	-	60	60	19296	38000	-2.0	1.0	1

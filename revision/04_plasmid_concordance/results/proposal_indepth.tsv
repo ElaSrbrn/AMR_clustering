@@ -1,0 +1,49 @@
+plasmid_id	genes	length	rep_type	reason	include
+4704_3	blaVIM-1	102080	rep_cluster_1444	A hybracter_40x:length_mismatch;hybracter_60x:length_mismatch | B 20x flye=concordant hybracter=fragmented | B 40x flye=concordant hybracter=length_mismatch | B 60x flye=concordant hybracter=length_mismatch	yes
+4838_4	blaNDM-1	58247	IncFIB	B 20x flye=length_mismatch hybracter=concordant	yes
+4920_4	blaOXA-48,blaVIM-1	83669	IncL/M	A flye_40x:length_mismatch | B 40x flye=length_mismatch hybracter=concordant | C multiple gene copies in reference	yes
+5043_2	blaNDM-1	169978	IncC,rep_cluster_1254	A hybracter_40x:fragmented | B 20x flye=concordant hybracter=truncated | B 40x flye=concordant hybracter=fragmented	yes
+5305_2	blaVIM-86	225345	IncC,rep_cluster_1254	A flye_40x:fragmented;flye_60x:fragmented;hybracter_40x:fragmented;hybracter_60x:fragmented	yes
+5399_2	blaKPC-2	79348	IncN	A hybracter_60x:truncated | B 20x flye=concordant hybracter=fragmented | B 60x flye=concordant hybracter=truncated	yes
+5590_2	blaVIM-1	146452	IncFIB,rep_cluster_1444	A flye_40x:truncated;flye_60x:expanded_duplication | B 20x flye=truncated hybracter=concordant | B 40x flye=truncated hybracter=concordant | B 60x flye=expanded_duplication hybracter=concordant	yes
+5860_2	blaKPC-2	100959	IncFIB,IncFII,rep_cluster_2183	B 20x flye=concordant hybracter=gene_absent	yes
+5970_4	blaOXA-48	69769	IncL/M	A hybracter_40x:truncated;hybracter_60x:truncated | B 20x flye=concordant hybracter=fragmented | B 40x flye=concordant hybracter=truncated | B 60x flye=concordant hybracter=truncated	yes
+6056_2	blaNDM-1	169978	IncC,rep_cluster_1254	A hybracter_40x:gene_absent;hybracter_60x:gene_absent | B 20x flye=concordant hybracter=gene_absent | B 40x flye=concordant hybracter=gene_absent | B 60x flye=concordant hybracter=gene_absent	yes
+6057_2	blaNDM-5	148658	IncFIA,IncFII	A flye_60x:rearranged;hybracter_40x:rearranged;hybracter_60x:rearranged | B 20x flye=concordant_not_circular hybracter=rearranged | B 40x flye=concordant hybracter=rearranged	yes
+6233_4	blaOXA-48	68944	IncL/M	B 20x flye=concordant hybracter=fragmented	yes
+6244_7	blaOXA-181	24524	IncX3,rep_cluster_1195	A flye_40x:expanded_duplication | B 40x flye=expanded_duplication hybracter=concordant	yes
+6247_3	blaOXA-181	96740	IncR,IncX3,rep_cluster_1195	A flye_40x:length_mismatch;hybracter_40x:expanded_duplication;hybracter_60x:fragmented | B 60x flye=concordant hybracter=fragmented	yes
+6378_2	blaNDM-5	313403	IncFIB,IncHI1B	A flye_40x:length_mismatch | B 40x flye=length_mismatch hybracter=concordant	yes
+6394_2	blaNDM-1	297348	IncFIB,IncHI1B	B 20x flye=length_mismatch hybracter=concordant	yes
+6433_2	blaOXA-181	51479	IncX3,rep_cluster_1195	B 20x flye=truncated hybracter=concordant	yes
+6454_4	blaKPC-2	78021	IncN	A flye_40x:truncated | B 40x flye=truncated hybracter=concordant	yes
+6472_3	blaOXA-48	74309	IncL/M	A hybracter_40x:truncated;hybracter_60x:gene_absent | B 20x flye=concordant hybracter=truncated | B 40x flye=concordant hybracter=truncated | B 60x flye=concordant hybracter=gene_absent	yes
+6500_3	blaKPC-3	71857	IncFIB,rep_cluster_2183	B 20x flye=fragmented hybracter=concordant	yes
+6520_4	blaVIM-1	59755	IncN	A flye_60x:chimeric | B 20x flye=rearranged hybracter=concordant | B 60x flye=chimeric hybracter=concordant	yes
+6567_3	blaKPC-2	73954	IncN	A flye_40x:length_mismatch | B 40x flye=length_mismatch hybracter=concordant	yes
+6571_4	blaOXA-48	74309	IncL/M	B 20x flye=concordant hybracter=fragmented	yes
+6669_2	blaKPC-2	64619	IncN	B 20x flye=concordant hybracter=gene_absent	yes
+6701_4	blaVIM-1	33191	IncN	A flye_60x:truncated;hybracter_60x:truncated	yes
+6726_3	blaKPC-2	98815	IncFIB,IncFII,rep_cluster_2183	A flye_40x:fragmented;flye_60x:fragmented | B 40x flye=fragmented hybracter=concordant | B 60x flye=fragmented hybracter=concordant	yes
+6735_3	blaOXA-48	245139	IncFIB,IncFIC,IncFII	A hybracter_40x:truncated;hybracter_60x:internal_insertion | B 40x flye=concordant hybracter=truncated | B 60x flye=concordant hybracter=internal_insertion	yes
+6737_2	blaNDM-5	334177	IncFIB,IncFIB,IncHI1B	A hybracter_40x:truncated | B 40x flye=concordant hybracter=truncated	yes
+6737_3	blaOXA	6141	rep_cluster_1195	A flye_40x:fragmented | B 20x flye=concordant_not_circular hybracter=fragmented | B 40x flye=fragmented hybracter=concordant	yes
+6738_4	blaOXA-48	74309	IncL/M	A flye_40x:truncated | B 40x flye=truncated hybracter=concordant	yes
+6748_2	blaNDM-5	152631	IncFIA,IncFIB,IncFIC	A hybracter_60x:fragmented | B 60x flye=concordant hybracter=fragmented	yes
+6779_3	blaOXA-48	74309	IncL/M	A flye_40x:gene_absent | B 20x flye=fragmented hybracter=concordant | B 40x flye=gene_absent hybracter=concordant	yes
+6817_3	blaKPC-2	79348	IncN	A flye_60x:fragmented;hybracter_60x:internal_deletion	yes
+6855_3	blaKPC-2	64619	IncN	A flye_40x:truncated | B 40x flye=truncated hybracter=concordant	yes
+6888_3	blaKPC-3	113639	IncFIB,IncFII,rep_cluster_2183	A flye_40x:rearranged;hybracter_40x:fragmented;hybracter_60x:truncated | B 60x flye=concordant hybracter=truncated	yes
+6900_4	blaOXA-181	57195	IncX3,rep_cluster_1195	A flye_40x:fragmented | B 40x flye=fragmented hybracter=concordant	yes
+6901_4	blaKPC-2	79348	IncN	A hybracter_40x:gene_absent;hybracter_60x:gene_absent | B 40x flye=concordant hybracter=gene_absent | B 60x flye=concordant hybracter=gene_absent	yes
+7077_2	blaOXA-48	68942	IncL/M	B 20x flye=length_mismatch hybracter=concordant	yes
+7136_3	blaOXA-181	51479	IncX3,rep_cluster_1195	A hybracter_40x:truncated | B 40x flye=concordant hybracter=truncated	yes
+7176_3	blaOXA-48	63589	IncL/M	B 20x flye=concordant hybracter=truncated	yes
+7181_3	blaOXA-48,blaVIM-1	83670	IncL/M	C multiple gene copies in reference	yes
+7221_2	blaNDM-5	120267	IncFIA,IncFIA	A flye_60x:fragmented | B 60x flye=fragmented hybracter=concordant	yes
+7316_2	blaOXA-181	51479	IncX3,rep_cluster_1195	A flye_40x:length_mismatch | B 40x flye=length_mismatch hybracter=concordant	yes
+7365_2	blaKPC-2	96691	IncN	A flye_40x:internal_deletion;flye_60x:internal_deletion;hybracter_40x:internal_deletion;hybracter_60x:internal_deletion	yes
+7419_3	blaKPC-2	78021	IncN	A flye_40x:rearranged;flye_60x:rearranged;hybracter_40x:rearranged;hybracter_60x:rearranged	yes
+7454_4	blaKPC-2	59489	IncN	A flye_40x:length_mismatch;hybracter_40x:gene_absent;hybracter_60x:gene_absent | B 60x flye=concordant hybracter=gene_absent	yes
+7475_3	blaKPC-2	79348	IncN	A flye_40x:on_chromosome_contig;hybracter_40x:on_chromosome_contig	yes
+7521_2	blaOXA-48	68942	IncL/M	B 20x flye=fragmented hybracter=concordant	yes

@@ -1,0 +1,343 @@
+group	isolate	method	type	gene_family	alleles	depth	rel_depth
+S1a/10x	isolate_3989_FAY64384_barcode1016	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	0.99	0.094
+S1a/10x	isolate_4838_FAY34264_barcode01	reads, unfiltered	extra_allele	blaNDM	blaNDM-71	1.0	0.164
+S1a/10x	isolate_5399_FAYFAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	1.0	0.083
+S1a/10x	isolate_5871_PAU61707_barcode0304	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	0.99	0.199
+S1a/10x	isolate_5969_PAU61707_barcode0506	reads, unfiltered	extra_allele	blaNDM	blaNDM-38	1.0	0.077
+S1a/10x	isolate_5969_PAU61707_barcode0506	reads, unfiltered	extra_allele	blaNDM	blaNDM-71	1.0	0.077
+S1a/10x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-2	2.0	0.227
+S1a/10x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-38	1.01	0.115
+S1a/10x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-44	1.0	0.114
+S1a/10x	isolate_5976_PAU61707_barcode0910	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.0	0.143
+S1a/10x	isolate_6009_PAU61707_barcode1112	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-23	1.0	0.09
+S1a/10x	isolate_6009_PAU61707_barcode1112	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	0.98	0.088
+S1a/10x	isolate_6009_PAU61707_barcode1112	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-122	2.0	0.179
+S1a/10x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-126	1.02	0.128
+S1a/10x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-100	0.98	0.123
+S1a/10x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-191	0.99	0.124
+S1a/10x	isolate_6035_PAU61707_barcode1516	reads, unfiltered	extra_allele	blaNDM	blaNDM-58	0.99	0.109
+S1a/10x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-17	1.0	0.091
+S1a/10x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-60	1.0	0.091
+S1a/10x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-67	0.99	0.09
+S1a/10x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-90	0.99	0.09
+S1a/10x	isolate_6067_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-83	1.0	0.2
+S1a/10x	isolate_6067_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	2.0	0.4
+S1a/10x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-60	1.0	0.079
+S1a/10x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	1.0	0.079
+S1a/10x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.0	0.079
+S1a/10x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.0	0.079
+S1a/10x	isolate_6233_FAY24367_barcode0410	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-244	1.01	0.16
+S1a/10x	isolate_6243_FAY24367_barcode0107	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.078
+S1a/10x	isolate_6243_FAY24367_barcode0107	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.0	0.078
+S1a/10x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-11	1.0	0.077
+S1a/10x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.077
+S1a/10x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	1.0	0.077
+S1a/10x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.01	0.078
+S1a/10x	isolate_6378_FAY24367_barcode0511	reads, unfiltered	extra_allele	blaNDM	blaNDM-93	1.0	0.125
+S1a/10x	isolate_6454_PAU61707_barcode4142	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-237	1.0	0.172
+S1a/10x	isolate_6500_PAU61707_barcode5152	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-200	1.0	0.167
+S1a/10x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-6	1.0	0.119
+S1a/10x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-45	1.0	0.119
+S1a/10x	isolate_6601_PAU61707_barcode5960	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.107
+S1a/10x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-6	1.0	0.084
+S1a/10x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.084
+S1a/10x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-30	1.0	0.084
+S1a/10x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-126	0.99	0.083
+S1a/10x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-236	2.0	0.168
+S1a/10x	isolate_6670_PAU61707_barcode6364	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-5	0.99	0.111
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, unfiltered	extra_allele	blaVIM	blaVIM-32	0.99	0.202
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, unfiltered	extra_allele	blaVIM	blaVIM-57	0.98	0.2
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, unfiltered	extra_allele	blaVIM	blaVIM-59	1.24	0.253
+S1a/10x	isolate_6711_FAY24367_barcode0208	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-55	1.0	0.126
+S1a/10x	isolate_6711_FAY24367_barcode0208	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-277	1.01	0.127
+S1a/10x	isolate_6712_FAY24367_barcode0309	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	2.0	0.242
+S1a/10x	isolate_6712_FAY24367_barcode0309	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	0.99	0.12
+S1a/10x	isolate_6726_PAYPAU	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-5	1.01	0.169
+S1a/10x	isolate_6737_FBD_PAU_PAY	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-181	1.55	0.172
+S1a/10x	isolate_6737_FBD_PAU_PAY	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-1205	1.7	0.188
+S1a/10x	isolate_6738_FBCPAUPAY	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-517	0.98	0.142
+S1a/10x	isolate_6795_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-30	0.99	0.03
+S1a/10x	isolate_6795_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-113	1.0	0.03
+S1a/10x	isolate_6795_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-236	1.0	0.03
+S1a/10x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.69	0.082
+S1a/10x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.048
+S1a/10x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	1.0	0.048
+S1a/10x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-20	1.02	0.049
+S1a/10x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-24	1.0	0.077
+S1a/10x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-26	0.99	0.076
+S1a/10x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.01	0.078
+S1a/10x	isolate_6855_PAY37630_barcode1920	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-75	0.99	0.064
+S1a/10x	isolate_6855_PAY37630_barcode1920	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	1.0	0.065
+S1a/10x	isolate_6970_PAY37630_barcode2930	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	0.99	0.145
+S1a/10x	isolate_6970_PAY37630_barcode2930	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.0	0.147
+S1a/10x	isolate_6989_FBCFBDPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-24	0.97	0.152
+S1a/10x	isolate_7221_PAY37630_barcode4950	reads, unfiltered	extra_allele	blaNDM	blaNDM-92	1.0	0.13
+S1a/10x	isolate_7285_PAY37630_barcode5556	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.076
+S1a/10x	isolate_7365_PAY37630_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	1.0	0.078
+S1a/10x	isolate_7370_PAY37630_barcode6566	reads, unfiltered	extra_allele	blaNDM	blaNDM-86	1.0	0.092
+S1a/10x	isolate_7454_PAY37630_barcode7778	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-174	1.0	0.182
+S1a/10x	isolate_7476_PAY37630_barcode8384	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	0.99	0.096
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-41	0.99	0.165
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-53	1.0	0.167
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-67	0.99	0.165
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-98	0.99	0.165
+S1a/10x	isolate_4838_FAY34264_barcode01	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-71	1.0	0.164
+S1a/10x	isolate_5871_PAU61707_barcode0304	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-18	0.99	0.199
+S1a/10x	isolate_5970_FBDPAU	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-2	2.0	0.227
+S1a/10x	isolate_5970_FBDPAU	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-38	1.01	0.115
+S1a/10x	isolate_5970_FBDPAU	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-44	1.0	0.114
+S1a/10x	isolate_5976_PAU61707_barcode0910	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.0	0.143
+S1a/10x	isolate_6009_PAU61707_barcode1112	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-122	2.0	0.179
+S1a/10x	isolate_6014_PAU61707_barcode1314	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-126	1.02	0.128
+S1a/10x	isolate_6014_PAU61707_barcode1314	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-100	0.98	0.123
+S1a/10x	isolate_6014_PAU61707_barcode1314	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-191	0.99	0.124
+S1a/10x	isolate_6035_PAU61707_barcode1516	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-58	0.99	0.109
+S1a/10x	isolate_6067_PAUPAY	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-83	1.0	0.2
+S1a/10x	isolate_6067_PAUPAY	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-273	2.0	0.4
+S1a/10x	isolate_6233_FAY24367_barcode0410	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-244	1.01	0.16
+S1a/10x	isolate_6378_FAY24367_barcode0511	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-93	1.0	0.125
+S1a/10x	isolate_6454_PAU61707_barcode4142	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-237	1.0	0.172
+S1a/10x	isolate_6500_PAU61707_barcode5152	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-200	1.0	0.167
+S1a/10x	isolate_6567_PAU61707_barcode5758	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-6	1.0	0.119
+S1a/10x	isolate_6567_PAU61707_barcode5758	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-45	1.0	0.119
+S1a/10x	isolate_6601_PAU61707_barcode5960	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.107
+S1a/10x	isolate_6669_PAU61707_barcode6162	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-236	2.0	0.168
+S1a/10x	isolate_6670_PAU61707_barcode6364	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-5	0.99	0.111
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, keep >= 0.1	extra_allele	blaVIM	blaVIM-32	0.99	0.202
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, keep >= 0.1	extra_allele	blaVIM	blaVIM-57	0.98	0.2
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, keep >= 0.1	extra_allele	blaVIM	blaVIM-59	1.24	0.253
+S1a/10x	isolate_6711_FAY24367_barcode0208	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-55	1.0	0.126
+S1a/10x	isolate_6711_FAY24367_barcode0208	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-277	1.01	0.127
+S1a/10x	isolate_6712_FAY24367_barcode0309	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-43	2.0	0.242
+S1a/10x	isolate_6712_FAY24367_barcode0309	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-273	0.99	0.12
+S1a/10x	isolate_6726_PAYPAU	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-5	1.01	0.169
+S1a/10x	isolate_6737_FBD_PAU_PAY	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-181	1.55	0.172
+S1a/10x	isolate_6737_FBD_PAU_PAY	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-1205	1.7	0.188
+S1a/10x	isolate_6738_FBCPAUPAY	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-517	0.98	0.142
+S1a/10x	isolate_6970_PAY37630_barcode2930	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-18	0.99	0.145
+S1a/10x	isolate_6970_PAY37630_barcode2930	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.0	0.147
+S1a/10x	isolate_6989_FBCFBDPAY	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-24	0.97	0.152
+S1a/10x	isolate_7221_PAY37630_barcode4950	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-92	1.0	0.13
+S1a/10x	isolate_7454_PAY37630_barcode7778	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-174	1.0	0.182
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-41	0.99	0.165
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-53	1.0	0.167
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-67	0.99	0.165
+S1a/10x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-98	0.99	0.165
+S1a/10x	isolate_5970_FBDPAU	reads, keep >= 0.2	extra_allele	blaNDM	blaNDM-2	2.0	0.227
+S1a/10x	isolate_6067_PAUPAY	reads, keep >= 0.2	extra_allele	blaKPC_carbapenemase	blaKPC-83	1.0	0.2
+S1a/10x	isolate_6067_PAUPAY	reads, keep >= 0.2	extra_allele	blaKPC_carbapenemase	blaKPC-273	2.0	0.4
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, keep >= 0.2	extra_allele	blaVIM	blaVIM-32	0.99	0.202
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, keep >= 0.2	extra_allele	blaVIM	blaVIM-57	0.98	0.2
+S1a/10x	isolate_6701_PAU61707_barcode6566	reads, keep >= 0.2	extra_allele	blaVIM	blaVIM-59	1.24	0.253
+S1a/10x	isolate_6712_FAY24367_barcode0309	reads, keep >= 0.2	extra_allele	blaKPC_carbapenemase	blaKPC-43	2.0	0.242
+S1a/10x	isolate_6067_PAUPAY	reads, keep >= 0.3	extra_allele	blaKPC_carbapenemase	blaKPC-273	2.0	0.4
+S1a/20x	isolate_3989_FAY64384_barcode1016	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.048
+S1a/20x	isolate_3989_FAY64384_barcode1016	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	2.0	0.096
+S1a/20x	isolate_3989_FAY64384_barcode1016	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	0.99	0.047
+S1a/20x	isolate_3989_FAY64384_barcode1016	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-100	1.0	0.048
+S1a/20x	isolate_4704_FAY64384_barcode1218	reads, unfiltered	extra_allele	blaVIM	blaVIM-32	0.99	0.074
+S1a/20x	isolate_4838_FAY34264_barcode01	reads, unfiltered	extra_allele	blaNDM	blaNDM-71	1.0	0.068
+S1a/20x	isolate_5399_FAYFAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	1.0	0.045
+S1a/20x	isolate_5871_PAU61707_barcode0304	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	0.99	0.069
+S1a/20x	isolate_5871_PAU61707_barcode0304	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-100	0.97	0.067
+S1a/20x	isolate_5969_PAU61707_barcode0506	reads, unfiltered	extra_allele	blaNDM	blaNDM-38	1.0	0.044
+S1a/20x	isolate_5969_PAU61707_barcode0506	reads, unfiltered	extra_allele	blaNDM	blaNDM-58	0.97	0.043
+S1a/20x	isolate_5969_PAU61707_barcode0506	reads, unfiltered	extra_allele	blaNDM	blaNDM-71	1.0	0.044
+S1a/20x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-16a	0.97	0.055
+S1a/20x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-2	2.65	0.151
+S1a/20x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-31	1.0	0.057
+S1a/20x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-38	3.0	0.171
+S1a/20x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-44	1.0	0.057
+S1a/20x	isolate_5970_FBDPAU	reads, unfiltered	extra_allele	blaNDM	blaNDM-71	0.95	0.054
+S1a/20x	isolate_5976_PAU61707_barcode0910	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.077
+S1a/20x	isolate_5976_PAU61707_barcode0910	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.077
+S1a/20x	isolate_5976_PAU61707_barcode0910	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-55	1.0	0.077
+S1a/20x	isolate_5976_PAU61707_barcode0910	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.0	0.077
+S1a/20x	isolate_6009_PAU61707_barcode1112	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-2	2.0	0.089
+S1a/20x	isolate_6009_PAU61707_barcode1112	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-23	1.0	0.045
+S1a/20x	isolate_6009_PAU61707_barcode1112	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	0.98	0.044
+S1a/20x	isolate_6009_PAU61707_barcode1112	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-122	2.0	0.089
+S1a/20x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.065
+S1a/20x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-30	1.0	0.065
+S1a/20x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.065
+S1a/20x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-126	1.02	0.066
+S1a/20x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-100	0.98	0.064
+S1a/20x	isolate_6014_PAU61707_barcode1314	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-191	0.99	0.064
+S1a/20x	isolate_6035_PAU61707_barcode1516	reads, unfiltered	extra_allele	blaNDM	blaNDM-38	0.98	0.053
+S1a/20x	isolate_6035_PAU61707_barcode1516	reads, unfiltered	extra_allele	blaNDM	blaNDM-58	0.99	0.054
+S1a/20x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-17	2.0	0.104
+S1a/20x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-49	0.99	0.051
+S1a/20x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-55	1.0	0.052
+S1a/20x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-60	1.0	0.052
+S1a/20x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-67	0.99	0.051
+S1a/20x	isolate_6057_PAU61707_barcode1920	reads, unfiltered	extra_allele	blaNDM	blaNDM-90	0.99	0.051
+S1a/20x	isolate_6067_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.091
+S1a/20x	isolate_6067_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-45	1.0	0.091
+S1a/20x	isolate_6067_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-83	1.0	0.091
+S1a/20x	isolate_6067_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	2.0	0.181
+S1a/20x	isolate_6067_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-274	1.01	0.091
+S1a/20x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-60	1.0	0.042
+S1a/20x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	1.0	0.042
+S1a/20x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.0	0.042
+S1a/20x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-168	1.0	0.042
+S1a/20x	isolate_6068_PAU61707_barcode2324	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.0	0.042
+S1a/20x	isolate_6233_FAY24367_barcode0410	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-244	1.01	0.063
+S1a/20x	isolate_6233_FAY24367_barcode0410	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-517	1.0	0.062
+S1a/20x	isolate_6243_FAY24367_barcode0107	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.21	0.056
+S1a/20x	isolate_6243_FAY24367_barcode0107	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	2.0	0.093
+S1a/20x	isolate_6243_FAY24367_barcode0107	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	3.0	0.14
+S1a/20x	isolate_6244_PAU61707_barcode2526	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-232	1.99	0.174
+S1a/20x	isolate_6287_PAU61707_barcode2930	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-244	1.0	0.061
+S1a/20x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-11	1.0	0.04
+S1a/20x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	2.0	0.08
+S1a/20x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-45	0.97	0.039
+S1a/20x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	1.0	0.04
+S1a/20x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-100	1.01	0.041
+S1a/20x	isolate_6365_PAU61707_barcode3334	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.01	0.041
+S1a/20x	isolate_6378_FAY24367_barcode0511	reads, unfiltered	extra_allele	blaNDM	blaNDM-39	1.0	0.062
+S1a/20x	isolate_6378_FAY24367_barcode0511	reads, unfiltered	extra_allele	blaNDM	blaNDM-93	1.0	0.062
+S1a/20x	isolate_6394_PAU61707_barcode3536	reads, unfiltered	extra_allele	blaNDM	blaNDM-64	0.99	0.061
+S1a/20x	isolate_6394_PAU61707_barcode3536	reads, unfiltered	extra_allele	blaNDM	blaNDM-82	1.0	0.062
+S1a/20x	isolate_6403_PAU61707_barcode3738	reads, unfiltered	extra_allele	blaNDM	blaNDM-57	1.0	0.071
+S1a/20x	isolate_6454_PAU61707_barcode4142	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.073
+S1a/20x	isolate_6454_PAU61707_barcode4142	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-96	0.98	0.072
+S1a/20x	isolate_6454_PAU61707_barcode4142	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-237	1.0	0.073
+S1a/20x	isolate_6482_FAYFAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-136	1.0	0.062
+S1a/20x	isolate_6500_PAU61707_barcode5152	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-200	1.0	0.071
+S1a/20x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-6	1.0	0.041
+S1a/20x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.041
+S1a/20x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-45	1.0	0.041
+S1a/20x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.0	0.041
+S1a/20x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-20	1.0	0.041
+S1a/20x	isolate_6567_PAU61707_barcode5758	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-291	0.99	0.04
+S1a/20x	isolate_6601_PAU61707_barcode5960	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.053
+S1a/20x	isolate_6601_PAU61707_barcode5960	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-81	1.01	0.053
+S1a/20x	isolate_6601_PAU61707_barcode5960	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	0.99	0.052
+S1a/20x	isolate_6601_PAU61707_barcode5960	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-174	1.0	0.053
+S1a/20x	isolate_6623_FBDPAY	reads, unfiltered	extra_allele	blaVIM	blaVIM-70	1.0	0.052
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-6	1.0	0.052
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.052
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-30	1.0	0.052
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-75	1.0	0.052
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-126	0.99	0.051
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	1.01	0.052
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-233	0.97	0.05
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-236	2.0	0.104
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.0	0.052
+S1a/20x	isolate_6670_PAU61707_barcode6364	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-5	0.99	0.051
+S1a/20x	isolate_6670_PAU61707_barcode6364	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-96	1.02	0.053
+S1a/20x	isolate_6670_PAU61707_barcode6364	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-101	1.0	0.052
+S1a/20x	isolate_6670_PAU61707_barcode6364	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-262	1.0	0.052
+S1a/20x	isolate_6701_PAU61707_barcode6566	reads, unfiltered	extra_allele	blaVIM	blaVIM-32	0.99	0.082
+S1a/20x	isolate_6701_PAU61707_barcode6566	reads, unfiltered	extra_allele	blaVIM	blaVIM-57	0.98	0.082
+S1a/20x	isolate_6701_PAU61707_barcode6566	reads, unfiltered	extra_allele	blaVIM	blaVIM-59	1.24	0.103
+S1a/20x	isolate_6701_PAU61707_barcode6566	reads, unfiltered	extra_allele	blaVIM	blaVIM-68	0.99	0.082
+S1a/20x	isolate_6711_FAY24367_barcode0208	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-55	2.0	0.131
+S1a/20x	isolate_6711_FAY24367_barcode0208	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-277	1.01	0.066
+S1a/20x	isolate_6712_FAY24367_barcode0309	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-30	1.0	0.063
+S1a/20x	isolate_6712_FAY24367_barcode0309	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	5.0	0.317
+S1a/20x	isolate_6712_FAY24367_barcode0309	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	0.99	0.063
+S1a/20x	isolate_6726_PAYPAU	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-5	1.01	0.093
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-181	2.56	0.18
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-484	1.67	0.117
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, unfiltered	extra_allele	blaNDM	blaNDM-55	1.0	0.07
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-1205	2.54	0.178
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, unfiltered	extra_allele	blaNDM	blaNDM-80	0.99	0.069
+S1a/20x	isolate_6738_FBCPAUPAY	reads, unfiltered	extra_allele	blaOXA_carbapenemase	blaOXA-517	0.98	0.07
+S1a/20x	isolate_6748_PAU61707_barcode7576	reads, unfiltered	extra_allele	blaNDM	blaNDM-35	1.0	0.066
+S1a/20x	isolate_6748_PAU61707_barcode7576	reads, unfiltered	extra_allele	blaNDM	blaNDM-41	1.0	0.066
+S1a/20x	isolate_6795_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-30	0.99	0.013
+S1a/20x	isolate_6795_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-113	1.0	0.014
+S1a/20x	isolate_6795_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-236	1.0	0.014
+S1a/20x	isolate_6804_FAZ49665_barcode1920	reads, unfiltered	extra_allele	blaVIM	blaVIM-70	1.0	0.06
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-5	1.0	0.026
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.69	0.044
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.026
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	1.0	0.026
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-144	1.01	0.026
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.01	0.026
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-277	1.0	0.026
+S1a/20x	isolate_6813_PAU61707_barcode9192	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-20	1.02	0.026
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-24	1.0	0.047
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-26	0.99	0.047
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.01	0.048
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-75	1.0	0.047
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.0	0.047
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-166	1.0	0.047
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-213	1.0	0.047
+S1a/20x	isolate_6817_PAUPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-223	1.0	0.047
+S1a/20x	isolate_6855_PAY37630_barcode1920	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-75	0.99	0.038
+S1a/20x	isolate_6855_PAY37630_barcode1920	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-87	1.01	0.039
+S1a/20x	isolate_6855_PAY37630_barcode1920	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	1.0	0.039
+S1a/20x	isolate_6856_FBCPAY	reads, unfiltered	family_FP	blaOXA_carbapenemase	blaOXA-232	1.0	0.052
+S1a/20x	isolate_6856_FBCPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-26	0.99	0.052
+S1a/20x	isolate_6856_FBCPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-113	1.0	0.052
+S1a/20x	isolate_6856_FBCPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-213	1.0	0.052
+S1a/20x	isolate_6901_FBC05034_barcode0910	reads, unfiltered	family_FP	blaOXA_carbapenemase	blaOXA-232	1.0	0.085
+S1a/20x	isolate_6901_FBC05034_barcode0910	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-45	0.96	0.082
+S1a/20x	isolate_6970_PAY37630_barcode2930	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	0.99	0.082
+S1a/20x	isolate_6970_PAY37630_barcode2930	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-165	1.0	0.083
+S1a/20x	isolate_6989_FBCFBDPAY	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-24	0.97	0.067
+S1a/20x	isolate_7221_PAY37630_barcode4950	reads, unfiltered	extra_allele	blaNDM	blaNDM-17	1.0	0.047
+S1a/20x	isolate_7221_PAY37630_barcode4950	reads, unfiltered	extra_allele	blaNDM	blaNDM-92	1.0	0.047
+S1a/20x	isolate_7285_PAY37630_barcode5556	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-43	1.0	0.042
+S1a/20x	isolate_7285_PAY37630_barcode5556	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-99	1.0	0.042
+S1a/20x	isolate_7365_PAY37630_barcode6162	reads, unfiltered	family_FP	blaOXA_carbapenemase	blaOXA-181	1.0	0.044
+S1a/20x	isolate_7365_PAY37630_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-11	1.0	0.044
+S1a/20x	isolate_7365_PAY37630_barcode6162	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-116	1.0	0.044
+S1a/20x	isolate_7370_PAY37630_barcode6566	reads, unfiltered	extra_allele	blaNDM	blaNDM-17	1.92	0.091
+S1a/20x	isolate_7370_PAY37630_barcode6566	reads, unfiltered	extra_allele	blaNDM	blaNDM-86	1.0	0.048
+S1a/20x	isolate_7454_PAY37630_barcode7778	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-174	1.0	0.086
+S1a/20x	isolate_7475_PAY37630_barcode8182	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-18	1.0	0.054
+S1a/20x	isolate_7475_PAY37630_barcode8182	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-273	1.54	0.083
+S1a/20x	isolate_7476_PAY37630_barcode8384	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-75	1.34	0.067
+S1a/20x	isolate_7476_PAY37630_barcode8384	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-100	1.0	0.05
+S1a/20x	isolate_7476_PAY37630_barcode8384	reads, unfiltered	extra_allele	blaKPC_carbapenemase	blaKPC-157	0.99	0.049
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-20	0.97	0.111
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-41	0.99	0.113
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-53	1.0	0.114
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-55	1.0	0.114
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-67	2.0	0.228
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-98	0.99	0.113
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, unfiltered	extra_allele	blaNDM	blaNDM-93	1.0	0.114
+S1a/20x	isolate_5970_FBDPAU	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-2	2.65	0.151
+S1a/20x	isolate_5970_FBDPAU	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-38	3.0	0.171
+S1a/20x	isolate_6057_PAU61707_barcode1920	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-17	2.0	0.104
+S1a/20x	isolate_6067_PAUPAY	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-273	2.0	0.181
+S1a/20x	isolate_6243_FAY24367_barcode0107	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-273	3.0	0.14
+S1a/20x	isolate_6244_PAU61707_barcode2526	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-232	1.99	0.174
+S1a/20x	isolate_6669_PAU61707_barcode6162	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-236	2.0	0.104
+S1a/20x	isolate_6701_PAU61707_barcode6566	reads, keep >= 0.1	extra_allele	blaVIM	blaVIM-59	1.24	0.103
+S1a/20x	isolate_6711_FAY24367_barcode0208	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-55	2.0	0.131
+S1a/20x	isolate_6712_FAY24367_barcode0309	reads, keep >= 0.1	extra_allele	blaKPC_carbapenemase	blaKPC-43	5.0	0.317
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-181	2.56	0.18
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-484	1.67	0.117
+S1a/20x	isolate_6737_FBD_PAU_PAY	reads, keep >= 0.1	extra_allele	blaOXA_carbapenemase	blaOXA-1205	2.54	0.178
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-20	0.97	0.111
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-41	0.99	0.113
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-53	1.0	0.114
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-55	1.0	0.114
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-67	2.0	0.228
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-98	0.99	0.113
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.1	extra_allele	blaNDM	blaNDM-93	1.0	0.114
+S1a/20x	isolate_6712_FAY24367_barcode0309	reads, keep >= 0.2	extra_allele	blaKPC_carbapenemase	blaKPC-43	5.0	0.317
+S1a/20x	isolate_7503_FBD018114_barcode2122	reads, keep >= 0.2	extra_allele	blaNDM	blaNDM-67	2.0	0.228
+S1a/20x	isolate_6712_FAY24367_barcode0309	reads, keep >= 0.3	extra_allele	blaKPC_carbapenemase	blaKPC-43	5.0	0.317
+S1b/10x	isolate_5668_FAYFAY	reads, unfiltered	extra_allele	blaGES_carbapenemase	blaGES-16	1.0	0.1
+S1b/10x	isolate_5668_FAYFAY	reads, unfiltered	extra_allele	blaGES_carbapenemase	blaGES-28	1.0	0.1
+S1b/10x	isolate_7101_FBCFAY	reads, unfiltered	extra_allele	blaIMI	blaIMI-15	1.36	0.227
+S1b/10x	isolate_5668_FAYFAY	reads, keep >= 0.1	extra_allele	blaGES_carbapenemase	blaGES-16	1.0	0.1
+S1b/10x	isolate_5668_FAYFAY	reads, keep >= 0.1	extra_allele	blaGES_carbapenemase	blaGES-28	1.0	0.1
+S1b/10x	isolate_7101_FBCFAY	reads, keep >= 0.1	extra_allele	blaIMI	blaIMI-15	1.36	0.227
+S1b/10x	isolate_7101_FBCFAY	reads, keep >= 0.2	extra_allele	blaIMI	blaIMI-15	1.36	0.227
+S1b/20x	isolate_5668_FAYFAY	reads, unfiltered	extra_allele	blaGES_carbapenemase	blaGES-14	2.47	0.132
+S1b/20x	isolate_5668_FAYFAY	reads, unfiltered	extra_allele	blaGES_carbapenemase	blaGES-16	2.0	0.107
+S1b/20x	isolate_5668_FAYFAY	reads, unfiltered	extra_allele	blaGES_carbapenemase	blaGES-28	2.45	0.131
+S1b/20x	isolate_5668_FAYFAY	reads, unfiltered	extra_allele	blaGES_carbapenemase	blaGES-61	0.94	0.05
+S1b/20x	isolate_5668_FAYFAY	reads, unfiltered	extra_allele	blaGES_carbapenemase	blaGES-66	1.0	0.053
+S1b/20x	isolate_7101_FBCFAY	reads, unfiltered	extra_allele	blaIMI	blaIMI-15	3.62	0.208
+S1b/20x	isolate_5668_FAYFAY	reads, keep >= 0.1	extra_allele	blaGES_carbapenemase	blaGES-14	2.47	0.132
+S1b/20x	isolate_5668_FAYFAY	reads, keep >= 0.1	extra_allele	blaGES_carbapenemase	blaGES-16	2.0	0.107
+S1b/20x	isolate_5668_FAYFAY	reads, keep >= 0.1	extra_allele	blaGES_carbapenemase	blaGES-28	2.45	0.131
+S1b/20x	isolate_7101_FBCFAY	reads, keep >= 0.1	extra_allele	blaIMI	blaIMI-15	3.62	0.208
+S1b/20x	isolate_7101_FBCFAY	reads, keep >= 0.2	extra_allele	blaIMI	blaIMI-15	3.62	0.208
