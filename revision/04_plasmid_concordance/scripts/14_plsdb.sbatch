@@ -7,7 +7,7 @@
 #SBATCH --time=02:00:00
 #SBATCH --exclude=cpusrv08
 #SBATCH --output=logs/14_plsdb_%j.out
-# Step 14 (R1.2): nearest PLSDB plasmid for every carbapenemase-encoding reference plasmid.
+# Step 14: nearest PLSDB plasmid for every carbapenemase-encoding reference plasmid.
 # Usage (from the pipeline folder): sbatch scripts/14_plsdb.sbatch
 set -uo pipefail
 cd "${SLURM_SUBMIT_DIR:-.}"

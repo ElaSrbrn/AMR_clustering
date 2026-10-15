@@ -10,7 +10,7 @@ In-depth (ISfinder, Bakta, repeats, breakpoint mapping), proposed if any of:
   A  not structurally stable at 40x or 60x with Flye or Hybracter
   B  Flye and Hybracter disagree (one stable, one not) at the same depth >= 20x
   C  more than one gene copy in the reference (possible duplication)
-Synteny (collaborator, pyGenomeViz), proposed:
+Synteny figures (pyGenomeViz), proposed:
   1  one representative per failure class (highest depth at which the class occurs, Flye preferred)
   2  small plasmids (< SMALL_PLASMID bp)
   3  plasmids listed in manual_include_synteny.tsv (e.g. Mash/DCJ cluster medoids)

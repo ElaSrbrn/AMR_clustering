@@ -8,7 +8,7 @@
 #SBATCH --exclude=cpusrv08
 #SBATCH --output=logs/06_indepth_%A_%a.out
 #
-# Step 06b: in-depth annotation of one selected plasmid (EMBL setup):
+# Step 06b: in-depth annotation of one selected plasmid:
 #   Bakta (reference plasmid)                       -> bakta/<plasmid_id>.gbff/.gff3/.tsv
 #   ISfinder BLAST (reference and divergent contigs) -> isfinder_ref.blast6, isfinder_test.blast6
 #   self-alignment repeats (reference)               -> self.blast6

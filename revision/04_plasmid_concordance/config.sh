@@ -1,7 +1,7 @@
 # ---------------------------------------------------------------------------
 # Plasmid contig stability pipeline: configuration
 # Source this file in every step:  source config.sh
-# Lines marked PLACEHOLDER must be filled in before running.
+# Paths below refer to our cluster; adapt them before running.
 # ---------------------------------------------------------------------------
 
 # Locations
@@ -26,16 +26,16 @@ ENV_BAKTA=bakta_clean         # Bakta v1.11.4
 ENV_BLAST=amr_env             # blastn for ISfinder and self-repeats
 
 # Databases
-BAKTA_DB=/ictstr01/groups/hpc/urban_lab/backup/bakta_db_v6/db   # as in the EMBL project
-ISFINDER_DB=/ictstr01/home/haicu/ela.sauerborn/EMBL/ggCallaroo/ISfinder_db   # as in the EMBL project
+BAKTA_DB=/ictstr01/groups/hpc/urban_lab/backup/bakta_db_v6/db
+ISFINDER_DB=/ictstr01/home/haicu/ela.sauerborn/EMBL/ggCallaroo/ISfinder_db
 
-# ISfinder hit filters. PLACEHOLDER values: replace with the thresholds used in the EMBL project.
+# ISfinder hit filters
 IS_MIN_ID=95                  # % identity
 IS_MIN_COV=80                 # % of the IS element covered
 REPEAT_MIN_LEN=500            # self-repeats: minimum length (bp)
 REPEAT_MIN_ID=90              # self-repeats: minimum identity (%)
 
-# Stability criteria (from the Flye vs Autocycler comparison document)
+# Structural concordance criteria
 LEN_TOL=0.001                 # |length difference| / reference length
 MIN_AF=0.99                   # fraction of the reference aligned
 MIN_ID=0.999                  # identity across aligned blocks

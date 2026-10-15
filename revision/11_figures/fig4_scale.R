@@ -1,7 +1,7 @@
 # Shared DCJ-indel colour scale for Figure 4 (panels A and B).
 #
 # Sourced by Fig4_panels.Rmd, Fig4A_IncN.Rmd and Fig4B_IncLM.Rmd so that the
-# same colour means the same distance in both panels (Reviewer 2, R2.5).
+# same colour means the same distance in both panels. 
 # Change the scale here only, never in the individual scripts.
 
 library(readr)

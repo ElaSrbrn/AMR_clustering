@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Step 08: one folder per selected plasmid for the collaborator's synteny figures (pyGenomeViz).
+"""Step 08: one folder per selected plasmid for the synteny figures (pyGenomeViz).
 
 Reads selection/synteny.tsv (include == yes). For each plasmid writes synteny_packages/<plasmid_id>/:
   reference.fasta               Autocycler 60x reference plasmid
