@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """Reproduce the statistics reported in the revised manuscript from the Supplementary Tables workbook.
 
-Usage:  python3 manuscript_statistics.py Supplementary_Tables_S1-S12_clean.xlsx [outdir]
+Usage:  python3 manuscript_statistics.py <Supplementary Tables workbook (.xlsx)> [outdir]
 
 Sections
   1. Structural concordance of carbapenemase-encoding plasmids (Supplementary Table S3b):
      proportions with exact Clopper-Pearson 95% CIs, exact McNemar tests between consecutive
      depths and between assemblers, logistic GEE on log2(depth) (exchangeable working correlation,
-     clustered by plasmid, robust SEs), per assembler and jointly with assembler as covariate.
+     clustered by plasmid, robust SEs), per assembler on 10x to 40x.
+     Sensitivity analysis: length criterion relaxed from 0.1% to 1% (contigs classed as
+     length_mismatch with an absolute length difference <= 1% counted as concordant).
   2. Read-based vs assembly-based carbapenemase typing (Supplementary Table S8a): exact McNemar.
   3. Actual vs nominal sequencing depth (Supplementary Table S6a): median, IQR, range.
 
@@ -42,15 +44,18 @@ def mcnemar_exact(b, c):
     return 1.0 if b + c == 0 else binomtest(b, b + c, 0.5).pvalue
 
 
-def concordance(xlsx, out):
-    d = read_sheet(xlsx, "S3b_concordance_long", "plasmid_id")
-    d = d[["plasmid_id", "assembler", "depth", "class"]].dropna()
+def load_s3b(xlsx):
+    d = read_sheet(xlsx, "S3b_concordance_long", "Plasmid")
+    d = d.rename(columns={"Plasmid": "plasmid_id", "Assembler": "assembler", "Depth": "depth", "Class": "class",
+                          "Length difference (fraction)": "len_diff"})
+    d = d[["plasmid_id", "assembler", "depth", "class", "len_diff"]].dropna(subset=["plasmid_id", "class"])
+    d["assembler"] = d["assembler"].str.lower()
     d["conc"] = d["class"].isin(CONCORDANT).astype(int)
-    d["depth_x"] = d["depth"].str.replace("x", "", regex=False).astype(int)
-    depths = sorted(d["depth_x"].unique())
-    n_plasmids = d["plasmid_id"].nunique()
-    print(f"\n== 1. Structural concordance ({n_plasmids} plasmids) ==")
+    d["depth_x"] = d["depth"].str.replace("[x×]", "", regex=True).astype(int)
+    return d
 
+
+def proportions_and_mcnemar(d, depths):
     rows = []
     for a in ["flye", "hybracter"]:
         for dp in depths:
@@ -59,10 +64,6 @@ def concordance(xlsx, out):
             lo, hi = clopper_pearson(k, n)
             rows.append(dict(assembler=a, depth=f"{dp}x", concordant=k, n=n, pct=round(100 * k / n, 1),
                              ci_low=round(100 * lo, 1), ci_high=round(100 * hi, 1)))
-    prop = pd.DataFrame(rows)
-    print(prop.to_string(index=False))
-    prop.to_csv(os.path.join(out, "concordance_proportions.tsv"), sep="\t", index=False)
-
     wide = d.pivot_table(index="plasmid_id", columns=["assembler", "depth_x"], values="conc")
     tests = []
     for a in ["flye", "hybracter"]:
@@ -76,7 +77,18 @@ def concordance(xlsx, out):
         only_f, only_h = int(((x == 1) & (y == 0)).sum()), int(((x == 0) & (y == 1)).sum())
         tests.append(dict(comparison=f"flye vs hybracter {dp}x", gained=only_h, lost=only_f,
                           p_exact_mcnemar=mcnemar_exact(only_f, only_h)))
-    tests = pd.DataFrame(tests)
+    return pd.DataFrame(rows), pd.DataFrame(tests)
+
+
+def concordance(xlsx, out):
+    d = load_s3b(xlsx)
+    depths = sorted(d["depth_x"].unique())
+    n_plasmids = d["plasmid_id"].nunique()
+    print(f"\n== 1. Structural concordance ({n_plasmids} plasmids) ==")
+
+    prop, tests = proportions_and_mcnemar(d, depths)
+    print(prop.to_string(index=False))
+    prop.to_csv(os.path.join(out, "concordance_proportions.tsv"), sep="\t", index=False)
     print("\nExact McNemar (gained/lost = concordant only at the second depth / only at the first;"
           " for assembler comparisons: concordant only with Hybracter / only with Flye)")
     print(tests.to_string(index=False, float_format=lambda v: f"{v:.3g}"))
@@ -87,26 +99,36 @@ def concordance(xlsx, out):
     gee_rows = []
     fam, cov = sm.families.Binomial(), sm.cov_struct.Exchangeable()
     for a in ["flye", "hybracter"]:
-        s = d[d.assembler == a].sort_values(["plasmid_id", "depth_x"])
+        # 10x to 40x only: the 60x test assemblies are not independent of the reference
+        s = d[(d.assembler == a) & (d.depth_x <= 40)].sort_values(["plasmid_id", "depth_x"])
         m = smf.gee("conc ~ log2depth", "plasmid_id", s, family=fam, cov_struct=cov).fit()
         b, se, p = m.params["log2depth"], m.bse["log2depth"], m.pvalues["log2depth"]
         gee_rows.append(dict(model=a, term="log2(depth)", OR=np.exp(b), ci_low=np.exp(b - 1.96 * se),
                              ci_high=np.exp(b + 1.96 * se), p=p))
-    s = d.sort_values(["plasmid_id", "assembler", "depth_x"])
-    m = smf.gee("conc ~ log2depth + hybracter", "plasmid_id", s, family=fam, cov_struct=cov).fit()
-    for term, lab in [("log2depth", "log2(depth)"), ("hybracter", "Hybracter vs Flye")]:
-        b, se, p = m.params[term], m.bse[term], m.pvalues[term]
-        gee_rows.append(dict(model="joint", term=lab, OR=np.exp(b), ci_low=np.exp(b - 1.96 * se),
-                             ci_high=np.exp(b + 1.96 * se), p=p))
     gee = pd.DataFrame(gee_rows)
-    print("\nLogistic GEE (exchangeable, clustered by plasmid, robust SE); OR per doubling of depth")
+    print("\nLogistic GEE (exchangeable, clustered by plasmid, robust SE); OR per doubling of depth, 10x to 40x")
     print(gee.to_string(index=False, float_format=lambda v: f"{v:.3g}"))
     gee.to_csv(os.path.join(out, "concordance_gee.tsv"), sep="\t", index=False)
 
 
+def length_sensitivity(xlsx, out, tol=0.01):
+    """Concordance with the length criterion relaxed from 0.1% to `tol`. Contigs classed as
+    length_mismatch meet all other criteria, so those within `tol` are counted as concordant."""
+    d = load_s3b(xlsx)
+    relaxed = (d["class"] == "length_mismatch") & (d["len_diff"].astype(float).abs() <= tol)
+    d["conc"] = (d["conc"].astype(bool) | relaxed).astype(int)
+    depths = sorted(d["depth_x"].unique())
+    print(f"\n== 1b. Sensitivity: length criterion {100 * tol:g}% instead of 0.1% ==")
+    prop, tests = proportions_and_mcnemar(d, depths)
+    print(prop.to_string(index=False))
+    print(tests.to_string(index=False, float_format=lambda v: f"{v:.3g}"))
+    prop.to_csv(os.path.join(out, "concordance_length1pct_proportions.tsv"), sep="\t", index=False)
+    tests.to_csv(os.path.join(out, "concordance_length1pct_mcnemar.tsv"), sep="\t", index=False)
+
+
 def read_vs_assembly(xlsx, out):
-    """Exact McNemar from Supplementary Table S8a. Reads typed all isolates correctly at both
-    depths, so every discordant pair is 'reads correct, assembly not'."""
+    """Exact McNemar from Supplementary Table S8a (isolate counted as correct when all of its
+    reference carbapenemase alleles were found)."""
     s = read_sheet(xlsx, "S8a_bart_carbapenemases", "Measure")
     row = s[s.iloc[:, 0].astype(str).str.startswith("All carbapenemase alleles")].iloc[0]
     print("\n== 2. Read-based vs assembly-based carbapenemase typing (S8a) ==")
@@ -114,9 +136,10 @@ def read_vs_assembly(xlsx, out):
     for dp, rc, ac in [("10x", "Reads 10×", "Assembly 10×"), ("20x", "Reads 20×", "Assembly 20×")]:
         rk, n = map(int, str(row[rc]).split("/"))
         ak, _ = map(int, str(row[ac]).split("/"))
-        # discordant counts follow from the margins only when one approach is correct in all isolates
-        assert rk == n, "reads not correct in all isolates: per-isolate data needed (S8c and S2c)"
-        b, c = n - ak, 0
+        # The one isolate not typed correctly from reads (6888, blaKPC-2 + blaKPC-3) was not typed
+        # correctly from assemblies either (S8c, S2c), so the discordant pairs follow from the margins.
+        assert rk >= ak and n - rk <= 1, "check the per-isolate results in S8c and S2c"
+        b, c = rk - ak, 0
         res.append(dict(depth=dp, reads=f"{rk}/{n}", assemblies=f"{ak}/{n}", reads_only=b, assemblies_only=c,
                         p_exact_mcnemar=mcnemar_exact(b, c)))
     res = pd.DataFrame(res)
@@ -149,5 +172,6 @@ if __name__ == "__main__":
     out = sys.argv[2] if len(sys.argv) > 2 else "statistics_output"
     os.makedirs(out, exist_ok=True)
     concordance(xlsx, out)
+    length_sensitivity(xlsx, out)
     read_vs_assembly(xlsx, out)
     actual_depth(xlsx, out)
