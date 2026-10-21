@@ -121,13 +121,4 @@ python3 manuscript_statistics.py Supplementary_Tables_S1-S12.xlsx statistics_out
 
 Tested with Python 3.13, pandas 2, statsmodels 0.15.0, SciPy 1.18.1 and openpyxl 3.1.
 
-## Figures
 
-| Figure | Source |
-|---|---|
-| Figure 1 | workflow schematic (BioRender) |
-| Figure 2 | [code to be added] |
-| Figure 3 | [code to be added] |
-| Figure 4 | Flye 60× pling output (top-level `08_clustering.sh`); heatmaps with ComplexHeatmap in `11_figures/` (`fig4_scale.R` sets the shared DCJ-Indel colour scale of panels A and B, white at the subcommunity threshold of 4) |
-| Figure 5 | synteny packages (folder 05) drawn with pyGenomeViz [code to be added] |
-| Supplementary Figure 1 | [code to be added] |
