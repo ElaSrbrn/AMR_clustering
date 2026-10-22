@@ -23,7 +23,7 @@ CPUS=16
 MEM="64G"
 TIME="12:00:00"
 NICE=10000
-MAIL="ela.sauerborn@helmholtz-munich.de"
+MAIL=""
 
 # --- Checks ------------------------------------------------------------------
 [[ -d "$fastq_dir" ]] || { echo "ERROR: not a directory: $fastq_dir" >&2; exit 1; }
