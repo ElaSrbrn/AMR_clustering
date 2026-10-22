@@ -7,7 +7,7 @@ All depth analyses cover the 100 carbapenemase-producing isolates of Supplementa
 `COPY_LOG.tsv` gives the cluster path each file was copied from; `MISSING.txt` lists anything that was not found when the folder was built. Absolute paths in the scripts refer to our cluster:
 
 ```
-BASE   = /ictstr01/groups/hpc/urban_lab/projects/plasmid_project
+BASE   = /specify
 NEWCRE = $BASE/stored_resistant_enterobacterales/new_cre
 PCS    = $BASE/plasmid_contig_stability
 ```
@@ -43,7 +43,7 @@ sbatch --array=1-$(wc -l < isolate_dirs.txt)%20 rerun_autocycler_plassembler_v4.
 
 ## 03_hybracter
 
-Hybracter v0.14.1 (`hybracter long-single`) for every carbapenemase-producing isolate and depth, with `--skip_qc` (reads already filtered), the species-specific `-c` from `s1_min_chrom.tsv` and default Medaka polishing. When Hybracter completes the chromosome, the final assembly contains the chromosome and the Plassembler plasmids; otherwise it contains all polished contigs.
+Hybracter v0.14.1 (`hybracter long-single`) for every carbapenemase-producing isolate and depth, with `--skip_qc` (reads already filtered), the species-specific `-c` from `s1_min_chrom.tsv`, using `--circular_chromosome` and default Medaka polishing. When Hybracter completes the chromosome, the final assembly contains the chromosome and the Plassembler plasmids; otherwise it contains all polished contigs.
 
 ```bash
 sbatch --array=1-$(wc -l < hybracter_depth_series.csv)%20 run_hybracter_medaka_array.sh
