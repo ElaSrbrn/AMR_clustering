@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
-#SBATCH -p cpu_p
-#SBATCH -q cpu_normal
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
 #SBATCH --nice=10000
 #SBATCH --cpus-per-task=16
-#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
 #SBATCH --mail-type=ALL
 #SBATCH --job-name=annot_carb
 #SBATCH --output=annot_%x_%j.out
