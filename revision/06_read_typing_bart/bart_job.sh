@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
-#SBATCH -p cpu_p
-#SBATCH -q cpu_normal
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
 #SBATCH -t 02:00:00
 #SBATCH --nice=10000
-#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
-#SBATCH --mail-type=FAIL
 #SBATCH --job-name=bart
 
 # Read-level MLST and AMR gene screening with BART (one FASTQ per array task).
