@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
-#SBATCH -p cpu_p
-#SBATCH -q cpu_normal
 #SBATCH --mem=64G
 #SBATCH -t 24:00:00
 #SBATCH --nice=10000
-#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
 
 set -euo pipefail
 
