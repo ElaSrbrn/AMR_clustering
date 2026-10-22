@@ -1,11 +1,8 @@
 #!/bin/bash
 #SBATCH --mem=100G
 #SBATCH -t 72:00:00
-#SBATCH --qos cpu_preemptible
-#SBATCH --partition=cpu_p
 #SBATCH --cpus-per-task=48
 #SBATCH --nice=10000
-#SBATCH --mail-user=ela.sauerborn@helmholtz-munich.de
 #SBATCH --mail-type=ALL
 #SBATCH --job-name=autocycler_fast
 
