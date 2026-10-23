@@ -12,7 +12,6 @@ manual_include_synteny.tsv   plasmids added by hand to the synteny selection
 synteny_groups.tsv           groups of reference plasmids for the comparison figures
 lib/common.py                shared helpers (standard library only)
 scripts/                     numbered steps
-selection/                   plasmids selected for in-depth annotation and synteny figures
 results/                     result tables
 ```
 
